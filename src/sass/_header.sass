@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i')
+
+.d-b
+	display: block
+
+.d-n
+	display: none
+
+.d-f
+	display: flex
+
+h1,h2,h3,h4,h5,p
+	margin-bottom: 0
+	padding: 0
+	margin-top: 0
+
+ul li
+	padding-left: 0
+
+h1,h2,h3,h4,h5,h6,p
+   margin: 0
+   padding: 0
+a
+   text-decoration: none
+div,span,input,form
+   box-sizing: border-box
+body 
+	font-size: 16px
+	font-family: 'Roboto', sans-serif
+	height: 100%
+	font-style: sans-serif
+	margin: 0 auto
+	
+.container
+	max-width: 1200px
+	width: 100%
+	overflow: hidden
+	margin: 0 auto
+	// outline: 3px solid orange
+
+.header
+	.container
+		display: flex
+		align-items: center
+		justify-content: space-between	
+		.logo
+			@extend .d-b
+			width: 30%
+			margin-left: 8%
+		.contacts
+			display: flex
+			align-items: center
+			width: 69%
+			justify-content: flex-end
+			.tel
+				margin-right: 10%	
+			.address ,
+			.lang
+				margin-right: 10%
+				cursor: pointer
+				text-decoration: underline
+				.lang-letter
+					display: block
+					color: #333333
+			.tel ,
+			.address ,
+			.lang
+				color: #333333
+				font-family: Roboto
+				font-weight: 400
+				text-decoration: none
+
+				.caret
+					transform: translate(1px, -6px)
+
+
+
