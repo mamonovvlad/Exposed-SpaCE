@@ -191,6 +191,26 @@
       padding-left: 15px
 
 @media screen and (max-width: 768px)
+   .burger-menu
+      cursor: pointer
+      margin-right: 1%
+      display: block
+      &:hover span
+         background: #000
+
+      span
+         display: block
+         width: 10px
+         height: 10px
+         border-radius: 50px
+         border: 1px solid #000
+         transition: .3s   
+         &:nth-child(2n)
+            margin: 5px 0
+
+   .tel ,
+   .address
+      display: none
    /*footer*/
    #footer .box-footer 
       flex-direction: column-reverse
@@ -250,11 +270,12 @@
       margin-bottom: 20px
    #details .block-detalies__one
       background: url(../img/detal-ma.png) bottom no-repeat
-      background-size: contain
    #details .block-detalies__two 
-      height: 600px
+      height: 800px
       width: 50%
       padding: 10px 5px 0px 20px
+      display: flex;
+      justify-content: center
    #details .figure p 
       padding: 50px 0 0px 0
    #details .block-detalies__one img 
@@ -265,4 +286,49 @@
    #details .figure p 
       font-size: 12px
       text-align: center
+   #details .block-dn
+      display: block
+   .down 
+      & img
+         width: 20px
+      & span
+         margin-right: 10px
 
+
+
+
+
+
+@media screen and (max-width: 425px)
+   #details .block-dn .down a span
+      font-size: 14px
+   #loft .box-loft .block-one:after 
+      position: absolute
+      width: 70px
+      height: 90px
+      bottom: 5px
+      right: 0%
+      background-size: 100%
+   #loft .box-loft .block-one p 
+      font-size: 8px
+      right: -55px
+      top: 65px
+   #loft .box-loft .click 
+      right: 10px
+      bottom: 90px
+   #loft .block-one .click a img 
+      width: 14px
+   #loft .block-one .click p 
+      color: #333333
+      font-size: 8px
+      font-weight: 400
+      text-decoration: underline
+      font-family: 'Roboto', sans-serif
+      letter-spacing: 0.8px
+      right: -3px
+      top: -12px
+   .section-portfolio .portfolios .portfolio-item .portfolio-btn 
+      max-width: 100px
+      font-size: 12px
+      padding: 10px 0
+ 
