@@ -3,11 +3,11 @@ main
 		box-sizing: border-box
 		.container
 		
-			min-height: 900px
+			min-height: 600px
 			
 			background-repeat: no-repeat
 			background-size: cover
-			background-position: center center
+			background-position: left bottom
 			display: flex
 			flex-direction: column
 			justify-content: space-between
@@ -18,43 +18,59 @@ main
 				justify-content: space-between
 				align-items: center
 				nav
-					width: 65%
+					width: 63%
 					background: #fff
 					.menu-items
 						display: flex
-						margin-left: 5%
+						margin: 0 7% 0 0
 						.menu-item
 							list-style: none
-							padding: 8px 0						
+							padding: 17px 0
+							border-top: 3px solid transparent
+							transition: .3s
+							&:hover
+								border-top: 3px solid #000
+													
 							a
 								text-decoration: none
 								color: #333333
 								font-size: 16px
 								font-weight: 400
-								margin: 0 35px
+								margin: 0 12px
+
+						.menu-item-active
+							border-top: 3px solid #000
+
+
+						
+							
+
 								
 
 
 
 				.arrow-down
-					margin-left: 8%
+					margin-left: 13%
 					margin-bottom: 1px
+					cursor: pointer
+					position: relative
+					animation: scrollDown 1s ease infinite
 
 			.main-title
 				color: #333333
 				text-transform: uppercase
-				margin-left: 8%
+				margin-left: 13%
 
 				h1
 					font-family: "Roboto - Black" , sans-serif
-					font-size: 38px
+					font-size: 50px
 					font-weight: 700
 
 				h2
 					
 					font-family: Roboto
 					font-size: 30px
-					font-weight: 500
+					font-weight: 400
 					line-height: 36px
 					padding: 10px 0 15px 0
 				p
@@ -69,7 +85,7 @@ main
 					color: #626361
 					display: block
 					border: 1px solid #626361
-					padding: 10px 65px
+					padding: 16px 70px
 					background: transparent
 					color: #333333
 					font-family: Roboto
@@ -78,6 +94,7 @@ main
 					border-radius: 3px
 					transition: .3s
 					cursor: pointer
+					font-size: 18px
 					&:hover
 						background: #fff
 
