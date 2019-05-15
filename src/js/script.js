@@ -13,4 +13,10 @@ $(document).ready(function()
 }
 
 scrollTop('.arrow-down','.section-2');	
+
+
+$(".burger-menu").on("click" , function () {
+	console.log("1");
+	$(".mobile-menu-items").toggleClass('mobile-menu-item-active');
+})
 })
