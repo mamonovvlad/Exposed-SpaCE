@@ -566,10 +566,10 @@ main .section-main {
         content: '';
         background: url(../img/loft-fig.png) center no-repeat;
         position: absolute;
-        width: 190px;
+        width: 168px;
         height: 210px;
         bottom: 5px;
-        right: 0%; }
+        right: 1%; }
     #loft .box-loft .click {
       position: absolute;
       bottom: 210px;
@@ -987,10 +987,8 @@ main .section-main {
     content: '';
     background: url(../img/loft-fig.png) center no-repeat;
     position: absolute;
-    width: 190px;
-    height: 210px;
     bottom: 5px;
-    right: -1%; }
+    right: 0%; }
   /*details*/
   #details .figure p {
     padding: 60px 120px 80px 0; }
