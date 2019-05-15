@@ -442,16 +442,17 @@ main .section-main {
       margin-right: 5%; }
 
 .section-portfolio {
-  position: relative; }
-  .section-portfolio .portfolio-title {
+  position: relative;
+  overflow-x: hidden; }
+  .section-portfolio .portfolio-block .portfolio-title {
     position: relative;
     text-align: center;
     color: #333333;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 36px;
     padding: 40px 0;
     font-weight: 400; }
-    .section-portfolio .portfolio-title:after {
+    .section-portfolio .portfolio-block .portfolio-title:after {
       content: '';
       background: url(../img/fg.png) center no-repeat;
       z-index: -1;
@@ -464,7 +465,7 @@ main .section-main {
       top: 8px;
       bottom: 0;
       right: -260px; }
-    .section-portfolio .portfolio-title span {
+    .section-portfolio .portfolio-block .portfolio-title span {
       font-weight: 600; }
   .section-portfolio .stage-title {
     color: #333333;
@@ -553,7 +554,7 @@ main .section-main {
         width: 190px;
         height: 210px;
         bottom: 5px;
-        right: -5px; }
+        right: 0px; }
     #loft .box-loft .click {
       position: absolute;
       bottom: 210px;
