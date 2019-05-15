@@ -1,6 +1,5 @@
 .section-portfolio
 	position: relative
-	overflow-x: hidden
 	.portfolio-block
 		.portfolio-title
 			position: relative
@@ -14,7 +13,6 @@
 				content: ''
 				background: url(../img/fg.png) center no-repeat
 				z-index: -1
-				background-size: contain
 				display: block
 				height: 150px
 				position: absolute
@@ -22,7 +20,6 @@
 				right: 0
 				top: 8px
 				bottom: 0
-				right: -260px
 
 
 
@@ -85,10 +82,13 @@
 				z-index: -1
 				&[data-portfolio-figure='0']
 					top: 16px
-					left: 117px
+					left: 25px
+					width: 200px
+					background-size: 80%
 				&[data-portfolio-figure='1']
 					left: 3px
 					bottom: -88px
+					display: inline-block
 				
 						
 
