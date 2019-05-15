@@ -23,6 +23,9 @@
 				top: 8px
 				bottom: 0
 				right: -260px
+
+
+
 			& span
 				font-weight: 600
 		
@@ -36,14 +39,12 @@
 		font-weight: 700
 		border-bottom: 2px solid #333
 		display: inline-block
-		margin: 15px 0 20px 0
+		margin: 10px 0 12px 0
 		
 
 	.portfolios
 		display: flex
 		justify-content: space-between
-
-
 
 		.portfolio-item
 			width: 30%
@@ -55,6 +56,8 @@
 			display: flex
 			justify-content: center
 			align-items: center
+			
+			position: relative
 			.portfolio-btn
 				color: #333333
 				width: 100%
@@ -71,6 +74,23 @@
 				transition: .5s
 				&:hover
 					box-shadow: 0 0 7px rgba(0,0,0,.7)
+
+			.portfolio-figure-icon
+				background-image: url('../img/figure-portfolio.png')
+				width: 323px
+				height: 407px
+				background-repeat: no-repeat
+				background-size: 74%
+				position: absolute
+				z-index: -1
+				&[data-portfolio-figure='0']
+					top: 16px
+					left: 117px
+				&[data-portfolio-figure='1']
+					left: 3px
+					bottom: -88px
+				
+						
 
 		.portfolio-item-middle
 			width: 35%
