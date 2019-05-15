@@ -529,17 +529,20 @@ main .section-main {
     display: -ms-flexbox;
     display: flex; }
     #loft .box-loft .block-one {
-      position: relative; }
+      position: relative;
+      max-width: 1440px;
+      max-height: 985px; }
       #loft .box-loft .block-one img {
-        width: 95%; }
+        width: 92%;
+        height: 100%; }
       #loft .box-loft .block-one p {
         position: absolute;
         color: #333333;
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 500;
         letter-spacing: 1.8px;
-        right: -200px;
+        right: -190px;
         top: 210px;
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg); }
@@ -550,11 +553,11 @@ main .section-main {
         width: 190px;
         height: 210px;
         bottom: 5px;
-        right: -35px; }
+        right: -5px; }
     #loft .box-loft .click {
       position: absolute;
       bottom: 210px;
-      right: 0px; }
+      right: 30px; }
       #loft .box-loft .click p {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -564,7 +567,6 @@ main .section-main {
         text-decoration: underline;
         font-family: 'Roboto', sans-serif;
         letter-spacing: 0.8px;
-        margin-bottom: 20px;
         right: 0;
         top: -50px; }
 
