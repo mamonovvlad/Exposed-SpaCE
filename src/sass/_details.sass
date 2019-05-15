@@ -2,16 +2,16 @@
    & .box-detalies
       display: flex
    & .block-detalies__two
-      width: 40%
+      width: 45%
       flex-direction: column
       display: flex
       flex-grow: 1
       background: url(../img/фон.png)
       padding: 30px 10px 40px 50px
-      & .block-detalies__title
+      & .block-detalies__title p
          font-family: "Roboto Medium" ,sans-serif
-         font-size: 24px
-         font-weight: 500
+         font-size: 25px
+         font-weight: 600
          letter-spacing: 1.2px
          margin-bottom: 20px
       & .block-detalies__descr
@@ -21,7 +21,7 @@
          letter-spacing: 1px
          margin-bottom: 40px
       & ul
-         margin-bottom: 75px
+         margin: 0 0 75px 0
          padding: 0
          & li
             padding: 0
@@ -49,7 +49,7 @@
          letter-spacing: 0.8px
          font-family: "Roboto - Regular",sans-serif
       & input
-         width: 300px
+         width: 100%
          height: 57px
          color: #333333
          font-size: 16px
@@ -59,30 +59,32 @@
          border-radius: 10px 0 0 10px
          border: 1px solid #7b7b7b
          background-color: #ffffff
-         padding-left: 30px
+         padding-left: 20px
          outline: none
          border-right: none
          margin: 24px 0 27px
 
       #label-namber
-         width: 180px
+         width: 60%
       .label-date
-         width: 120px
-         padding: 0 10px 0 15px
+         width: 40%
+         padding: 0 0px 0 px
+         text-align: center 
          border-radius: inherit
       & .button
-         width: 170px
-         height: 57px
          font-family: "Roboto - Regular",sans-serif
          border-radius: 0 10px 10px 0
          border: 1px solid #7b7b7b
          background-color: #273562
          color: #ffffff
-         font-size: 16px
+         max-width: 150px
+         width: 100%
+         font-size: 14px
          font-weight: 300
          letter-spacing: 0.8px
          margin: 24px 0 27px
          transition: 500ms ease
+         cursor: pointer
          &:hover
             transition: 500ms ease
             background: #364c93
@@ -96,15 +98,15 @@
           font-family: "Roboto - Bold" ,sans-serif
           font-weight: 700
       & p
-         width: 63%
-         padding: 60px 0
+         width: 66%
+         padding: 60px 0 80px 0 
          color: #333333
          font-size: 18px
          font-family: "Roboto - Regular" ,sans-serif
          font-weight: 400
          letter-spacing: 1.2px
    .block-detalies__one
-      width: 60%
+      width: 55%
       display: flex
       flex-grow: 1
       & img
