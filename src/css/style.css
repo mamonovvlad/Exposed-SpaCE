@@ -92,6 +92,9 @@ body {
         .header .container .contacts .lang .caret {
           -webkit-transform: translate(1px, -6px);
           transform: translate(1px, -6px); }
+  .header .lang {
+    position: relative;
+    z-index: 9; }
 
 main .section-main {
   -webkit-box-sizing: border-box;
@@ -1141,7 +1144,7 @@ main .section-main {
     padding: 20px 5px 0px 20px; }
   #details #details-form input {
     height: 45px;
-    font-size: 12p;
+    font-size: 12px;
     margin: 20px 0 10px; }
   #details #details-form .button {
     max-width: 125px;
@@ -1194,8 +1197,10 @@ main .section-main {
 @media screen and (max-width: 768px) {
   .burger-menu {
     cursor: pointer;
-    margin-right: 1%;
-    display: block; }
+    margin-right: 2%;
+    display: block;
+    position: relative;
+    z-index: 9; }
     .burger-menu:hover span {
       background: #000; }
     .burger-menu span {
@@ -1299,6 +1304,16 @@ main .section-main {
     width: 20px; }
   .down span {
     margin-right: 10px; }
+  /* mobile-menu */
+  #id-menu-items {
+    display: none; }
+  /* section-1 */
+  .main-title h1 {
+    font-size: 30px !important; }
+  .main-title h2 {
+    font-size: 25px !important; }
+  .main-title p {
+    font-size: 20px !important; }
   #loft .box-loft .block-one:after {
     position: absolute;
     width: 70px;

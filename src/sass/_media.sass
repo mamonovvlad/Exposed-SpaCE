@@ -41,6 +41,10 @@
       width: 40%
       padding-left: 20px
 
+
+
+
+
 @media screen and (max-width: 1024px)
    /*header */
    .flex
@@ -104,7 +108,7 @@
 
    /*loft*/
    #loft .box-loft .block-one:after 
-      background: url(../img/loft-fig.png) center no-repeat;
+      background: url(../img/loft-fig.png) center no-repeat
       position: absolute
       width: 100px
       height: 210px
@@ -145,7 +149,7 @@
       padding: 20px 5px 0px 20px
    #details #details-form input 
       height: 45px
-      font-size: 12p
+      font-size: 12px
       margin: 20px 0 10px
    #details #details-form .button
       max-width: 125px
@@ -193,8 +197,10 @@
 @media screen and (max-width: 768px)
    .burger-menu
       cursor: pointer
-      margin-right: 1%
+      margin-right: 2%
       display: block
+      position: relative
+      z-index: 9
       &:hover span
          background: #000
 
@@ -273,7 +279,7 @@
       height: 800px
       width: 50%
       padding: 10px 5px 0px 20px
-      display: flex;
+      display: flex
       justify-content: center
    #details .figure p 
       padding: 50px 0 0px 0
@@ -292,6 +298,22 @@
          width: 20px
       & span
          margin-right: 10px
+
+
+   /* mobile-menu */
+   #id-menu-items
+      display: none
+
+   /* section-1 */
+   .main-title
+      h1
+         font-size: 30px !important
+      h2
+         font-size: 25px !important
+      p
+         font-size: 20px !important
+
+
    #loft .box-loft .block-one:after 
       position: absolute
       width: 70px
@@ -380,7 +402,6 @@
       min-height: 700px
 
  
-
 @media screen and (max-width: 425px)
    #details .block-dn .down a span
       font-size: 14px
@@ -411,4 +432,3 @@
       font-size: 10px
    .section-3 .container .our_styles_items .our_styles-title h4 
       font-size: 20px
-   
