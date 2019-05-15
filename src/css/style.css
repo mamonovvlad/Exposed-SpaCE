@@ -461,7 +461,7 @@ main .section-main {
       display: block;
       height: 150px;
       position: absolute;
-      left: 0;
+      left: 70px;
       right: 0;
       top: 8px;
       bottom: 0; }
@@ -540,6 +540,9 @@ main .section-main {
 
 .portfolio-block {
   position: relative; }
+
+.main .section-portfolio .mob {
+  display: none; }
 
 #loft {
   margin-top: 20px; }
@@ -1195,6 +1198,26 @@ main .section-main {
     padding-left: 15px; } }
 
 @media screen and (max-width: 768px) {
+  .section-portfolio .portfolios {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  main .section-portfolio .pc {
+    display: none; }
+  main .section-portfolio .mob {
+    display: block; }
+  main .mob .portfolio-item {
+    background-size: auto;
+    margin: 0 5px 20px 5px; }
+  .section-portfolio .mob .portfolio-item {
+    background-size: auto; }
+  .section-portfolio .portfolios .portfolio-item {
+    max-width: 330px;
+    width: 100%; }
+  .header {
+    padding: 10px 0; }
   .burger-menu {
     cursor: pointer;
     margin-right: 20px;
