@@ -974,6 +974,7 @@ main .mob .slick-slider {
     font-weight: 500;
     letter-spacing: 1px; }
   #footer .box-map .link {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -981,6 +982,17 @@ main .mob .slick-slider {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 18px; }
+    #footer .box-map .link span {
+      margin-left: 15px; }
+  #footer .box-map .arrow:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url(../img/diagram.png);
+    width: 70px;
+    height: 205px;
+    right: 42px;
+    top: 45px; }
   #footer .box-map .m10 {
     margin-right: 10px;
     margin-left: 3px; }
@@ -1024,49 +1036,49 @@ main .mob .slick-slider {
         font-family: "Roboto - Bold", sans-serif;
         font-weight: 700;
         letter-spacing: 0.9px; }
-  #footer .box-footer .block-two {
-    width: 60%; }
-    #footer .box-footer .block-two .block-two__title p {
-      font-family: "Roboto - Bold", sans-serif;
-      color: #333333;
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: 1.2px;
-      text-align: center;
-      margin-bottom: 11px; }
-    #footer .box-footer .block-two .block-two__descr p {
-      text-align: center;
+  #footer .box-footer .block-two .ymaps-2-1-73-map {
+    width: 60% !important; }
+  #footer .box-footer .block-two .block-two__title p {
+    font-family: "Roboto - Bold", sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-bottom: 11px; }
+  #footer .box-footer .block-two .block-two__descr p {
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-bottom: 30px; }
+  #footer .box-footer .block-two .block-inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 11px; }
+    #footer .box-footer .block-two .block-inputs input {
+      outline: none;
       color: #333333;
       font-size: 16px;
       font-weight: 400;
       letter-spacing: 0.8px;
-      margin-bottom: 30px; }
-    #footer .box-footer .block-two .block-inputs {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      margin-bottom: 11px; }
-      #footer .box-footer .block-two .block-inputs input {
-        outline: none;
-        color: #333333;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 0.8px;
-        width: 170px;
-        height: 49px;
-        border-radius: 10px;
-        border: 1px solid #6f6f6f;
-        text-align: center;
-        margin: 0 3px 6px 3px;
-        background-color: #ffffff; }
+      width: 170px;
+      height: 49px;
+      border-radius: 10px;
+      border: 1px solid #6f6f6f;
+      text-align: center;
+      margin: 0 3px 6px 3px;
+      background-color: #ffffff; }
 
 #footer .form-two {
   display: -webkit-box;
@@ -1301,8 +1313,8 @@ main .mob .slick-slider {
     padding: 10px 0 20px 0; }
   #footer .box-map .m45 {
     margin-bottom: 30px; }
-  iframe {
-    height: 460px; }
+  .ymaps-2-1-73-map {
+    width: 100% !important; }
   #footer .box-footer .block-two .block-inputs input {
     width: 140px; }
   #footer .box-footer .block-one {

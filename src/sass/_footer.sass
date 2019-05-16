@@ -60,9 +60,21 @@
          font-weight: 500
          letter-spacing: 1px
       & .link
+         position: relative
          display: flex
          align-items: center
          margin-bottom: 18px
+         & span
+            margin-left: 15px
+      & .arrow:before
+         content: ''
+         position: absolute
+         display: block
+         background: url(../img/diagram.png)
+         width: 70px
+         height: 205px
+         right: 42px
+         top: 45px
       .m10
          margin-right: 10px
          margin-left: 3px
@@ -100,7 +112,8 @@
                font-weight: 700
                letter-spacing: 0.9px
       & .block-two
-         width: 60%
+         & .ymaps-2-1-73-map
+            width: 60%!important
          & .block-two__title p
             font-family: "Roboto - Bold", sans-serif
             color: #333333
