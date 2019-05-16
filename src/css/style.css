@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 .d-b, .header .container .logo, .section-3 .container .background-styles .background-styles-figure img,
 .section-3 .container .background-styles .background-styles-figure a {
-  display: block; }
+  display: block !important; }
 
 .d-n {
   display: none; }
@@ -73,7 +73,7 @@ body {
         margin-right: 10%; }
       .header .container .contacts .address,
       .header .container .contacts .lang {
-        margin-right: 10%;
+        margin-right: 56px;
         cursor: pointer;
         text-decoration: underline; }
         .header .container .contacts .address .lang-letter,
@@ -142,6 +142,7 @@ main .section-main {
   box-sizing: border-box; }
   main .section-main .container {
     min-height: 600px;
+    background-image: url("../img/main-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -156,6 +157,9 @@ main .section-main {
     -ms-flex-pack: justify;
     justify-content: space-between;
     max-width: 1920px; }
+    @media screen and (max-width: 764px) {
+      main .section-main .container {
+        background-image: url("../img/main-bg-mobile.png"); } }
     main .section-main .container .navigation-bottom {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -441,7 +445,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       position: absolute;
       left: 0;
       bottom: 0;
-      padding: 3% 3% 4% 6%;
+      padding: 40px;
       display: none; }
       .section-3 .container .background-styles .background-styles-modal .modal-description {
         text-transform: uppercase; }
@@ -471,6 +475,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       -ms-flex-align: center;
       align-items: center;
       margin-right: 35%; }
+      .section-3 .container .background-styles .background-styles-figure p {
+        color: #fff; }
       .section-3 .container .background-styles .background-styles-figure .plus_icon {
         margin: 20px 0;
         position: relative;
@@ -511,7 +517,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       font-size: 16px;
       font-weight: 300;
       width: 100%;
-        width-text-align: center; }
+      text-align: center; }
+
+.section-3 .figure-img {
+  display: none; }
 
 .section-portfolio {
   position: relative; }
@@ -639,7 +648,7 @@ main .mob .slick-slider {
         top: 210px;
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg); }
-      #loft .box-loft .block-one:after {
+      #loft .box-loft .block-one .loft-fig {
         content: '';
         background: url(../img/loft-fig.png) center no-repeat;
         position: absolute;
@@ -662,6 +671,28 @@ main .mob .slick-slider {
         letter-spacing: 0.8px;
         right: 0;
         top: -50px; }
+  #loft .block-two {
+    display: none;
+    padding: 0 20px;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    #loft .block-two .block-two-item {
+      display: block; }
+    #loft .block-two .loft-items {
+      padding-left: 15px; }
+      #loft .block-two .loft-items li {
+        list-style-type: circle; }
+        #loft .block-two .loft-items li .block-two-img {
+          display: block;
+          width: 30%;
+          position: relative;
+          right: -116px;
+          top: 15px; }
+
+#loft .box-loft .block-one .activ {
+  right: -156px;
+  top: 155px;
+  font-size: 20px; }
 
 #details .box-detalies {
   display: -webkit-box;
@@ -841,14 +872,15 @@ main .mob .slick-slider {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-bottom: 85px; }
     #image .box-image .block-image {
       text-align: center;
