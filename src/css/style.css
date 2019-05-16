@@ -107,8 +107,8 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     background: #fff;
-    position: absolute;
-    right: -90%;
+    position: fixed;
+    right: -900px;
     top: -1%;
     -webkit-transition: .3s;
     transition: .3s;
