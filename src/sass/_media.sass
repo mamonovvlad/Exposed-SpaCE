@@ -1,15 +1,15 @@
 @media screen and (max-width: 1200px)
    /*S3*/
+   .pc .slider-for .portfolio-item
+	   background-size: 50%
+   .pc .slider-nav .portfolio-item
+	   background-size: 100%
    .section-2 .container .section-2-wrapper h3 
       font-size: 40px
       margin-left: 8%
 
    /*loft*/
-   #loft .box-loft .block-one:after 
-      content: ''
-      background: url(../img/loft-fig.png) center no-repeat
-      position: absolute
-      bottom: 5px
+   #loft .box-loft .block-one .loft-fig 
       right: 0%
    #loft .box-loft .block-one p 
       font-size: 20px
@@ -43,6 +43,10 @@
 
 
 @media screen and (max-width: 1024px)
+   .pc .slider-for .portfolio-item
+	   background-size: 50%
+   .pc .slider-nav .portfolio-item
+	   background-size: 100%
    /*header */
    .flex
       height: 40px
@@ -87,9 +91,6 @@
       margin: 10px 0 10px 10px
    .section-portfolio .portfolios .portfolio-item-middle 
       height: 220px
-   .section-portfolio .portfolios .portfolio-item 
-      height: 180px
-      background-size: cover
    .section-portfolio 
       position: relative
    .section-3 .container .background-styles 
@@ -104,14 +105,14 @@
       margin: 0 0 0 8%
 
    /*loft*/
-   #loft .box-loft .block-one:after 
-      background: url(../img/loft-fig.png) center no-repeat
-      position: absolute
-      width: 100px
-      height: 210px
-      bottom: 5px
-      right: 1%
-      background-size: 100%
+   // #loft .box-loft .block-one:after 
+   //    background: url(../img/loft-fig.png) center no-repeat
+   //    position: absolute
+   //    width: 100px
+   //    height: 210px
+   //    bottom: 5px
+   //    right: 1%
+   //    background-size: 100%
    #loft .box-loft .block-one p 
       font-size: 16px
       right: -100px
@@ -152,6 +153,8 @@
       max-width: 125px
       font-size: 12px
       margin: 20px 0 10px
+   .section-portfolio .portfolio-block .portfolio-title span 
+      margin-right: 0px
    /*image*/
    #image .box-image 
       margin-bottom: 0px
@@ -190,9 +193,13 @@
       width: 140px
    #footer .box-footer .block-one 
       padding-left: 15px
+   #footer .box-map .arrow:before
+      height: 190px
+  
 
 @media screen and (max-width: 768px)
-   
+   #mob
+	   display: block
    main .section-2 .event-formats .slid
       display: block
    .section-portfolio .portfolios 
@@ -272,6 +279,15 @@
       padding: 15px 15px
    #footer .box-form #form input 
       padding: 15px 15px
+   #footer .box-map .arrow:before
+         content: ''
+         position: absolute
+         display: block
+         background: url(../img/diagram-mob.png) center no-repeat
+         width: 20px
+         height: 58px
+         right: 35px
+         top: 45px
    .section_form .box-form .form-text p, #footer .box-form .form-text p 
       font-size: 16px
       margin-bottom: 20px
@@ -373,13 +389,13 @@
       padding: 10px 0 5px 0
 
 
-   #loft .box-loft .block-one:after 
-      position: absolute
-      width: 70px
-      height: 90px
-      bottom: 5px
-      right: 0%
-      background-size: 100%
+   // #loft .box-loft .block-one:after 
+   //    position: absolute
+   //    width: 70px
+   //    height: 90px
+   //    bottom: 5px
+   //    right: 0%
+   //    background-size: 100%
    #loft .box-loft .block-one p 
       font-size: 8px
       right: -55px
@@ -412,7 +428,7 @@
       display: none
    .section-portfolio .portfolio-block .portfolio-title 
       font-size: 24px
-      padding: 20px
+      padding: 40px 20px
    .section_form .box-form 
       padding: 0px 0 0px 0
       margin: 20px 0
@@ -493,13 +509,13 @@
    #details .block-dn .down a span
       font-size: 14px
  
-   #loft .box-loft .block-one:after 
-      position: absolute
-      width: 35px
-      height: 50px
-      bottom: 5px
-      right: 3%
-      background-size: 100%
+   // #loft .box-loft .block-one:after 
+   //    position: absolute
+   //    width: 35px
+   //    height: 50px
+   //    bottom: 5px
+   //    right: 3%
+   //    background-size: 100%
    #loft .box-loft .click 
       right: 10px
       bottom: 55px

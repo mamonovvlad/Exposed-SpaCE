@@ -20,11 +20,9 @@
 				right: 0
 				top: 8px
 				bottom: 0
-
-
-
 			& span
 				font-weight: 600
+				margin-right: 105px
 		
 	
 		
@@ -44,8 +42,7 @@
 		justify-content: space-between
 
 		.portfolio-item
-			width: 30%
-			max-width: 500px
+			width: 33%
 			height: 260px
 			background-repeat: no-repeat
 			background-size: 100%
@@ -72,35 +69,43 @@
 				&:hover
 					box-shadow: 0 0 7px rgba(0,0,0,.7)
 
-			.portfolio-figure-icon
-				background-image: url('../img/figure-portfolio.png')
-				width: 323px
-				height: 407px
-				background-repeat: no-repeat
-				background-size: 74%
-				position: absolute
-				z-index: -1
-				&[data-portfolio-figure='0']
-					top: 16px
-					left: 25px
-					width: 200px
-					background-size: 80%
-				&[data-portfolio-figure='1']
-					left: 3px
-					bottom: -88px
-					display: inline-block
+			// .portfolio-figure-icon
+			// 	background-image: url('../img/figure-portfolio.png')
+			// 	width: 323px
+			// 	height: 407px
+			// 	background-repeat: no-repeat
+			// 	background-size: 74%
+			// 	position: absolute
+			// 	z-index: -1
+			
+			// 	&[data-portfolio-figure='0']
+			// 		top: 16px
+			// 		left: 25px
+			// 		width: 200px
+			// 		background-size: 80%
+			// 	&[data-portfolio-figure='1']
+			// 		left: 3px
+			// 		bottom: -88px
+			// 		display: inline-block
 				
-						
 
 		.portfolio-item-middle
 			width: 35%
 			height: 260px
 .portfolio-block
 	position: relative
-.main .section-portfolio .mob
+#mob
 	display: none
-main .mob .slick-slider
-	display: none
+.slider-for
+	margin-bottom: 65px
+.pc .slider-for .portfolio-item
+	background-size: 50%
+.pc .slider-nav .portfolio-item
+	background-size: 100%
+	& .slick-slide .slick-active
+		background: #000
+		margin-top: 100px
+
 
 // .portfolio-block__img
 // 	background: url(../img/fg.png) center no-repeat
