@@ -3,9 +3,6 @@
    .section-2 .container .section-2-wrapper h3 
       font-size: 40px
       margin-left: 8%
-   .section-2 .container .section-2-wrapper .event-formats .event-wrapper,
-   .section-2 .container .section-2-wrapper .event-formats .title-actual-event 
-      margin-left: 10%
 
    /*loft*/
    #loft .box-loft .block-one:after 
@@ -195,6 +192,9 @@
       padding-left: 15px
 
 @media screen and (max-width: 768px)
+   
+   main .section-2 .event-formats .slid
+      display: block
    .section-portfolio .portfolios 
       justify-content: space-evenly
       flex-wrap: wrap
@@ -456,17 +456,25 @@
       margin-left: 15px
       font-size: 28px
       line-height: 40px
-   .section-2 .container .section-2-wrapper .event-formats
-      display: none
    .section-2 .container 
       min-height: 550px
    .section-2 .container .description-items .description-item[data-description='2'] p 
       transform: translateX(0px)
    .mob-block .slick-slide .slick-current .slick-active
 	   display: block
-
+   main .section-2 .container .section-2-wrapper .event-formats .event-wrapper 
+      display: none
+   main .section-2 .container .section-2-wrapper .event-formats .slid
+      display: block
  
 @media screen and (max-width: 425px)
+   .section-2 .container .section-2-wrapper h3 
+      font-size: 16px
+      padding-top: 20px
+   .events-items-left 
+      padding: 0
+   .section-2 .container .section-2-wrapper .event-formats .title-actual-event 
+      font-size: 16px
    main .mob .portfolio-item
       margin: 0 0px 20px 0px
    #details .block-dn .down a span
@@ -500,3 +508,11 @@
       font-size: 20px
    main .section-main .container .navigation-bottom nav .menu-items .menu-item a 
       font-size: 13px
+   .section-2 .title-actual-event 
+      line-height: 28px
+      margin-left: 10px
+   .section-2 .event-wrapper
+      margin: 0 15px
+   .section-2 .slick-next 
+      top: 160px
+      left: 16px
