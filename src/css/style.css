@@ -57,7 +57,7 @@ body {
     justify-content: space-between; }
     .header .container .logo {
       width: 30%;
-      margin-left: 8%; }
+      margin-left: 10px; }
     .header .container .contacts {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -204,25 +204,36 @@ main .section-main {
     main .section-main .container .main-title {
       color: #333333;
       text-transform: uppercase;
-      margin-left: 13%; }
+      margin-left: 110px; }
       main .section-main .container .main-title h1 {
         font-family: "Roboto - Black" , sans-serif;
-        font-size: 50px;
-        font-weight: 700; }
+        font-weight: 700;
+        color: #333333;
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        margin-bottom: 20px; }
       main .section-main .container .main-title h2 {
+        color: #333333;
         font-family: Roboto;
         font-size: 30px;
-        font-weight: 400;
-        line-height: 36px;
-        padding: 10px 0 15px 0; }
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        margin-bottom: 40px; }
       main .section-main .container .main-title p {
-        font-family: Roboto;
+        color: #333333;
         font-size: 24px;
         font-weight: 400;
-        padding: 10px 0 15px 0; }
+        text-transform: uppercase;
+        letter-spacing: 4.8px;
+        margin-bottom: 25px; }
       main .section-main .container .main-title small {
+        color: #333333;
+        font-size: 18px;
         font-weight: 300;
-        font-family: Roboto; }
+        letter-spacing: 0.9px;
+        margin-bottom: 40px; }
       main .section-main .container .main-title button {
         color: #626361;
         display: block;
@@ -244,7 +255,7 @@ main .section-main {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-left: 5%; }
+      margin-left: 80px; }
       main .section-main .container .menu-items .menu-item {
         list-style: none;
         margin-left: 10px;
