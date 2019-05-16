@@ -608,7 +608,7 @@ main .section-main {
 .main .section-portfolio .mob {
   display: none; }
 
-main .section-portfolio .mob-block .slick-slide .slick-current .slick-active {
+main .slick-slider {
   display: none; }
 
 #loft {
