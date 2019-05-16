@@ -26,4 +26,5 @@ $(".modal_switch").on("click" , function () {
 $(".background-styles-modal").on("click" , function () {
 	$(this).fadeOut();
 })
+$('.single-item').slick();
 })
