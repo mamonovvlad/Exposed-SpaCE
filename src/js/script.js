@@ -16,7 +16,14 @@ scrollTop('.arrow-down','.section-2');
 
 
 $(".burger-menu").on("click" , function () {
-	console.log("1");
 	$(".mobile-menu-items").toggleClass('mobile-menu-item-active');
+})
+
+$(".modal_switch").on("click" , function () {
+	$(".background-styles-modal").fadeIn();
+})
+
+$(".background-styles-modal").on("click" , function () {
+	$(this).fadeOut();
 })
 })

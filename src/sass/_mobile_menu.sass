@@ -1,0 +1,40 @@
+.mobile-menu
+	overflow: hidden
+
+
+	.mobile-menu-items
+		display: flex
+		flex-direction: column
+		background: #fff
+		position: absolute
+		right: -90%
+		top: -1%
+		transition: .3s
+		z-index: 3
+		height: 100vh
+		justify-content: space-evenly
+		
+		.mobile-menu-item
+			list-style: none
+			
+			transition: .3s
+			&:last-child
+				margin: 6px 0
+			a
+				color: #000
+				font-weight: 500
+				font-size: 17px
+				border-bottom: 3px solid transparent
+				&:hover
+					border-bottom: 3px solid #000
+					
+
+
+
+	
+	.mobile-menu-item-active
+			transition: .3s
+			right: 0%
+			padding-right: 42px
+
+					
