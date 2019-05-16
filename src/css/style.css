@@ -1581,9 +1581,13 @@ main .mob .slick-slider {
   main .section-2 .container .section-2-wrapper .event-formats .event-wrapper {
     display: none; }
   main .section-2 .container .section-2-wrapper .event-formats .slid {
-    display: block; } }
+    display: block; }
+  main .section-2 .container .section-2-wrapper .event-formats .slid {
+    margin-left: 35px; } }
 
 @media screen and (max-width: 425px) {
+  .section-2 .event-formats {
+    width: 55%; }
   .section-2 .container .section-2-wrapper h3 {
     font-size: 16px;
     padding-top: 20px; }
@@ -1630,4 +1634,6 @@ main .mob .slick-slider {
     margin: 0 15px; }
   .section-2 .slick-next {
     top: 160px;
-    left: 16px; } }
+    left: 16px; }
+  .section-2 .container .section-2-wrapper h3 {
+    margin-left: 5px; } }
