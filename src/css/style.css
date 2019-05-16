@@ -212,7 +212,7 @@ main .section-main {
         font-size: 60px;
         text-transform: uppercase;
         letter-spacing: 8px;
-        margin-bottom: 20px; }
+        margin: 20px 0 40px; }
       main .section-main .container .main-title h2 {
         color: #333333;
         font-family: Roboto;
@@ -248,7 +248,8 @@ main .section-main {
         -webkit-transition: .3s;
         transition: .3s;
         cursor: pointer;
-        font-size: 18px; }
+        font-size: 18px;
+        margin-bottom: 100px; }
         main .section-main .container .main-title button:hover {
           background: #fff; }
     main .section-main .container .menu-items {
@@ -258,7 +259,7 @@ main .section-main {
       margin-left: 80px; }
       main .section-main .container .menu-items .menu-item {
         list-style: none;
-        margin-left: 10px;
+        margin-left: 20px;
         padding: 25px 0; }
         main .section-main .container .menu-items .menu-item:first-child {
           margin-left: 0; }
