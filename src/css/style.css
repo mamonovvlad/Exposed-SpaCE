@@ -456,6 +456,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 18px;
     padding: 0 10px; }
 
+.section-2 .slick-next:before {
+  display: none; }
+
 .section-3 .container {
   max-width: 1920px;
   position: relative; }
@@ -1340,6 +1343,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 190px; } }
 
 @media screen and (max-width: 768px) {
+  .section-2 .slick-next:before {
+    display: block; }
   #mob {
     display: block; }
   main .section-2 .event-formats .slid {
