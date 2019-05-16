@@ -388,38 +388,23 @@ main .section-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end; }
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .section-2 .description-items.description-item {
     color: #333333;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px; }
-
-.section-2 .description-item[data-description='1'] p {
-  margin-left: 67px;
-  display: block;
-  margin-bottom: 10px; }
-
-.section-2 .description-item[data-description='1'] img {
-  display: block; }
-
-.section-2 .description-item[data-description='0'] p {
-  margin-bottom: 60px; }
-
-.section-2 .description-item[data-description='2'] p {
-  margin-bottom: 50px;
-  -webkit-transform: translateX(12px);
-  transform: translateX(12px); }
 
 .section-2 .slick-next {
   top: 130px;
@@ -433,6 +418,43 @@ main .section-main {
 
 main .section-2 .container .section-2-wrapper .event-formats .slid {
   display: none; }
+
+.description-box {
+  margin-bottom: 30px; }
+
+.description-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 20px; }
+  .description-item p {
+    font-family: "Roboto - Black", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px; }
+
+.description-box_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .description-box_two .description-item span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px; }
+  .description-box_two .description-item p {
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    padding: 0 10px; }
 
 .section-3 .container {
   max-width: 1920px;
