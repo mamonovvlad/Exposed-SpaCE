@@ -1208,7 +1208,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     display: block;
     background: url(../../img/diagram.png);
     width: 70px;
-    height: 205px;
+    height: 180px;
     top: 45px;
     right: 50%;
     -webkit-transform: rotate(14deg);
