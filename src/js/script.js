@@ -29,6 +29,9 @@ $(".background-styles-modal").on("click" , function () {
 	$(".modal_switch").fadeIn();
 
 })
+$(".modal-description:after").on("click" , function () {
+
+})
 
 // $(".click").click(function (e) {
 // 	e.preventDefault();

@@ -18,9 +18,20 @@
 				bottom: 0
 				padding: 40px
 				display: none
+				z-index: 3
 
 				.modal-description
 					text-transform: uppercase
+					position: relative
+					&:after
+						content: ''
+						background: url(../../img/end.svg) center no-repeat
+						display: block
+						width: 30px
+						height: 30px
+						position: absolute
+						right: -35px
+						top: -35px
 
 				.modal-offers
 					margin: 30px 0
