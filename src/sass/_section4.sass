@@ -43,14 +43,14 @@
 
 		.portfolio-item
 			width: 33%
-			height: 260px
+			height: 250px
 			background-repeat: no-repeat
 			background-size: 100%
 			background-position: center
 			display: flex
 			justify-content: center
 			align-items: center
-			
+			margin: 10px 15px
 			position: relative
 			.portfolio-btn
 				color: #333333
@@ -92,16 +92,43 @@
 		.portfolio-item-middle
 			width: 35%
 			height: 260px
+.pc .slider-for .portfolio-item
+	background-size: cover
+.pc .slider-nav .portfolio-item
+	background-size: 100%
+.slick-track
+	display: flex
+	justify-content: center
+.slider-nav .slick-active,
+.section-portfolio .pc .slider-for .slick-active
+	box-shadow: 0px 0px 8px #000
+.section-portfolio .pc .slider-for .slick-active,
+	width: 400px!important
+	background-size: auto
+.pc .slider-for .portfolio-item
+	transition: 0s ease!important
 .portfolio-block
 	position: relative
 #mob
 	display: none
 .slider-for
 	margin-bottom: 65px
-.pc .slider-for .portfolio-item
-	background-size: 50%
-.pc .slider-nav .portfolio-item
-	background-size: 100%
+.slick-dots li 
+	width: 15px
+	height: 15px
+	background-color: #fff
+	border: 1px solid #000
+	border-radius: 50%
+.slick-dots li button:before 
+	content: ''
+.slick-dots .slick-active
+	width: 18px
+	height: 18px
+	background-color: #000
+.slick-dots 
+	display: flex
+	justify-content: center
+	align-items: center
 	// & .slick-slide .slick-active
 	// 	background: #000
 	// 	margin-top: 100px

@@ -601,7 +601,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     justify-content: space-between; }
     .section-portfolio .portfolios .portfolio-item {
       width: 33%;
-      height: 260px;
+      height: 250px;
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
@@ -614,6 +614,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
+      margin: 10px 15px;
       position: relative; }
       .section-portfolio .portfolios .portfolio-item .portfolio-btn {
         color: #333333;
@@ -637,6 +638,33 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       width: 35%;
       height: 260px; }
 
+.pc .slider-for .portfolio-item {
+  background-size: cover; }
+
+.pc .slider-nav .portfolio-item {
+  background-size: 100%; }
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.slider-nav .slick-active,
+.section-portfolio .pc .slider-for .slick-active {
+  -webkit-box-shadow: 0px 0px 8px #000;
+  box-shadow: 0px 0px 8px #000; }
+
+.section-portfolio .pc .slider-for .slick-active {
+  width: 400px !important;
+  background-size: auto; }
+
+.pc .slider-for .portfolio-item {
+  -webkit-transition: 0s ease !important;
+  transition: 0s ease !important; }
+
 .portfolio-block {
   position: relative; }
 
@@ -646,14 +674,34 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .slider-for {
   margin-bottom: 65px; }
 
-.pc .slider-for .portfolio-item {
-  background-size: 50%; }
+.slick-dots li {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%; }
 
-.pc .slider-nav .portfolio-item {
-  background-size: 100%; }
+.slick-dots li button:before {
+  content: ''; }
+
+.slick-dots .slick-active {
+  width: 18px;
+  height: 18px;
+  background-color: #000; }
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 #loft {
-  margin-top: 20px; }
+  margin-top: 50px; }
   #loft .box-loft {
     display: -webkit-box;
     display: -ms-flexbox;
