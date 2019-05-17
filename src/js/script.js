@@ -115,8 +115,8 @@ function getWindowWidth() {
 	dots: true,
 	centerMode: true,
 	focusOnSelect: true,
-	autoplay: true,
-	autoplaySpeed: 1000
+	// autoplay: true,
+	autoplaySpeed: 3000
  });
 
  $("#btn-click").click(function (e) {

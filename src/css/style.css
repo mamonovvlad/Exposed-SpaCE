@@ -745,6 +745,15 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       width: 35%;
       height: 260px; }
 
+#pc {
+  position: relative; }
+
+.blocks-text {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 600px; }
+
 .pc .slider-for .portfolio-item {
   background-size: cover; }
 
@@ -755,9 +764,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end; }
 
 .slider-nav .slick-active,
 .section-portfolio .pc .slider-for .slick-active {
@@ -779,7 +788,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   display: none; }
 
 .slider-for {
-  margin-bottom: 65px; }
+  margin: 65px 0;
+  position: relative; }
 
 .slick-dots li {
   width: 15px;
@@ -794,7 +804,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .slick-dots .slick-active {
   width: 18px;
   height: 18px;
-  background-color: #000; }
+  background-color: #000;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
 
 .slick-dots {
   display: -webkit-box;

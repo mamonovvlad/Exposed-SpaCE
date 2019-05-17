@@ -92,13 +92,20 @@
 		.portfolio-item-middle
 			width: 35%
 			height: 260px
+#pc
+	position: relative
+.blocks-text
+	position: absolute
+	right: 0
+	top: 0
+	width: 600px
 .pc .slider-for .portfolio-item
 	background-size: cover
 .pc .slider-nav .portfolio-item
 	background-size: 100%
 .slick-track
 	display: flex
-	justify-content: center
+	justify-content: end
 .slider-nav .slick-active,
 .section-portfolio .pc .slider-for .slick-active
 	box-shadow: 0px 0px 8px #000
@@ -112,7 +119,8 @@
 #mob
 	display: none
 .slider-for
-	margin-bottom: 65px
+	margin: 65px 0
+	position: relative
 .slick-dots li 
 	width: 15px
 	height: 15px
@@ -125,6 +133,7 @@
 	width: 18px
 	height: 18px
 	background-color: #000
+	box-shadow: none
 .slick-dots 
 	display: flex
 	justify-content: center
