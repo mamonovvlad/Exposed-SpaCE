@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EXPOSED SPACE</title>
 	<link rel="stylesheet" href="src/build/css/slick-theme.css">
 	<link rel="stylesheet" href="src/build/css/slick.css">
@@ -11,54 +12,81 @@
 </head>
 
 <body>
-		<header class="header">
-				<div class="container">
-					<a href="#" class="logo">
-						<img src="src/img/logo.png" alt="logo">
-					</a>
-					<div class="contacts d-f">
-						<div class="d-f lang">
-							<a href="#" class="lang-letter">EN</a>
-							<span class="caret">
-								<img src="src/img/caret.png" alt="">
-							</span>
-						</div>
-		
-						<span class="address">ул. Шаболовка 31Г</span>
-						<a href="tel:+7(495)987-65-43" class="tel">+7(495)987-65-43</a>
-					</div>
-					<div class="burger-menu">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
+	<div class="wrapper">
+		<div class="box-wrapper">
+			<div class="box-wrapper__title">
+				<p>Быстрый расчет стоимости
+					вашего мероприятия (5мин)
+				</p>
+			</div>
+			<form action="">
+				<div class="form-column">
+					<input type="number" placeholder="Кол-во гостей*" required>
+					<input type="text" placeholder="Площадь кв.м*" required>
+					<input required type="text" placeholder="Дата*" onfocus="(this.type='date')" />
+					<input type="text" placeholder="Формат*" required>
 				</div>
-			</header>
-			<nav class="mobile-menu">
-				<ul class="mobile-menu-items">
-					<li class="mobile-menu-item">
-						<a>ул. Шаболовка 31Г</a>
-					</li>
-					<li class="mobile-menu-item">
-						<a href="tel:+7(495)987-65-43">+7(495)987-65-43</a>
-					</li>
-					<li class="mobile-menu-item">
-							<a href="#">Для съемок</a>
-						</li>
-						<li class="mobile-menu-item">
-							<a href="#">Презентации</a>
-						</li>
-						<li class="mobile-menu-item">
-							<a href="#">Концерты</a>
-						</li>
-						<li class="mobile-menu-item">
-							<a href="#">Выставки</a>
-						</li>
-						<li class="mobile-menu-item">
-							<a href="#">Конференц-зал</a>
-						</li>
-				</ul>
-			</nav>
+				<div class="form-row">
+					<input type="name" placeholder="Имя*" required>
+					<input type="email" placeholder="E-mail*" required>
+					<input type="phone" class="phone_mask" placeholder="Тел.*" required>
+				</div>
+				<div class="form-bn">
+					<button id="form-btn" type="submit">ОТПРАВИТЬ</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+	<div class="shadow"></div>
+	<header class="header">
+		<div class="container">
+			<a href="#" class="logo">
+				<img src="src/img/logo.png" alt="logo">
+			</a>
+			<div class="contacts d-f">
+				<div class="d-f lang">
+					<a href="#" class="lang-letter">EN</a>
+					<span class="caret">
+						<img src="src/img/caret.png" alt="">
+					</span>
+				</div>
+
+				<span class="address">ул. Шаболовка 31Г</span>
+				<a href="tel:+7(495)987-65-43" class="tel">+7(495)987-65-43</a>
+			</div>
+			<div class="burger-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<nav class="mobile-menu">
+		<ul class="mobile-menu-items">
+			<li class="mobile-menu-item">
+				<a>ул. Шаболовка 31Г</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a href="tel:+7(495)987-65-43">+7(495)987-65-43</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a href="#">Для съемок</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a href="#">Презентации</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a href="#">Концерты</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a href="#">Выставки</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a href="#">Конференц-зал</a>
+			</li>
+		</ul>
+	</nav>
 	<main>
 		<div class="section-main">
 			<div class="container">
@@ -88,7 +116,7 @@
 						LIVE VENUEs AWARDS
 					</p>
 					<small>*пространство EVENT-шедевров</small>
-					<button type="button">
+					<button id="btn-click" type="button">
 						ЦЕНА
 					</button>
 				</div>
@@ -123,9 +151,9 @@
 						<p>Приглашаем в гости, просто попить чай/кофе и посмотреть пространство!</p>
 					</div>
 					<form id="form-top" action="">
-						<input type="text" placeholder="Имя">
-						<input type="text" placeholder="Дата">
-						<input type="phone" placeholder="+7(___)___-__-__">
+						<input type="text" placeholder="Имя" required>
+						<input required type="text" placeholder="Дата" onfocus="(this.type='date')" />
+						<input type="phone" class="phone_mask" placeholder="+7(___)___-__-__" required>
 						<button class="btn" type="submit">Отправить</button>
 					</form>
 				</div>
@@ -138,7 +166,26 @@
 						для мероприятий</h3>
 					<div class="event-formats">
 						<h4 class="title-actual-event ">Актуальные Event-форматы</h4>
-						 <div class="event-wrapper deck ">
+						<div class="event-wrapper deck ">
+							<ul class="events-items-left">
+								<li>пресс-завтрак</li>
+								<li>нетворкинг</li>
+								<li>выставки</li>
+								<li>просто выставки</li>
+								<li>локация для съемок</li>
+							</ul>
+							<ul class="events-items-right">
+								<li>конференции</li>
+								<li>презентации с рассадкой</li>
+								<li>мастер-классы</li>
+								<li>семинары, тренинги</li>
+								<li>обучение</li>
+							</ul>
+						</div>
+
+
+						<div class="single-item">
+							<div class="event-wrapper slid">
 								<ul class="events-items-left">
 									<li>пресс-завтрак</li>
 									<li>нетворкинг</li>
@@ -146,6 +193,8 @@
 									<li>просто выставки</li>
 									<li>локация для съемок</li>
 								</ul>
+							</div>
+							<div class="event-wrapper slid">
 								<ul class="events-items-right">
 									<li>конференции</li>
 									<li>презентации с рассадкой</li>
@@ -153,71 +202,50 @@
 									<li>семинары, тренинги</li>
 									<li>обучение</li>
 								</ul>
-						</div> 
-
-						
-						<div class="single-item">
-							<div class="event-wrapper slid">
-									<ul class="events-items-left">
-										<li>пресс-завтрак</li>
-										<li>нетворкинг</li>
-										<li>выставки</li>
-										<li>просто выставки</li>
-										<li>локация для съемок</li>
-									</ul>
-							</div>
-							<div class="event-wrapper slid">
-									<ul class="events-items-right">
-										<li>конференции</li>
-										<li>презентации с рассадкой</li>
-										<li>мастер-классы</li>
-										<li>семинары, тренинги</li>
-										<li>обучение</li>
-									</ul>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 
 				<div class="description-items">
 					<div class="description-box">
-						<div class="description-item" >
+						<div class="description-item">
 							<p> I ЭТАЖ 225 м²</p>
 							<p>II ЭТАЖ 205 м²</p>
 						</div>
 						<div class="description-box_two">
-								<div class="description-item" >
-										<p>
-											<span>ЗАЛ 1</span> 
-											Галерея, холл, <br>   
-											штаб, гримерка, WC
-										</p>
-									</div>
-									<div class="description-item" >
-											<p>
-													<span>ЗАЛ 2 (96 м²)</span>  
-													КОНФЕРЕНЦ-ЗАЛ
-												</p>
-											
-										</div>
-										<div class="description-item" >
-												<p>
-													<span>ЗАЛ 3 (99 м²)</span>	  
-														ПРЕЗЕНТАЦИИ<br> 
-														Подиум (сцена), vip-комната, <br> 
-														отдельный вход, WC<br> 
-													</p>
-											</div>
+							<div class="description-item">
+								<p>
+									<span>ЗАЛ 1</span>
+									Галерея, холл, <br>
+									штаб, гримерка, WC
+								</p>
+							</div>
+							<div class="description-item">
+								<p>
+									<span>ЗАЛ 2 (96 м²)</span>
+									КОНФЕРЕНЦ-ЗАЛ
+								</p>
+
+							</div>
+							<div class="description-item">
+								<p>
+									<span>ЗАЛ 3 (99 м²)</span>
+									ПРЕЗЕНТАЦИИ<br>
+									Подиум (сцена), vip-комната, <br>
+									отдельный вход, WC<br>
+								</p>
+							</div>
 						</div>
-					
+
 					</div>
-					
-					
-						
 
 
-						<!-- <div class="description-item" >
+
+
+
+					<!-- <div class="description-item" >
 							<p><strong>I ЭТАЖ 225 м² <br>
 									ЗАЛ 1</strong>Галерея, холл, <br>
 								штаб, гримерка, WC</p>
@@ -232,32 +260,33 @@
 			</div>
 		</section>
 		<section class="section-3">
-				<div class="container">
-					<div class="our_styles_items">
-						<div class="our_styles-title">
-							<h4>Стиль</h4>
-							<div class="figure-img">
-								<span></span>
-								<img src="src/img/figure-arrows.png" alt="">
-							</div>
-	
+			<div class="container">
+				<div class="our_styles_items">
+					<div class="our_styles-title">
+						<h4>Стиль</h4>
+						<div class="figure-img">
+							<span></span>
+							<img src="src/img/figure-arrows.png" alt="">
 						</div>
-						<div class="our_styles-description">
-							<p>Общая площадь: 600кв.м Высота потолка: 3.5м Разделение: 5 зон
-								(подробнее в 3D-туре и на Плане)</p>
-						</div>
+
 					</div>
-					<div class="background-styles" style="background-image: url('src/img/styles-design.png')">
-						<div class="background-styles-figure">
-							<p class="modal_switch modal_switch-text">click</p>
-							<img src="src/img/plus_icon.png" alt="plus" class="plus_icon modal_switch">
-							<img src="src/img/white-figure.png" class="white-figure" alt="white-figure">
-						</div>
+					<div class="our_styles-description">
+						<p>Общая площадь: 600кв.м Высота потолка: 3.5м Разделение: 5 зон
+							(подробнее в 3D-туре и на Плане)</p>
+					</div>
+				</div>
+				<div class="background-styles" style="background-image: url('src/img/styles-design.png')">
+					<div class="background-styles-figure">
+						<p class="modal_switch modal_switch-text">click</p>
+						<img src="src/img/plus_icon.png" alt="plus" class="plus_icon modal_switch">
+						<img src="src/img/white-figure.png" class="white-figure" alt="white-figure">
+					</div>
 					<div class="background-styles-modal">
 						<p class="modal-description">пространство <strong>exposed space</strong> современно и изыскано<br>
 							высокие потолки и панорамные окна <br>
-						светло и просторно</p>
-						<p  class="modal-offers">Профессиональное освещение <br>итальянские отделка полов,сантехника и мебель</p>
+							светло и просторно</p>
+						<p class="modal-offers">Профессиональное освещение <br>итальянские отделка полов,сантехника и мебель
+						</p>
 						<h5 class="modal-offers-title">Стиль подчеркивают предметы дизайнерского культа:</h5>
 						<ul class="modal-offers-items">
 							<li>
@@ -271,9 +300,9 @@
 							</li>
 						</ul>
 					</div>
-					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 		<section class="section_form">
 			<div class="container">
 				<div class="box-form">
@@ -281,331 +310,344 @@
 						<p>Приглашаем в гости, просто попить чай/кофе и посмотреть пространство!</p>
 					</div>
 					<form id="form-top" action="">
-						<input type="text" placeholder="Имя">
-						<input type="text" placeholder="Дата">
-						<input type="phone" placeholder="+7(___)___-__-__">
+						<input type="text" placeholder="Имя" required>
+						<input required type="text" placeholder="Дата" onfocus="(this.type='date')"  />
+						<input type="phone" class="phone_mask" placeholder="+7(___)___-__-__" required>
 						<button class="btn" type="submit">Отправить</button>
 					</form>
 				</div>
 			</div>
 		</section>
 		<section class="section-portfolio">
-				<div class="container">
-					<div class="portfolio-block">
-				  <h4 class="portfolio-title">Портфолио мероприятий <span>EXPONSED</span></h4>
-				  <div class="portfolio-block__img">
-  
-				  </div>
-			  </div>
+			<div class="container">
+				<div class="portfolio-block">
+					<h4 class="portfolio-title">Портфолио мероприятий <span>EXPONSED</span></h4>
+					<div class="portfolio-block__img">
+
+					</div>
 				</div>
-			  
-			  
-			  <div class="container">
-				  <div class="pc">
-							<div class="portfolios slider-for">
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-1.png')">
-									<button class="portfolio-btn" type="button">
-										Презентации
-									</button>
-								</div>
-								<div class="portfolio-item portfolio-item-middle"
-									style="background-image: url('src/img/portfolio-2.png')">
-									<button class="portfolio-btn" type="button">
-										Для Съемок
-									</button>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
-									<button class="portfolio-btn" type="button">
-										Выставки
-									</button>
-									<div class="portfolio-figure-icon" data-portfolio-figure="0">
-										
-									</div>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
-									<button class="portfolio-btn" type="button">
-										Выставки
-									</button>
-									<div class="portfolio-figure-icon" data-portfolio-figure="0">
-										
-									</div>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
-									<button class="portfolio-btn" type="button">
-										Выставки
-									</button>
-									<div class="portfolio-figure-icon" data-portfolio-figure="0">
-										
-									</div>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
-									<button class="portfolio-btn" type="button">
-										Выставки
-									</button>
-									<div class="portfolio-figure-icon" data-portfolio-figure="0">
-										
-									</div>
-								</div>
-							</div>
-							<div class="portfolios slider-nav">
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
-									<button class="portfolio-btn" type="button">
-										Конференции
-									</button>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
-									<button class="portfolio-btn" type="button">
-										Конференции
-									</button>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
-									<button class="portfolio-btn" type="button">
-										Конференции
-									</button>
-								</div>
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
-									<button class="portfolio-btn" type="button">
-										Конференции
-									</button>
-								</div>
-								<div class="portfolio-item portfolio-item-middle"
-									style="background-image: url('src/img/portfolio-5.png')">
-									<button class="portfolio-btn" type="button">
-										Концерты
-									</button>
-										<div class="portfolio-figure-icon" data-portfolio-figure="1">
-									</div>
-								</div>	
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-6.png')">
-									<button class="portfolio-btn" type="button">
-										3D-Тур
-									</button>
-								</div>
-							</div>
-				  </div>
-				
-			  </div>
-			  <div id="mob" class="mob single-item">
-				  <div class="mob-block">
-						<div class="portfolios">
-							<div class="portfolio-item" style="background-image: url('src/img/portfolio-1.png')">
-								<button class="portfolio-btn" type="button">
-									Презентации
-								</button>
-							</div>
-							<div class="portfolio-item portfolio-item-middle"
-								style="background-image: url('src/img/portfolio-2.png')">
-								<button class="portfolio-btn" type="button">
-									Для Съемок
-								</button>
-							</div>
-							<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
-								<button class="portfolio-btn" type="button">
-									Выставки
-								</button>
-								<div class="portfolio-figure-icon" data-portfolio-figure="0">
-									
-								</div>
+			</div>
+
+
+			<div class="container">
+				<div class="pc" id="pc">
+					<div class="portfolios slider-for">
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-1.png')">
+							<button class="portfolio-btn" type="button">
+								Презентации
+							</button>
+						</div>
+						<div class="portfolio-item portfolio-item-middle"
+							style="background-image: url('src/img/portfolio-2.png')">
+							<button class="portfolio-btn" type="button">
+								Для Съемок
+							</button>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
+							<button class="portfolio-btn" type="button">
+								Выставки
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="0">
+
 							</div>
 						</div>
-				  </div>
-				  <div class="mob-block">
-							<div class="portfolios">
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
-									<button class="portfolio-btn" type="button">
-										Конференции
-									</button>
-								</div>
-								<div class="portfolio-item portfolio-item-middle"
-									style="background-image: url('src/img/portfolio-5.png')">
-									<button class="portfolio-btn" type="button">
-										Концерты
-									</button>
-										<div class="portfolio-figure-icon" data-portfolio-figure="1">
-									</div>
-								</div>	
-								<div class="portfolio-item" style="background-image: url('src/img/portfolio-6.png')">
-									<button class="portfolio-btn" type="button">
-										3D-Тур
-									</button>
-								</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
+							<button class="portfolio-btn" type="button">
+								Выставки
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="0">
+
 							</div>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
+							<button class="portfolio-btn" type="button">
+								Выставки
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="0">
+
+							</div>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
+							<button class="portfolio-btn" type="button">
+								Выставки
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="0">
+
+							</div>
+						</div>
 					</div>
-		
-						
-			  </div>
-		  </section>
+					<div class="portfolios slider-nav">
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
+							<button class="portfolio-btn" type="button">
+								Конференции
+							</button>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
+							<button class="portfolio-btn" type="button">
+								Конференции
+							</button>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
+							<button class="portfolio-btn" type="button">
+								Конференции
+							</button>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
+							<button class="portfolio-btn" type="button">
+								Конференции
+							</button>
+						</div>
+						<div class="portfolio-item portfolio-item-middle"
+							style="background-image: url('src/img/portfolio-5.png')">
+							<button class="portfolio-btn" type="button">
+								Концерты
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="1">
+							</div>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-6.png')">
+							<button class="portfolio-btn" type="button">
+								3D-Тур
+							</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="mob" class="mob single-item">
+				<div class="mob-block">
+					<div class="portfolios">
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-1.png')">
+							<button class="portfolio-btn" type="button">
+								Презентации
+							</button>
+						</div>
+						<div class="portfolio-item portfolio-item-middle"
+							style="background-image: url('src/img/portfolio-2.png')">
+							<button class="portfolio-btn" type="button">
+								Для Съемок
+							</button>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-3.png')">
+							<button class="portfolio-btn" type="button">
+								Выставки
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="0">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mob-block">
+					<div class="portfolios">
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-4.png')">
+							<button class="portfolio-btn" type="button">
+								Конференции
+							</button>
+						</div>
+						<div class="portfolio-item portfolio-item-middle"
+							style="background-image: url('src/img/portfolio-5.png')">
+							<button class="portfolio-btn" type="button">
+								Концерты
+							</button>
+							<div class="portfolio-figure-icon" data-portfolio-figure="1">
+							</div>
+						</div>
+						<div class="portfolio-item" style="background-image: url('src/img/portfolio-6.png')">
+							<button class="portfolio-btn" type="button">
+								3D-Тур
+							</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
 	</main>
 	<section id="loft">
-			<div class="container">
-				<div class="box-loft">
+		<div class="container">
+			<div class="box-loft">
 				<div class="block-one">
-					<div class="loft-fig"></div>
-					<img src="src/img/loft.png" alt="">
-					<p class="loft" >Лофт полностью оборудован</p>
-					<div class="click">
-							<a href="#"><p class="click" >click</p></a> 
-							<a href="#"><img src="src/img/add.svg" alt=""></a>
+
+				</div>
+				<div class="block-two-main">
+					<div class="block-one-overlay">
+						<div class="block-one-overlay-img">
+
 						</div>
-				</div>
-				<div class="block-two">
-					<div class="block-two-wrapper">
-						<h3 class="block-two-title">
-						Лофт полностью оборудован
-					</h3>
-					<ul class="loft-items">
-						<li class="loft-item">
-							портативная и трансляционная акустика "BOSE"
-						</li>
-						<li class="loft-item">
-							проектор  выдвижным экраном
-						</li>
-						<li class="loft-item">
-							телевизор LOWEWE 55" + Apple TV
-						</li>
-						<li class="loft-item">
-							презентатор и флипчарт
-						</li>
-						<li class="loft-item">
-							микрофоны
-						</li>
-						<li class="loft-item">
-							WI-FI
-						</li>
-	
-					</ul>
+						<p class="block-one-overlay-click">click</p>
+						<img class="block-one-overlay-click block-one-overlay-add" src="src/img/add.svg" alt="">
+						<img class="block-one-overlay-loft-fig" src="src/img/loft-fig.png" alt="">
 					</div>
-					<div class="block-two-wrapper">
-						<h4 class="block-two-title">
-							Рассадка
-						</h4>
-					<span class="block-two-item">банкет 70 человек</span>
-					<span class="block-two-item">Фуршет 350 человек</span>
-					<span class="block-two-item">
-						Концерт 90 человек
-					</span>
-					<span class="block-two-item">Презентация 350 человек</span>
-					<span class="block-two-item">Конференц-зал 150 человек</span>
-		
-	
+					<div class="block-two">
+						<div class="loft-fig"></div>
+
+
+						<div class="block-two-wrapper">
+							<div class="block-two-wrapper-title">
+								<h3 class="block-two-title-fst">
+									Лофт полностью оборудован
+								</h3>
+							</div>
+
+							<ul class="loft-items">
+								<li class="loft-item">
+									портативная и трансляционная акустика "BOSE"
+								</li>
+								<li class="loft-item">
+									проектор выдвижным экраном
+								</li>
+								<li class="loft-item">
+									телевизор LOWEWE 55" + Apple TV
+								</li>
+								<li class="loft-item">
+									презентатор и флипчарт
+								</li>
+								<li class="loft-item">
+									микрофоны
+								</li>
+								<li class="loft-item">
+									WI-FI
+								</li>
+
+							</ul>
+						</div>
+						<div class="block-two-wrapper">
+							<h4 class="block-two-title">
+								Рассадка
+							</h4>
+							<span class="block-two-item">банкет 70 человек</span>
+							<span class="block-two-item">Фуршет 350 человек</span>
+							<span class="block-two-item">
+								Концерт 90 человек
+							</span>
+							<span class="block-two-item">Презентация 350 человек</span>
+							<span class="block-two-item">Конференц-зал 150 человек</span>
+							<img src="src/img/loft-fig.png" style="margin-top: 25px;" alt="">
+						</div>
+
+
 					</div>
-					
 				</div>
-				
-				
-				
+
+
+
+
 			</div>
-			</div>
-			
 		</div>
+
+
 	</section>
-<section id="details">
-	<div class="container">
-		<div class="box-detalies">
-			<div class="block-detalies__one">
-				<img src="src/img/details.png" alt="">
-			</div>
-			<div class="block-detalies__two">
-				<div class="block-detalies__title">
-					<p>Мы понимаем важность деталей</p>
+	<section id="details">
+		<div class="container">
+			<div class="box-detalies">
+				<div class="block-detalies__one">
+					<img src="src/img/details.png" alt="">
 				</div>
-				<div class="block-detalies__descr">
-					<p>План обоих этажей лофта поможет 
-						создать чёткую структуру мероприятия
-					</p>
-				</div>
-			 
+				<div class="block-detalies__two">
+					<div class="block-detalies__title">
+						<p>Мы понимаем важность деталей</p>
+					</div>
+					<div class="block-detalies__descr">
+						<p>План обоих этажей лофта поможет
+							создать чёткую структуру мероприятия
+						</p>
+					</div>
+
 					<ul>
-						<li>  
-							Как расставить мебель и оборудование на площадке, чтобы 
-							гостям Вашей конференции, презентации или выставки было 
-							комфортно работать или отдыхать?  
+						<li>
+							Как расставить мебель и оборудование на площадке, чтобы
+							гостям Вашей конференции, презентации или выставки было
+							комфортно работать или отдыхать?
 						</li>
 						<li>
-								Как провести эффектную презентацию продукта? 
+							Как провести эффектную презентацию продукта?
 						</li>
 						<li>
-								Где будет обеденная/фуршетная зона?
+							Где будет обеденная/фуршетная зона?
 						</li>
 						<li>
-								Будет ли виден проектор всем гостям?
+							Будет ли виден проектор всем гостям?
 						</li>
 						<li>
-								Как эффективно использовать изгибы галерейного 
-								пространства, подиумы, оконные поверхности?
+							Как эффективно использовать изгибы галерейного
+							пространства, подиумы, оконные поверхности?
 						</li>
 						<li>
-							 Где зона организаторов мероприятия, гримерки, технические помещения, место для кейтеринга?
+							Где зона организаторов мероприятия, гримерки, технические помещения, место для кейтеринга?
 						</li>
 						</li>
 					</ul>
 					<form id="details-form" action="">
-						<label class="label-email" for="label-email">Мы пришлём Вам план-схему, а НАШ менеджер ответит 
-								на эти и другие Вопросы!</label>
+						<label class="label-email" for="label-email">Мы пришлём Вам план-схему, а НАШ менеджер ответит
+							на эти и другие Вопросы!</label>
 						<div class="label-block">
-							<input id="label-email" placeholder="PRIMER@GMAIL.COM" type="text">
-							<button class="button" >ПЛАН ЛОФТА</button>
+							<input id="label-email" placeholder="PRIMER@GMAIL.COM" type="text" required>
+							<button class="button">ПЛАН ЛОФТА</button>
 						</div>
-						<label class="label-namber" for="label-namber">Напишите номер телефона и удобное время для звонка, мы с удовольствием расскажем какое будет ваше  мероприятие в нашем пространстве</label>
+						<label class="label-namber" for="label-namber">Напишите номер телефона и удобное время для звонка, мы
+							с удовольствием расскажем какое будет ваше мероприятие в нашем пространстве</label>
 						<div class="label-block">
-							<input id="label-namber" placeholder="+7(___)___-__-__" type="text">
-							<input class="label-date" placeholder="12:30 МСК" type="text">
-							<button class="button" >ПОДРОБНЕЕ</button>
+							<input id="label-namber" class="phone_mask" placeholder="+7(___)___-__-__" type="phone" required="">
+							<input class="label-date" required type="text" placeholder="12:30 МСК" onfocus="(this.type='time')" />
+							<button class="button">ПОДРОБНЕЕ</button>
 						</div>
 					</form>
 					<div class="block-dn">
 						<div class="down">
-						<a href="src/img/details.png" download>
-							<span>Хотите план-схему?</span> 
-							<img src="src/img/right-arrow_копия.svg" alt="">
-						</a>
-						
+							<a href="src/img/details.png" download>
+								<span>Хотите план-схему?</span>
+								<img src="src/img/right-arrow_копия.svg" alt="">
+							</a>
+
+						</div>
 					</div>
-					</div>
-					
-					
+
+
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="figure">
-		<p> <span>Более 100 компаний</span>  успешно провели в пространстве <span>EXPOSED SPACE</span>  свои <br> презентаци, конференции, семинары, обучение сотрудников, корпоративы и др.</p>
-</div>
-</section>
-<section id="image">
-	<div class="container">
-		<div class="box-image">
-			<div class="block-image">
-				<img src="src/img/image/1.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/2.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/3.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/4.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/5.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/6.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/7.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/8.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/9.png" alt="">
-			</div>
-			<div class="block-image">
-				<img src="src/img/image/10.png" alt="">
-			</div>
+		<div class="figure">
+			<p> <span>Более 100 компаний</span> успешно провели в пространстве <span>EXPOSED SPACE</span> свои <br>
+				презентаци, конференции, семинары, обучение сотрудников, корпоративы и др.</p>
 		</div>
-		<div class="box-image">
+	</section>
+	<section id="image">
+		<div class="container">
+			<div class="box-image">
+				<div class="block-image">
+					<img src="src/img/image/1.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/2.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/3.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/4.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/5.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/6.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/7.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/8.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/9.png" alt="">
+				</div>
+				<div class="block-image">
+					<img src="src/img/image/10.png" alt="">
+				</div>
+			</div>
+			<div class="box-image">
 				<div class="block-image">
 					<img src="src/img/image/11.png" alt="">
 				</div>
@@ -637,10 +679,10 @@
 					<img src="src/img/image/20.png" alt="">
 				</div>
 				<div class="block-image">
-						<img src="src/img/image/21.png" alt="">
-					</div>
-		</div>
-		<div class="box-image">
+					<img src="src/img/image/21.png" alt="">
+				</div>
+			</div>
+			<div class="box-image">
 				<div class="block-image">
 					<img src="src/img/image/22.png" alt="">
 				</div>
@@ -671,98 +713,101 @@
 				<div class="block-image">
 					<img src="src/img/image/31.png" alt="">
 				</div>
-		</div>
-	</div>
-</section>
-<footer id="footer">
-	<div class="container">
-		<div class="box-form">
-			<div class="form-text">
-				<p>Приглашаем в гости, просто попить чай/кофе и посмотреть пространство!</p>
-			</div>
-			<form id="form" action="">
-				<input type="text" placeholder="Имя">
-				<input type="text" placeholder="Дата">
-				<input type="phone" placeholder="+7(___)___-__-__">
-				<button class="btn" type="submit">Отправить</button>
-			</form>
-		</div>
-	</div>
-	<div class="box-map">
-		<div class="block-map">
-			<!-- <iframe style="pointer-events: none;"
-				src="https://yandex.ua/map-widget/v1/?um=constructor%3A31033ed99faadd2abfa7a0b793a16de9618ce09a6f3b8f8db7c52956f916a01f&amp;source=constructor"
-				width="100%" height="525" scrolling="no" frameborder="0"></iframe> -->
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A31033ed99faadd2abfa7a0b793a16de9618ce09a6f3b8f8db7c52956f916a01f&amp;width=100%25&amp;height=525&amp;lang=ru_UA&amp;scroll=false"></script>
-		</div>
-		<div class="block-text">
-			<div class="block-text__title">
-				<span>Москва, ул. Шаболовка, 31Г</span><br>
-				<p>EXPOSED SPACE (ООО “МАБ”)</p>
-			</div>
-			<div class="block-text__link">
-				<div class="link">
-					<img class="m10" src="src/img/smartphone-call_(1).svg" alt="">
-					<a href="tel:+7(495)952-08-91">+7(495)952-08-91</a>
-				</div>
-				<div class="link m45">
-					<img class="m5" src="src/img/envelope-of-white-paper.svg" alt="">
-					<a href="email:denis@exposed.ru">denis@exposed.ru</a>
-				</div>
-			</div>
-			<div class="link arrow">
-				<img class="m10" src="src/img/smartphone-call_(1).svg" alt="">
-				<a href="+7(968)514-51-51 ">+7(968)514-51-51 <span></span> Денис</a>
 			</div>
 		</div>
-	</div>
-	<div class="container">
-		<div class="box-footer">
-			<div class="block-one">
-				<div class="block-one__title">
-					<p>Спасибо</p>
+	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="box-form">
+				<div class="form-text">
+					<p>Приглашаем в гости, просто попить чай/кофе и посмотреть пространство!</p>
 				</div>
-				<div class="block-one__img">
-					<img src="src/img/logg.png" alt="">
-				</div>
-				<div class="block-one__descr">
-					<p>ЛУЧШЕЕ АРТ-ПРОСТРАНСТВО</p>
-					<span>LIVE VENUES AWARDS</span>
-				</div>
-			</div>
-			<div class="block-two">
-				<div class="block-two__title">
-					<p>Получите быстрый расчет</p>
-				</div>
-				<div class="block-two__descr">
-					<p>Можем быстро обсудить по телефону – цена за 3 минуты!</p>
-				</div>
-				<form class="form-two" action="">
-					<div class="block-inputs">
-						<input type="text " placeholder="Кол-во гостей">
-						<input type="text" placeholder="Площадь">
-						<input type="text" placeholder="Дата">
-						<input type="text" placeholder="Время">
-						<input type="text" placeholder="Демонтаж? ">
-						<input type="text" placeholder="Формат">
-						<input type="text" placeholder="Кейтеринг?">
-					</div>
-					<button class="btn" type="submit">РАСЧИТАТЬ</button>
+				<form id="form"  name="my-form">
+					<input type="text" placeholder="Имя" required>
+					<input required type="text" placeholder="Дата" onfocus="(this.type='date')" />
+					<input  class="phone_mask" type="phone" placeholder="+7(___)___-__-__" required>
+					<button class="btn" type="submit">Отправить</button>
 				</form>
 			</div>
 		</div>
-	</div>
-	<div class="footer">
-		<div class="container">
-			<div class="box-footer__bottom">
-				<p>EXPOSEDSPACE.COM 2019</p>
-				<img src="src/img/c.png" alt="">
+		<div class="box-map">
+			<div class="block-map">
+				<!-- <iframe style="pointer-events: none;"
+				src="https://yandex.ua/map-widget/v1/?um=constructor%3A31033ed99faadd2abfa7a0b793a16de9618ce09a6f3b8f8db7c52956f916a01f&amp;source=constructor"
+				width="100%" height="525" scrolling="no" frameborder="0"></iframe> -->
+				<script type="text/javascript" charset="utf-8" async
+					src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A31033ed99faadd2abfa7a0b793a16de9618ce09a6f3b8f8db7c52956f916a01f&amp;width=100%25&amp;height=525&amp;lang=ru_UA&amp;scroll=false">
+				</script>
+			</div>
+			<div class="block-text">
+				<div class="block-text__title">
+					<span>Москва, ул. Шаболовка, 31Г</span><br>
+					<p>EXPOSED SPACE (ООО “МАБ”)</p>
+				</div>
+				<div class="block-text__link">
+					<div class="link">
+						<img class="m10" src="src/img/smartphone-call_(1).svg" alt="">
+						<a href="tel:+7(495)952-08-91">+7(495)952-08-91</a>
+					</div>
+					<div class="link m45">
+						<img class="m5" src="src/img/envelope-of-white-paper.svg" alt="">
+						<a href="email:denis@exposed.ru">denis@exposed.ru</a>
+					</div>
+				</div>
+				<div class="link arrow">
+					<img class="m10" src="src/img/smartphone-call_(1).svg" alt="">
+					<a href="+7(968)514-51-51 ">+7(968)514-51-51 <span></span> Денис</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</footer>
+		<div class="container">
+			<div class="box-footer">
+				<div class="block-one">
+					<div class="block-one__title">
+						<p>Спасибо</p>
+					</div>
+					<div class="block-one__img">
+						<img src="src/img/logg.png" alt="">
+					</div>
+					<div class="block-one__descr">
+						<p>ЛУЧШЕЕ АРТ-ПРОСТРАНСТВО</p>
+						<span>LIVE VENUES AWARDS</span>
+					</div>
+				</div>
+				<div class="block-for">
+					<div class="block-for__title">
+						<p>Получите быстрый расчет</p>
+					</div>
+					<div class="block-for__descr">
+						<p>Можем быстро обсудить по телефону – цена за 3 минуты!</p>
+					</div>
+					<form class="form-two" action="">
+						<div class="block-inputs">
+							<input type="number" placeholder="Кол-во гостей" required>
+							<input type="text" placeholder="Площадь" required>
+							<input required type="text" placeholder="Дата" onfocus="(this.type='date')" />
+							<input required type="text" placeholder="Время" onfocus="(this.type='time')" />
+							<input type="text" placeholder="Демонтаж? " required>
+							<input type="text" placeholder="Формат" required>
+							<input type="text" placeholder="Кейтеринг?" required>
+						</div>
+						<button class="btn" type="submit">РАСЧИТАТЬ</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="box-footer__bottom">
+					<p>EXPOSEDSPACE.COM 2019</p>
+					<img src="src/img/c.png" alt="">
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="src/js/jquery.min.js"></script>
 	<script src="src/js/slick.min.js"></script>
+	<script src="src/js/mask.js"></script>
 	<script src="src/js/script.js">
 	</script>
 	<script src="src/js/common.js"></script>

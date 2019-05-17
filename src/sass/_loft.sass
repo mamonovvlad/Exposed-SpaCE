@@ -1,66 +1,94 @@
 #loft
    margin-top: 50px
-   & .box-loft
-      display: flex
-      & .block-one
-         position: relative
-         max-width: 1440px
-         max-height: 985px
-         & img
-            width: 92%
-         & p
-            position: absolute
-            color: #333333
-            font-family: 'Roboto', sans-serif
-            font-size: 28px
-            font-weight: 500
-            letter-spacing: 1.8px
-            right: -190px
-            top: 210px
-            transform: rotate(-90deg)
-         & .loft-fig
-            background: url(../../img/loft-fig.png) center no-repeat
-            position: absolute
-            width: 168px
-            height: 210px
-            bottom: 5px
-            right: 1%
-      & .click
-         position: absolute
-         bottom: 210px
-         right: 30px
-         & p
-            transform: rotate(-0deg)
-            color: #333333
-            font-size: 16px
-            font-weight: 400
-            text-decoration: underline
-            font-family: 'Roboto', sans-serif
-            letter-spacing: 0.8px
-            right: 0
-            top: -50px
+   .container
+      margin: 0 auto
+      max-width: 1200px
+      width: 100%
+      overflow: hidden
+      .box-loft
+         display: flex
+         .block-one
+            width: 75%
+            flex-grow: 1
+            min-height: 864px
+            background-image: url('../../img/loft.png')
+            background-repeat: no-repeat
+            background-position: right center
+            position: relative
+         
+           
 
-   & .block-two
-      display: none
-      padding: 0 20px
-      transition: .3s
-      & .block-two-item
-         display: block
-      & .loft-items
-         padding-left: 15px
-         & li
-            list-style-type: circle
+
+
+
+         .block-two-main
+            display: block
+            
+            height: 868px
+            position: relative
+            flex-shrink: 26
+            .block-one-overlay
+               
+               
+         
+               display: flex
+               flex-direction: column
+               justify-content: center
+               align-items: center           
+               background-color: #fff
+                
               
-            & .block-two-img
+
+
+               .block-one-overlay-img
+                  background-image: url('../../img/loft_full_text.png')
+                  background-repeat: no-repeat
+                  width: 30px
+                  height: 448px
+                  position: relative
+                  top: 35px
+                  left: 0px
+
+               .block-one-overlay-click
+                  margin-top: 110px
+                  margin-bottom: 11px
+                  cursor: pointer
+                  text-decoration: underline
+                  position: relative
+                  right: 30px
+
+               .block-one-overlay-add ,
+               .block-one-overlay-loft-fig
+                  display: block
+
+               .block-one-overlay-loft-fig 
+                  position: relative
+                  right: 50%  
+
+               .block-one-overlay-add
+                  margin: 15px   
+
+
+            .block-two
                display: block
-               width: 30% 
-               position: relative
-               right: -116px
-               top: 15px  
-#loft .box-loft .block-one .activ
-   right: -156px
-   top: 155px
-   font-size: 20px
+               background: #fff
+               padding: 0 30px
+               height: 868px
+             
+
+
+               .block-two-wrapper
+                     .block-two-title
+                        display: inline-block
+                        font-size: 30px
+                        margin: 14px 0 0 0
+                     .block-two-item
+                        display: block
+                        margin: 5px 0 
+
+                     .block-two-title-fst
+                        font-size: 30px
+                        margin-top: 10px
 
 
                
