@@ -1209,8 +1209,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     background: url(../../img/diagram.png);
     width: 70px;
     height: 205px;
-    right: 42px;
-    top: 45px; }
+    top: 45px;
+    right: 50%;
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg); }
   #footer .box-map .m10 {
     margin-right: 10px;
     margin-left: 3px; }
