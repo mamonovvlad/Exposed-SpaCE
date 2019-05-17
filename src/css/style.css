@@ -167,6 +167,7 @@ body {
   margin-top: 20px; }
 
 #form-btn {
+  cursor: pointer;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -384,7 +385,8 @@ main .section-main {
     font-weight: 300;
     letter-spacing: 0.9px;
     -webkit-transition: 500ms ease;
-    transition: 500ms ease; }
+    transition: 500ms ease;
+    cursor: pointer; }
     .section_form .box-form .btn:hover {
       -webkit-transition: 500ms ease;
       transition: 500ms ease;
@@ -611,7 +613,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       align-items: center;
       margin-right: 35%; }
       .section-3 .container .background-styles .background-styles-figure p {
-        color: #fff; }
+        color: #fff;
+        cursor: pointer; }
+      .section-3 .container .background-styles .background-styles-figure img {
+        cursor: pointer; }
       .section-3 .container .background-styles .background-styles-figure .plus_icon {
         margin: 20px 0;
         position: relative;
@@ -645,7 +650,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
         color: #333333;
         font-family: Roboto;
         font-size: 48px;
-        font-weight: 700; }
+        font-weight: 700;
+        line-height: 80px; }
     .section-3 .container .our_styles_items .our_styles-description {
       color: #333333;
       font-family: Roboto;
@@ -859,6 +865,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
           -ms-flex-align: center;
           align-items: center;
           background-color: #fff; }
+          #loft .container .box-loft .block-two-main .block-one-overlay p,
+          #loft .container .box-loft .block-two-main .block-one-overlay img {
+            cursor: pointer; }
           #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-img {
             background-image: url("../../img/loft_full_text.png");
             background-repeat: no-repeat;
@@ -1140,7 +1149,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
   border: 1px solid #626262;
-  outline: none; }
+  outline: none;
+  cursor: pointer; }
   #footer .btn:hover {
     -webkit-transition: 500ms ease;
     transition: 500ms ease;
