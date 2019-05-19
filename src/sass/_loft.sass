@@ -43,15 +43,15 @@
               
 
 
-               .block-one-overlay-img
-                  background-image: url('../../img/loft_full_text.png')
-                  background-repeat: no-repeat
-                  width: 30px
-                  height: 448px
-                  position: relative
-                  top: 35px
-                  left: 0px
-
+               
+               .block-one-overlay-text
+                  position: absolute
+                  top: 200px
+                  bottom: 0
+                  & p
+                     transform: rotate(-90deg)
+                     width: max-content
+                     font-size: 30px
                .block-one-overlay-click
                   margin-top: 110px
                   margin-bottom: 11px
@@ -92,6 +92,7 @@
                      .block-two-title-fst
                         font-size: 30px
                         margin-top: 10px
-
-
-               
+#loft .container .box-loft .block-two-main .block-one-overlay 
+   justify-content: flex-end
+   height: 100%
+   position: relative
