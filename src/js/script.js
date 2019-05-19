@@ -33,21 +33,6 @@ $(".modal-description:after").on("click" , function () {
 
 })
 
-// $(".click").click(function (e) {
-// 	e.preventDefault();
-// 	$(".block-two").toggleClass('d-b');
-// 	$("#loft .box-loft .block-one .loft").toggleClass('activ')
-// 	$(".block-two").css({'transition' : '500ms ease'});
-// 	$(".click").css({'transition' : '500ms ease'});
-	
-// })
-// $("#loft .box-loft .click p").click(function () {
-// 	$(".block-two").toggleClass('d-b');
-// 	$("#loft .box-loft .block-one .loft").toggleClass('activ')
-// 	$(".block-two").css({'transition' : '500ms ease'});
-// 	$(".click_p").css({'transition' : '500ms ease'});
-
-// })
 $(".block-one-overlay-click").click(function () {
 	$(".block-one-overlay").fadeOut();
 	$(".block-two").fadeIn();
@@ -122,14 +107,13 @@ function getWindowWidth() {
 	autoplaySpeed: 3000
  });
 
- $("#btn-click").click(function (e) {
+ $(".cl").click(function (e) {
 	e.preventDefault();
 	$(".shadow").fadeIn('');
 	$(".wrapper").fadeIn('');
 })
-$("#form-bn").click(function (e) {
+$("#form-btn").click(function (e) {
 	e.preventDefault();
-	$(".shadow").fadeOut('');
 	$(".wrapper").fadeOut('');
 })
 $(".shadow").click(function (e) {
@@ -139,5 +123,23 @@ $(".shadow").click(function (e) {
 })
 
 $(".phone_mask").mask("+7(999)999-99-99");
+
+
+// $(".btn").click(function (e) {
+// 	e.preventDefault();
+// 	$(".shadow").fadeIn('');
+// 	$(".window").fadeIn('');
+// })
+$(".shadow").click(function (e) {
+	e.preventDefault();
+	$(this).fadeOut('');
+	$(".window").fadeOut('');
+})
+$(".close").click(function (e) {
+	e.preventDefault();
+	$('.shadow').fadeOut('');
+	$(".window").fadeOut('');
+})
+
 
 })

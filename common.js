@@ -1,29 +1,19 @@
-$(document).ready(function () {
-	$("#form").submit(function () {
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("form").submit(function() { //Change
+		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php",
-			data: $(this).serialize()
-		}).done(function () {
-			$('.wrapper').addClass('top');
-			$('.wrapper').css({
-				'transition': '.5s'
-			});
-			$('.shadow').fadeIn();
-			$('.close').on('click', function (e) {
-				e.preventDefault();
-				$('.wrapper').removeClass('top');
-				$('.wrapper').css({
-					'transition': '1s'
-				});
-				$('.shadow').fadeOut();
-			});
-			$('.shadow').on('click', function (e) {
-				e.preventDefault();
-				$('.wrapper').removeClass('top');
-				$('.shadow').fadeOut();
-			});
-			$("#form").trigger("reset");
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			$(".shadow").fadeIn('');
+			$(".window").fadeIn('');
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
 		});
 		return false;
 	});

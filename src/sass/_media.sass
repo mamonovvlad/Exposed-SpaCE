@@ -37,7 +37,10 @@
    #footer .box-footer .block-one 
       width: 40%
       padding-left: 20px
-
+   #footer .box-map .arrow:before 
+      top: 31px
+      right: 38%
+   
 
 
 
@@ -48,6 +51,24 @@
    .pc .slider-nav .portfolio-item
 	   background-size: 100%
    /*header */
+   main .section-main .container .main-title h1 
+      font-size: 40px
+      margin: 20px 0 10px
+   main .section-main .container .main-title h2 
+      margin-bottom: 30px
+      font-size: 20px
+   main .section-main .container .main-title p 
+      font-size: 18px
+      margin-bottom: 20px
+   main .section-main .container .main-title button 
+      padding: 14px 60px
+      margin-top: 25px
+      font-size: 16px
+      margin-bottom: 25px
+   main .section-main .container .main-title 
+      margin-left: 30px
+   .section-portfolio .portfolios .portfolio-item 
+      margin: 0px 5px
    .flex
       height: 40px
       display: flex
@@ -80,17 +101,12 @@
       top: -29px
       left: 14px
    .section-portfolio .stage-title
-      margin: 0 0 0 0 
-
-   .portfolio-item
-      height: 210px       
+      margin: 0 0 0 0       
    .section-portfolio .portfolio-block .portfolio-title 
       font-size: 30px
    .section-portfolio .stage-title 
       font-size: 25px
-      margin: 10px 0 10px 10px
-   .section-portfolio .portfolios .portfolio-item-middle 
-      height: 220px
+      margin: 5px 0 5px 12px
    .section-portfolio 
       position: relative
    .section-3 .container .background-styles 
@@ -102,17 +118,8 @@
    main .section-main .container .menu-items .menu-item 
       padding: 0px 0
    main .section-main .container .menu-items 
-      margin: 0 0 0 8%
-
-   /*loft*/
-   // #loft .box-loft .block-one:after 
-   //    background: url(../img/loft-fig.png) center no-repeat
-   //    position: absolute
-   //    width: 100px
-   //    height: 210px
-   //    bottom: 5px
-   //    right: 1%
-   //    background-size: 100%
+      margin-left: 0px
+      /*loft*/
    #loft .box-loft .block-one p 
       font-size: 16px
       right: -100px
@@ -195,9 +202,19 @@
       padding-left: 15px
    #footer .box-map .arrow:before
       height: 190px
-  
+   .blocks-text 
+      width: 47%
+   .section-portfolio .portfolios .portfolio-item-middle ,
+   .section-portfolio .portfolios .portfolio-item 
+      height: 160px
+   .section-portfolio .pc .slider-for .slick-active 
+      height: 250px!important
+
+
 
 @media screen and (max-width: 768px)
+   .section-2 .section-2-wrapper
+      flex-direction: column
    .section-2 .slick-next:before 
 	   display: block
    #mob
@@ -220,6 +237,7 @@
    .section-portfolio .portfolios .portfolio-item 
       max-width: 330px
       width: 100%
+      margin: 5px 0
    .header 
       padding: 10px 0
    .burger-menu
@@ -281,15 +299,15 @@
       padding: 15px 15px
    #footer .box-form #form input 
       padding: 15px 15px
-   #footer .box-map .arrow:before
-         content: ''
-         position: absolute
-         display: block
-         background: url(../../img/diagram-mob.png) center no-repeat
-         width: 20px
-         height: 58px
-         right: 35px
-         top: 45px
+   #footer .box-map .arrow:before 
+      content: ''
+      position: absolute
+      display: block
+      background: url(../../img/diagram-mob.png) center no-repeat
+      width: 20px
+      height: 58px
+      right: 90px
+      top: 30px
    .section_form .box-form .form-text p, #footer .box-form .form-text p 
       font-size: 16px
       margin-bottom: 20px
@@ -312,11 +330,12 @@
    #details .block-detalies__one
       background: url(../../img/detal-ma.png) bottom no-repeat
    #details .block-detalies__two 
+
       height: 800px
       width: 50%
       padding: 10px 5px 0px 20px
       display: flex
-      justify-content: center
+      justify-content: end
    #details .figure p 
       padding: 50px 0 0px 0
    #details .block-detalies__one img 
@@ -356,7 +375,6 @@
       justify-content: center
       align-items: baseline
       flex-direction: column
-      margin-left: 13%
       height: 100%
    .section-main .container
       height: 450px
@@ -389,9 +407,12 @@
       font-size: 14px
    .section-main .container .main-title h2 
       padding: 10px 0 5px 0
-   @media screen and (max-width: 768px) 
-      #loft .container .box-loft .block-one
-         background-position: -568px center
+
+   .block-two-wrapper .loft-items
+      padding: 0
+
+   #loft .container .box-loft .block-one
+      background-position: -568px center
 
    // #loft .box-loft .block-one:after 
    //    position: absolute
@@ -467,15 +488,39 @@
    .description-item img
       width: 120px
    .section-2 .container .description-items
-      padding: 0px
+      align-items: end
+      padding: 5px 0 0 10px
+   .blocks
+      display: none
+   #loft .container .box-loft .block-two-main .block-one-overlay 
+      width: 120px
    .section-2 .container .description-items .description-item
       font-size: 10px
       line-height: 16px
       margin: 0 5px
    .section-2 .container .section-2-wrapper h3 
-      margin-left: 15px
+      margin-left: 0
       font-size: 28px
       line-height: 40px
+      text-align: center
+      margin: 20px 0px
+      padding: 0
+   .section-2 .event-formats
+      width: 100%
+   .section-2 .slick-next 
+      top: 145px
+      right: 50px
+      left: auto
+   .description-item p 
+      margin: 10px 0
+   .pd
+      padding: 0
+   .description-item 
+      flex-direction: column
+   .description-box_two 
+      flex-direction: column
+   .description-box_two .description-item p 
+      padding: 0 0
    .section-2 .container 
       min-height: 550px
    .section-2 .container .description-items .description-item[data-description='2'] p 
@@ -503,9 +548,7 @@
 @media screen and (max-width: 425px)
    .section-2 .event-formats 
       width: 55%
-   .section-2 .container .section-2-wrapper h3 
-      font-size: 16px
-      padding-top: 20px
+
    .events-items-left 
       padding: 0
    .section-2 .container .section-2-wrapper .event-formats .title-actual-event 
@@ -551,5 +594,4 @@
    .section-2 .slick-next 
       top: 160px
       left: 16px
-   .section-2 .container .section-2-wrapper h3 
-      margin-left: 5px
+
