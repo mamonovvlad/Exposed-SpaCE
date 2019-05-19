@@ -1787,12 +1787,12 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     width: 30%;
     margin-left: 10px; }
   /* section-1 */
-  .main-title h1 {
-    font-size: 30px !important; }
-  .main-title h2 {
-    font-size: 18px !important; }
-  .main-title p {
-    font-size: 16px !important; }
+  main .section-main .container .main-title h1 {
+    font-size: 30px; }
+  main .section-main .container .main-title h2 {
+    font-size: 18px; }
+  main .section-main .container .main-title p {
+    font-size: 16px; }
   main .section-main .container .main-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1969,8 +1969,43 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     background-position: -806px center; } }
 
 @media screen and (max-width: 425px) {
-  .section-2 .event-formats {
-    width: 55%; }
+  #footer .box-map .arrow:before {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  main .section-main .container .main-title h1 {
+    font-size: 20px; }
+  .main-title h1 {
+    font-size: 20px;
+    text-align: center; }
+  main .section-main .container .main-title h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px; }
+  .container .main-title p {
+    font-size: 15px;
+    text-align: center; }
+  main .section-main .container .main-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 5px; }
+  main .section-main .container .menu-items .menu-item {
+    margin-left: 0; }
+  .container .main-title {
+    text-align: center; }
+  .section-3 .container .background-styles .background-styles-modal {
+    padding: 30px; }
+  .section-portfolio .portfolio-block .portfolio-title {
+    font-size: 20px; }
+  #details .block-detalies__one,
+  #details .block-detalies__two {
+    width: 60%; }
+  #details .block-detalies__one, #details .block-detalies__one {
+    width: 40%; }
+  .section-3 .container .background-styles .background-styles-modal .modal-description:after {
+    right: -30px;
+    top: -30px; }
   .events-items-left {
     padding: 0; }
   .section-2 .container .section-2-wrapper .event-formats .title-actual-event {
