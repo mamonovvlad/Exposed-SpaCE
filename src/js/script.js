@@ -13,7 +13,7 @@ $(document).ready(function()
 }
 
 scrollTop('.arrow-down','.section-2');	
-scrollTop('.arrow-downs','.areas');
+scrollTop('.map__title','.areas');
 
 $(".burger-menu").on("click" , function () {
 	$(".mobile-menu-items").toggleClass('mobile-menu-item-active');

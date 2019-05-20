@@ -1,51 +1,56 @@
 .areas
-   margin: 0 auto
-   width: 90%
+   width: 100%
+   padding: 50px 0
    .container
       display: flex
       align-items: start
       justify-content: space-between
-      .areas__scheme
-         background: url('../../img/scheme.png') no-repeat top
-         background-size: 100%
-         min-height: 830px
-         flex-basis: 70%
-         .areas__scheme-wrapper
-            
-            display: flex
-            justify-content: space-between
-            width: 43%
-            position: relative
-            top: 429px
-            left: -80px
-            .areas__scheme-text
-               text-align: right
-               white-space: nowrap
-               position: absolute
-               left: 165px
+      .areas__scheme-wrapper
+         
+         display: flex
+         justify-content: space-between
+         width: 43%
+         position: relative
+         top: -175px
+         left: 0
+         .areas__scheme-text
+            text-align: right
+            white-space: nowrap
+            position: absolute
+            left: 165px
 
 
-            .areas__scheme-title
-               white-space: nowrap
-               color: #000000
-               font-family: "Roboto - Black" , sans-serif
-               font-size: 24px
-               font-weight: bold
+         .areas__scheme-title
+            white-space: nowrap
+            color: #000000
+            font-family: "Roboto - Black" , sans-serif
+            font-size: 24px
+            font-weight: bold
 
 
 
       .areas__description
-         flex-basis: 19%
+         width: 20%
          .areas__description-wrapper
 
             .areas__description-title
                font-family: "Roboto - Bold" , sans-serif
-               font-size: 18px
+               font-size: 16px
                font-weight: 700
-               margin-bottom: 15px  
             .areas__description-text
-               margin: 15px 0
+               margin: 10px 0
+               font-size: 14px
                span
                   display: block
                   line-height: 21px
+.areas__scheme
+   width: 80%
+   
+   & img
+      width: 100%
+      height: 100%
+
+
+
+
 

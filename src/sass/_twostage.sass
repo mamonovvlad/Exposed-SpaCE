@@ -8,23 +8,38 @@
 		background: url('../../img/stag.png') center
 		min-height: 900px
 		background-size: cover
-		.two_stage-title
-			font-size: 50px
+		.two_stage-title 
+			font-size: 48px
+			font-weight: 700
+			letter-spacing: 2.4px
 			padding: 50px 0
+			font-family: "Roboto - Bold", sans-serif
 		.two_stage-wrapper
 			display: flex
 			.two_stage-wrapper-description
+				padding: 60px
+				width: 50%
 				p
+					font-family: "Roboto - Regular", sans-serif
 					color: #090909
-					font-family: Roboto
 					font-size: 16px
 					font-weight: 400
+					letter-spacing: 0.8px
+					
 			.wrap-map-text
 				display: flex
 				justify-content: space-evenly
+				& p
+					font-size: 16px
+					font-weight: 400
+					letter-spacing: 0.8px
+					font-family: "Roboto - Regular",sans-serif
+					font-weight: 400
+
 
 
 			.two_stage-wrapper-map
+				width: 50%
 				.two_stage-wrapper-map p
 					display: flex
 					outline: 3px solid red
@@ -47,15 +62,17 @@
 				font-size: 18px
 				margin: 10px 0
 
-			.arrow-downs
+			.map__title
 				cursor: pointer
 				position: relative	
 				animation: scrollDown 1s ease infinite	
 				color: #333333
-				font-family: 'Roboto', sans-serif
-				font-size: 30px
+				font-size: 40px
 				font-weight: 700
 				line-height: 48px
 				letter-spacing: 2.4px
-
-				
+.wrap-map-img
+	& img 
+		width: 100%
+.marg
+	margin-bottom: 40px

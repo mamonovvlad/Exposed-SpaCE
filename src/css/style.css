@@ -453,8 +453,8 @@ main .section-main {
       height: 57px; }
 
 .areas {
-  margin: 0 auto;
-  width: 90%; }
+  width: 100%;
+  padding: 50px 0; }
   .areas .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -465,47 +465,46 @@ main .section-main {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-    .areas .container .areas__scheme {
-      background: url("../../img/scheme.png") no-repeat top;
-      background-size: 100%;
-      min-height: 830px;
-      -ms-flex-preferred-size: 70%;
-      flex-basis: 70%; }
-      .areas .container .areas__scheme .areas__scheme-wrapper {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        width: 43%;
-        position: relative;
-        top: 429px;
-        left: -80px; }
-        .areas .container .areas__scheme .areas__scheme-wrapper .areas__scheme-text {
-          text-align: right;
-          white-space: nowrap;
-          position: absolute;
-          left: 165px; }
-        .areas .container .areas__scheme .areas__scheme-wrapper .areas__scheme-title {
-          white-space: nowrap;
-          color: #000000;
-          font-family: "Roboto - Black" , sans-serif;
-          font-size: 24px;
-          font-weight: bold; }
+    .areas .container .areas__scheme-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 43%;
+      position: relative;
+      top: -175px;
+      left: 0; }
+      .areas .container .areas__scheme-wrapper .areas__scheme-text {
+        text-align: right;
+        white-space: nowrap;
+        position: absolute;
+        left: 165px; }
+      .areas .container .areas__scheme-wrapper .areas__scheme-title {
+        white-space: nowrap;
+        color: #000000;
+        font-family: "Roboto - Black" , sans-serif;
+        font-size: 24px;
+        font-weight: bold; }
     .areas .container .areas__description {
-      -ms-flex-preferred-size: 19%;
-      flex-basis: 19%; }
+      width: 20%; }
       .areas .container .areas__description .areas__description-wrapper .areas__description-title {
         font-family: "Roboto - Bold" , sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        margin-bottom: 15px; }
+        font-size: 16px;
+        font-weight: 700; }
       .areas .container .areas__description .areas__description-wrapper .areas__description-text {
-        margin: 15px 0; }
+        margin: 10px 0;
+        font-size: 14px; }
         .areas .container .areas__description .areas__description-wrapper .areas__description-text span {
           display: block;
           line-height: 21px; }
+
+.areas__scheme {
+  width: 80%; }
+  .areas__scheme img {
+    width: 100%;
+    height: 100%; }
 
 .spaces {
   background: url("../../img/page-2-paints.png") no-repeat -10px;
@@ -618,17 +617,24 @@ main .section-main {
     min-height: 900px;
     background-size: cover; }
     .two_stage .container .two_stage-title {
-      font-size: 50px;
-      padding: 50px 0; }
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: 2.4px;
+      padding: 50px 0;
+      font-family: "Roboto - Bold", sans-serif; }
     .two_stage .container .two_stage-wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      .two_stage .container .two_stage-wrapper .two_stage-wrapper-description p {
-        color: #090909;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400; }
+      .two_stage .container .two_stage-wrapper .two_stage-wrapper-description {
+        padding: 60px;
+        width: 50%; }
+        .two_stage .container .two_stage-wrapper .two_stage-wrapper-description p {
+          font-family: "Roboto - Regular", sans-serif;
+          color: #090909;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.8px; }
       .two_stage .container .two_stage-wrapper .wrap-map-text {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -636,11 +642,19 @@ main .section-main {
         -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
         justify-content: space-evenly; }
-      .two_stage .container .two_stage-wrapper .two_stage-wrapper-map .two_stage-wrapper-map p {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        outline: 3px solid red; }
+        .two_stage .container .two_stage-wrapper .wrap-map-text p {
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.8px;
+          font-family: "Roboto - Regular",sans-serif;
+          font-weight: 400; }
+      .two_stage .container .two_stage-wrapper .two_stage-wrapper-map {
+        width: 50%; }
+        .two_stage .container .two_stage-wrapper .two_stage-wrapper-map .two_stage-wrapper-map p {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          outline: 3px solid red; }
     .two_stage .container .stage-2-wrap {
       text-align: center;
       float: left;
@@ -657,17 +671,22 @@ main .section-main {
       .two_stage .container .stage-2-wrap p {
         font-size: 18px;
         margin: 10px 0; }
-      .two_stage .container .stage-2-wrap .arrow-downs {
+      .two_stage .container .stage-2-wrap .map__title {
         cursor: pointer;
         position: relative;
         -webkit-animation: scrollDown 1s ease infinite;
         animation: scrollDown 1s ease infinite;
         color: #333333;
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         line-height: 48px;
         letter-spacing: 2.4px; }
+
+.wrap-map-img img {
+  width: 100%; }
+
+.marg {
+  margin-bottom: 40px; }
 
 .section-2 .container {
   max-width: 1920px;
