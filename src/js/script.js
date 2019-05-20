@@ -142,4 +142,20 @@ $(".close").click(function (e) {
 })
 
 
+$("#down").click(function (e) {
+	e.preventDefault();
+	$(".shadow").fadeIn('');
+	$(".download").fadeIn('');
+})
+$("#form-btn").click(function (e) {
+	e.preventDefault();
+	$(".download").fadeOut('');
+})
+$(".shadow").click(function (e) {
+	e.preventDefault();
+	$(".shadow").fadeOut('');
+	$(".download").fadeOut('');
+})
+
+
 })

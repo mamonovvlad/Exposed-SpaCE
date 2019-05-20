@@ -49,6 +49,31 @@
 
 		</div>
 	</div>
+	<div class="wrapper download">
+			<div class="box-wrapper">
+				<div class="box-wrapper__title">
+					<p>
+						В ближайшее время вам придет на почту план-схема  
+					</p>
+				</div>
+				<form action="">
+						<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="EXPOSED SPACE">
+					<input type="hidden" name="admin_email" value="vlad.dn.96@gmail.com">
+					<input type="hidden" name="form_subject" value="Первая форма 'Цены' ">
+						<!-- END Hidden Required Fields -->
+					<div class="form-row">
+						<input type="name" name="Имя*" placeholder="Имя*" required>
+						<input type="email" name="E-mail*" placeholder="E-mail*" required>
+						<input type="phone" name="Тел.*" class="phone_mask" placeholder="Тел.*" required>
+					</div>
+					<div class="form-bn">
+						<button id="form-btn" class="btn" type="submit">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+	
+			</div>
+		</div>
 	<div class="shadow"></div>
 	<header class="header">
 		<div class="container">
@@ -678,7 +703,7 @@
 					</form>
 					<div class="block-dn">
 						<div class="down">
-							<a href="src/img/details.png" download>
+							<a id="down" href="src/img/details.png">
 								<span>Хотите план-схему?</span>
 								<img src="src/img/right-arrow_копия.svg" alt="">
 							</a>
