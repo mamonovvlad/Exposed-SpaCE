@@ -515,6 +515,30 @@ main .section-main {
     width: 100%;
     height: 100%; }
 
+.conc .areas .container .areas__description {
+  width: 30%;
+  margin-right: 10px; }
+
+.conc .areas__scheme {
+  width: 80%; }
+
+.conc .areas__description-wrapper {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.conc .areas__grren {
+  -webkit-box-shadow: 10px 10px #90f39a;
+  box-shadow: 10px 10px #90f39a;
+  background-color: #19d819;
+  color: #fff; }
+
+.conc .areas__blue {
+  -webkit-box-shadow: 10px 10px #76b0f3;
+  box-shadow: 10px 10px #76b0f3;
+  background-color: #2981e5;
+  color: #fff; }
+
 .spaces {
   background: url("../../img/page-2-paints.png") no-repeat -10px;
   min-height: 870px;
@@ -1242,6 +1266,30 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 
 .conc .section-3 .container .background-styles .background-styles-figure p {
   color: #f551ff; }
+
+.conc .section-3 .container .background-styles .background-styles-figure {
+  margin-right: 65%; }
+
+.conc .section-3 .container .our_styles_items .our_styles-description {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.conc .section-3 .container .our_styles_items {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+
+.conc .our_styles-description p {
+  color: #333333;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  margin: 0 15px; }
 
 #details .box-detalies {
   display: -webkit-box;
