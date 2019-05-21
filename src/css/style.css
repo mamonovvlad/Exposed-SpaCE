@@ -545,6 +545,16 @@ main .section-main {
   left: 60px;
   top: 5px; }
 
+.conc .areas .container .areas__scheme-wrapper {
+  top: -178px;
+  left: 110px; }
+
+.conc .two_stage .container .stage-2-wrap {
+  text-align: right; }
+
+.conc .two_stage .container .stage-2-wrap p {
+  margin: 20px 0; }
+
 .spaces {
   background: url("../../img/page-2-paints.png") no-repeat -10px;
   min-height: 870px;
@@ -1761,6 +1771,11 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 36px; }
   .areas .container .areas__scheme-wrapper {
     top: -80px; }
+  .conc .areas .container .areas__description {
+    width: 22%; }
+  .conc .areas .container .areas__scheme-wrapper {
+    top: -141px;
+    left: 65px; }
   /*S3*/
   .pc .slider-for .portfolio-item {
     background-size: 50%; }
@@ -1804,9 +1819,18 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 38%; } }
 
 @media screen and (max-width: 1024px) {
+  .conc .areas .container .areas__description {
+    width: 31%; }
+  .conc .areas .container .areas__scheme-wrapper {
+    top: 0px;
+    left: 90px; }
   .areas .container .areas__scheme-wrapper {
     top: 30px;
     left: 50px; }
+  .conc .our_styles-description p {
+    margin: 0 8px; }
+  .section-3 .container .our_styles_items .our_styles-title h4 {
+    font-size: 40px; }
   .pc .slider-for .portfolio-item {
     background-size: 50%; }
   .pc .slider-nav .portfolio-item {
@@ -1975,6 +1999,18 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .conc .areas .container .areas__description {
+    width: 100%; }
+  .conc .two_stage .container .stage-2-wrap {
+    text-align: center; }
+  .conc .section-3 .container .our_styles_items .our_styles-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end; }
   .section-2 .section-2-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
