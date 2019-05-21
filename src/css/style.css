@@ -209,6 +209,9 @@ body {
   text-align: center;
   margin-bottom: 12px; }
 
+.conc #form-btn {
+  background-color: #e40be4; }
+
 .mobile-menu {
   overflow: hidden; }
   .mobile-menu .mobile-menu-item {
@@ -452,6 +455,10 @@ main .section-main {
     margin: 2.5px; }
     #form-top input:focus {
       height: 57px; }
+
+.conc .section_form .box-form .btn {
+  background-color: #e40be4;
+  border: none; }
 
 .areas {
   width: 100%;
@@ -964,6 +971,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .section-3 .figure-img {
   display: none; }
 
+.conc .background-styles {
+  background: url("src/img/conc-loft.png") center center no-repeat; }
+
 .section-portfolio {
   position: relative; }
   .section-portfolio .portfolio-block .portfolio-title {
@@ -1226,6 +1236,13 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   height: 100%;
   position: relative; }
 
+.conc #loft .container .box-loft .block-one {
+  background-image: url("../../img/loft-maestro.png");
+  background-position: left center; }
+
+.conc .section-3 .container .background-styles .background-styles-figure p {
+  color: #f551ff; }
+
 #details .box-detalies {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1396,6 +1413,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     width: 30px;
     height: 30px;
     display: block; }
+
+.conc #details #details-form .button {
+  background-color: #e40be4;
+  border: none; }
 
 #image {
   padding: 50px 0 0 0;
@@ -1660,6 +1681,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   height: 57px; }
   #form input:focus {
     height: 57px; }
+
+.conc #footer .btn {
+  background-color: #e40be4;
+  border: none; }
 
 @-webkit-keyframes scrollDown {
   0% {
