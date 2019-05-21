@@ -516,11 +516,7 @@ main .section-main {
     height: 100%; }
 
 .conc .areas .container .areas__description {
-  width: 30%;
   margin-right: 10px; }
-
-.conc .areas__scheme {
-  width: 80%; }
 
 .conc .areas__description-wrapper {
   border-radius: 20px;
@@ -538,6 +534,16 @@ main .section-main {
   box-shadow: 10px 10px #76b0f3;
   background-color: #2981e5;
   color: #fff; }
+
+.conc .areas .container .areas__scheme-wrapper .areas__scheme-text {
+  font-size: 14px; }
+
+.conc .areas .container .areas__scheme-wrapper .areas__scheme-title {
+  font-size: 18px; }
+
+.conc .areas .container .areas__scheme-wrapper .areas__scheme-text {
+  left: 60px;
+  top: 5px; }
 
 .spaces {
   background: url("../../img/page-2-paints.png") no-repeat -10px;
