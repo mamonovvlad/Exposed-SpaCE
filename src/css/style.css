@@ -399,6 +399,9 @@ main .section-main .container .menu-items .lef {
     #conf main .section-main .container {
       background-image: url("../../img/conf-mob.png"); } }
 
+#exhib main .section-main .container {
+  background-image: url("../../img/exhib.webp"); }
+
 .section_form .box-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1360,6 +1363,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   font-weight: 300;
   letter-spacing: 1.6px;
   margin: 0 15px; }
+
+#exhib #loft .container .box-loft .block-one {
+  background-image: url("../../img/loft-exh.webp");
+  background-position: center; }
 
 #details .box-detalies {
   display: -webkit-box;
