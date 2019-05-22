@@ -390,6 +390,9 @@ main .section-main {
           font-size: 16px;
           font-weight: 400; }
 
+main .section-main .container .menu-items .lef {
+  margin-left: 0; }
+
 #conf main .section-main .container {
   background-image: url("../../img/conf-pc.png"); }
   @media screen and (max-width: 1200px) {
@@ -515,44 +518,54 @@ main .section-main {
     width: 100%;
     height: 100%; }
 
-.conc .areas .container .areas__description {
+.conc .areas .container .areas__description,
+.presentation .areas .container .areas__description {
   margin-right: 10px; }
 
-.conc .areas__description-wrapper {
+.conc .areas__description-wrapper,
+.presentation .areas__description-wrapper {
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 20px; }
 
-.conc .areas__grren {
+.conc .areas__grren,
+.presentation .areas__grren {
   -webkit-box-shadow: 10px 10px #90f39a;
   box-shadow: 10px 10px #90f39a;
   background-color: #19d819;
   color: #fff; }
 
-.conc .areas__blue {
+.conc .areas__blue,
+.presentation .areas__blue {
   -webkit-box-shadow: 10px 10px #76b0f3;
   box-shadow: 10px 10px #76b0f3;
   background-color: #2981e5;
   color: #fff; }
 
-.conc .areas .container .areas__scheme-wrapper .areas__scheme-text {
+.conc .areas .container .areas__scheme-wrapper .areas__scheme-text,
+.presentation .areas .container .areas__scheme-wrapper .areas__scheme-text {
   font-size: 14px; }
 
-.conc .areas .container .areas__scheme-wrapper .areas__scheme-title {
+.conc .areas .container .areas__scheme-wrapper .areas__scheme-title,
+.presentation .areas .container .areas__scheme-wrapper .areas__scheme-title {
   font-size: 18px; }
 
-.conc .areas .container .areas__scheme-wrapper .areas__scheme-text {
+.conc .areas .container .areas__scheme-wrapper .areas__scheme-text,
+.presentation .areas .container .areas__scheme-wrapper .areas__scheme-text {
   left: 60px;
   top: 5px; }
 
-.conc .areas .container .areas__scheme-wrapper {
+.conc .areas .container .areas__scheme-wrapper,
+.presentation .areas .container .areas__scheme-wrapper {
   top: -178px;
   left: 110px; }
 
-.conc .two_stage .container .stage-2-wrap {
+.conc .two_stage .container .stage-2-wrap,
+.presentation .two_stage .container .stage-2-wrap {
   text-align: right; }
 
-.conc .two_stage .container .stage-2-wrap p {
+.conc .two_stage .container .stage-2-wrap p,
+.presentation .two_stage .container .stage-2-wrap p {
   margin: 20px 0; }
 
 .spaces {
@@ -659,6 +672,15 @@ main .section-main {
   height: 328px;
   background: url("../../img/page-2-map.png") right center no-repeat;
   background-size: cover; }
+
+.presentation .spaces__map {
+  position: relative; }
+
+.presentation .spaces__map-title {
+  position: absolute;
+  bottom: -15px;
+  right: 40px;
+  font-size: 30px; }
 
 .two_stage {
   background: #f5f4f5;
@@ -1301,6 +1323,37 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   align-items: baseline; }
 
 .conc .our_styles-description p {
+  color: #333333;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  margin: 0 15px; }
+
+.presentation #loft .container .box-loft .block-one {
+  background-image: url("../../img/loft-presentation.png");
+  background-position: left center; }
+
+.presentation .section-3 .container .background-styles .background-styles-figure p {
+  color: #f551ff; }
+
+.presentation .section-3 .container .background-styles .background-styles-figure {
+  margin-right: 65%; }
+
+.presentation .section-3 .container .our_styles_items .our_styles-description {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.presentation .section-3 .container .our_styles_items {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+
+.presentation .our_styles-description p {
   color: #333333;
   font-family: "Roboto Light", sans-serif;
   font-size: 14px;
@@ -2393,7 +2446,14 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   .events-items-right {
     list-style-type: circle;
     padding: 0;
-    margin: 0px; } }
+    margin: 0px; }
+  .presentation .spaces__map-title {
+    position: absolute;
+    bottom: -40px;
+    right: 40px;
+    font-size: 25px; }
+  .presentation .spaces__map {
+    margin-bottom: 50px; } }
 
 @media screen and (max-width: 600px) {
   #loft .container .box-loft .block-one {
