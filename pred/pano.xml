@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node15">
+  <panorama id="node15">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="-0.691616" levelbiashidpi="0.400" overlap="1" levelingroll="-1.49295" leveltileurl="tiles/улица/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="25.58" fov="62"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:54:14" longitude="" tags="Untitled Export" title="Улица" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="-1.6" pan="28.96" url="{node8}" title="Галерея EXPOSED" target="" skinid="ht_node" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="0.386827" levelbiashidpi="0.400" overlap="1" levelingroll="-0.00641173" leveltileurl="tiles/холл/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="-141.19" fov="44.9"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:00:56" longitude="" tags="Untitled Export" title="Холл" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="1.76" pan="-38.81" url="{node1}" title="Зал1 Зона А" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point02" tilt="0.16" pan="102.6" url="{node15}" title="Выход на улицу" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point03" tilt="0.78" pan="-131.77" url="{node17}" title="Зона кейтеринга" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point04" tilt="0.78" pan="-177.84" url="" title="Первый этаж.Общая информация" target="" skinid="ht_info" description="Первый этаж общая площадь - 225 кв. м. Включает:&#xa;- холл (Welcome зона)&#xa;- гардероб &#xa;- два туалета&#xa;- выставочное пространство&#xa;- зону для кейтеринга&#xa;- кухню"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node17">
+    <input height="1998" levelbias="0.400" width="1998" leveltilesize="510" levelingpitch="-0.224858" levelbiashidpi="0.400" overlap="1" levelingroll="-0.6332950000000001" leveltileurl="tiles/Зона кейтеринга/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1998" width="1998" predecode="0" preload="0"/>
+      <level height="999" width="999" predecode="0" preload="0"/>
+      <level height="499" width="499" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-0.53" pan="-17.67" fov="40"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="" longitude="" tags="Pano2VR5" title="Зона кейтеринга" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="0.64" pan="0.61" url="{node8}" title="Холл" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point02" tilt="-1.98" pan="-100.99" url="{node2}" title="Зал1 зона Б" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point03" tilt="2.57" pan="179.15" url="images/YO6A2019.jpg" title="Лифт, Зона погрузки, Парковка" target="" skinid="ht_image" description="Лифт, Зона погрузки, Парковка"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="-0.82914" levelbiashidpi="0.400" overlap="1" levelingroll="1.6695" leveltileurl="tiles/1 этаж_ Зал 1_ Зона А/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="123.94" fov="40"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:00:59" longitude="" tags="Untitled Export" title="1 этаж. Зал 1. Зона А" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point02" tilt="-1.13" pan="81.71" url="{node2}" title="Зал1 зона Б" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point04" tilt="-2.6" pan="-73.72" url="{node8}" title="Холл" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point03" tilt="2.57" pan="104.79" url="{node16}" title="Лестница на 2 этаж" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point01" tilt="-0.63" pan="15.07" url="{node17}" title="Зона кейтеринга" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point05" tilt="7.74" pan="156.48" url="" title="Зал1. Зона А :Техническое оснащение" target="" skinid="ht_info" description=" - трансляционная система на базе громкоговорителей Bose&#xa;   - портативная акустическая система Bose LI&#xa;   - кондиционеры&#xa;   - точечный свет&#xa;   - кулер"/>
+      <hotspot id="Point06" tilt="1.27" pan="156.44" url="" title="Зал1. Зона А .Зал1 : Параметры" target="" skinid="ht_info" description="- площадь  - 99 кв. м.&#xa;- средняя высота до потолка  - 3,2 м."/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="1.86262" levelbiashidpi="0.400" overlap="1" levelingroll="-2.32598" leveltileurl="tiles/1 этаж_ Зал 1_ Зона Б/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="69.02" fov="40"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:01:04" longitude="" tags="Untitled Export" title="1 этаж. Зал 1. Зона Б" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="-0.92" pan="25.46" url="{node1}" title="Зал1 зона А" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point04" tilt="13.31" pan="-112.99" url="{node16}" title="Лестница на 2 этаж" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point03" tilt="-1.06" pan="99.46" url="{node17}" title="Зона кейтеринга" target="" skinid="ht_node" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node16">
+    <input height="1999" levelbias="0.400" width="1999" leveltilesize="510" levelingpitch="0.848007" levelbiashidpi="0.400" overlap="1" levelingroll="0.373767" leveltileurl="tiles/Лестница/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1999" width="1999" predecode="0" preload="0"/>
+      <level height="999" width="999" predecode="0" preload="0"/>
+      <level height="499" width="499" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-2.87" pan="130.41" fov="70.9"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:21 17:53:28" longitude="" tags="Pano2VR5" title="Лестница" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="13.63" pan="-165.71" url="{node13}" title="Зал2 зона А" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point02" tilt="-12.82" pan="152.96" url="{node2}" title="Зал1 зона Б" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point05" tilt="-0.35" pan="102" url="" title="EXPOSED/Общая информация" target="" skinid="ht_info" description="- два этажа&#xa;- 5 пространств&#xa;- общая площадь - 600 кв.м."/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node13">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="-0.828549" levelbiashidpi="0.400" overlap="1" levelingroll="2.09777" leveltileurl="tiles/2 этаж_ Зал 2_ Зона А/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="-130.78" fov="40"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:36:54" longitude="" tags="Untitled Export" title="2 этаж. Зал 2. Зона А" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="-1.04" pan="-153.01" url="{node14}" title="Зал2 зона Б" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point02" tilt="5.49" pan="-84.47" url="" title="2 этаж. зал 2 .Общая информация" target="" skinid="ht_info" description="- площадь - 92 кв .м.&#xa;- средняя высота до потолка  - 3,2 м."/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node14">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="0.5372360000000001" levelbiashidpi="0.400" overlap="1" levelingroll="3.80789" leveltileurl="tiles/2 этаж_ Зал 2_ Зона Б/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="142.53" fov="53.1"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:45:33" longitude="" tags="Untitled Export" title="2 этаж. Зал 2. Зона Б" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point02" tilt="-23.95" pan="94.46" url="{node16}" title="Лестница на 1 этаж" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point04" tilt="2.02" pan="113.9" url="" title="Техническое оснащение   " target="" skinid="ht_info" description="&#xa; - проектор&#xa; - выдвижной экран&#xa; - трансляционная система на базе громкоговорителей      Bose&#xa; - портативная акустическая система Bose LI&#xa; - кондиционеры&#xa; - точечный свет"/>
+      <hotspot id="Point05" tilt="-4.68" pan="114.05" url="" title=" Рассадка" target="" skinid="ht_info" description="&#xa;   - театральная - до 150 чел.&#xa;   - фуршет без расскадки - до 350 чел.&#xa;   - банкет - до 70 чел."/>
+      <hotspot id="Point01" tilt="2.06" pan="-1.81" url="{node20}" title="2 этаж. Зал 3" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point03" tilt="-0.92" pan="-129.74" url="{node13}" title="2 этаж. Зал 2. Зона А" target="" skinid="ht_node" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node20">
+    <input height="1999" levelbias="0.400" width="1999" leveltilesize="510" levelingpitch="-0.218549" levelbiashidpi="0.400" overlap="1" levelingroll="-1.2566" leveltileurl="tiles/2 этаж_ Зал 3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1999" width="1999" predecode="0" preload="0"/>
+      <level height="999" width="999" predecode="0" preload="0"/>
+      <level height="499" width="499" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="-19.65" fov="44.4"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="" longitude="" tags="куб" title="2 этаж. Зал 3" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="1.03" pan="82.42" url="{node14}" title="2 этаж. Зал 2. Зона Б" target="" skinid="ht_node" description=""/>
+      <hotspot id="Point02" tilt="-2.54" pan="142.61" url="images/2 эт.jpg" title="" target="" skinid="ht_image" description=""/>
+      <hotspot id="Point03" tilt="-0.25" pan="2.77" url="" title="2 этаж. Зал 3" target="" skinid="ht_info" description="- площадь 100 кв.м.&#xa;- средняя высота до потолка  - 3,2 м. &#xa;- театральная рассадка - до 80 чел."/>
+      <hotspot id="Point04" tilt="-1.09" pan="-17.81" url="{node5}" title="VIP-комната" target="" skinid="ht_node" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="2000" levelbias="0.400" width="2000" leveltilesize="510" levelingpitch="-0.656707" levelbiashidpi="0.400" overlap="1" levelingroll="1.60312" leveltileurl="tiles/VIP-комната/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="2000" width="2000" predecode="0" preload="0"/>
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="65.35" fov="44.5"/>
+      <min tilt="-90" pan="0" fov="40"/>
+      <max tilt="90" pan="360" fov="70"/>
+    </view>
+    <userdata source="" latitude="" copyright="" datetime="2018:06:19 15:01:05" longitude="" tags="Untitled Export" title="VIP-комната" author="" comment="" description="" info=""/>
+    <hotspots height="100" width="100" wordwrap="1">
+      <label height="100" width="100" bordercolor="0xffffff" backgroundcolor="0xaa0000" background="1" textcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" enabled="1" textalpha="1" borderradius="10" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot id="Point01" tilt="-6.46" pan="-88.27" url="{node20}" title="2 этаж. Зал 3" target="" skinid="ht_node" description=""/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomfov="20" type="crossdissolve" enabled="1" softedge="0" zoomoutpause="1"/>
+    <control invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0"/>
+  </panorama>
+</tour>

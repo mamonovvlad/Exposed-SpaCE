@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 64 64">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#FEFEFE;stroke-width:500}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:red}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="11047" cy="12929" r="7843"/>
+  <g id="_2767628910336">
+   <g id="Glyph">
+    <polygon class="fil1 str0" points="11674,13260 13670,14541 11047,9073 8424,14541 10420,13260 11047,12858 "/>
+    <path class="fil1 str0" d="M11047 22223c5133,0 9294,-4161 9294,-9294 0,-5133 -4161,-9294 -9294,-9294 -5133,0 -9294,4161 -9294,9294 0,5133 4161,9294 9294,9294zm0 -15836l5441 11341 -5441 -3490 -5441 3490 5441 -11341z"/>
+   </g>
+  </g>
+  <path class="fil0" d="M11047 9073c2,-649 -1091,1027 -1279,1173 -427,332 -1724,4205 -1093,4260 1377,120 1212,-583 2498,-449 456,48 3140,1319 2665,175 -179,-431 -358,-1356 -684,-1871 -267,-422 -1672,-2654 -1791,-3047 -69,-230 -251,-452 -509,-502 156,104 193,245 193,261z"/>
+ </g>
+</svg>
