@@ -467,6 +467,7 @@ main .section-main .container .menu-items .lef {
   border: none; }
 
 .areas {
+  background-color: #f4f4f4;
   width: 100%;
   padding: 50px 0; }
   .areas .container {
@@ -530,20 +531,6 @@ main .section-main .container .menu-items .lef {
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 20px; }
-
-.conc .areas__grren,
-.presentation .areas__grren {
-  -webkit-box-shadow: 10px 10px #90f39a;
-  box-shadow: 10px 10px #90f39a;
-  background-color: #19d819;
-  color: #fff; }
-
-.conc .areas__blue,
-.presentation .areas__blue {
-  -webkit-box-shadow: 10px 10px #76b0f3;
-  box-shadow: 10px 10px #76b0f3;
-  background-color: #2981e5;
-  color: #fff; }
 
 .conc .areas .container .areas__scheme-wrapper .areas__scheme-text,
 .presentation .areas .container .areas__scheme-wrapper .areas__scheme-text {
@@ -673,7 +660,7 @@ main .section-main .container .menu-items .lef {
   max-width: 458px;
   width: 100%;
   height: 328px;
-  background: url("../../img/page-2-map.png") right center no-repeat;
+  background: url("../../img/dg-1.webp") right center no-repeat;
   background-size: cover; }
 
 .presentation .spaces__map {
@@ -1310,7 +1297,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   color: #f551ff; }
 
 .conc .section-3 .container .background-styles .background-styles-figure {
-  margin-right: 65%; }
+  margin-right: 30%; }
 
 .conc .section-3 .container .our_styles_items .our_styles-description {
   -webkit-box-pack: center;
