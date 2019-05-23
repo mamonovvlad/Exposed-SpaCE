@@ -2480,9 +2480,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 40px;
     font-size: 25px; }
   .presentation .spaces__map {
-    margin-bottom: 50px; }
-  .blocks-text {
-    display: none; } }
+    margin-bottom: 50px; } }
 
 @media screen and (max-width: 600px) {
   #loft .container .box-loft .block-one {
