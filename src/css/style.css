@@ -1206,6 +1206,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   top: -30px;
   right: 30px; }
 
+#pc .slider-for .portfolio-item {
+  margin: 10px 0px; }
+
 #loft {
   margin-top: 50px; }
   #loft .container {
@@ -2490,7 +2493,18 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 40px;
     font-size: 25px; }
   .presentation .spaces__map {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .blocks-text {
+    display: none; }
+  .section-portfolio .portfolios .portfolio-item {
+    width: 100% !important; }
+  .slick-track {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #pc .slider-for .portfolio-item {
+    margin: 0 auto;
+    width: 100% !important; } }
 
 @media screen and (max-width: 600px) {
   #loft .container .box-loft .block-one {
