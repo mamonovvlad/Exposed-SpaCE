@@ -402,6 +402,9 @@ main .section-main .container .menu-items .lef {
 #exhib main .section-main .container {
   background-image: url("../../img/exhib.webp"); }
 
+main .section-main .container .menu-items .it {
+  margin-left: 0; }
+
 .section_form .box-form {
   display: -webkit-box;
   display: -ms-flexbox;
