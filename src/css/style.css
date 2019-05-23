@@ -212,6 +212,9 @@ body {
 .burger-menu {
   display: none; }
 
+.loc .header .container .contacts {
+  width: 100%; }
+
 .mobile-menu {
   overflow: hidden; }
   .mobile-menu .mobile-menu-item {
@@ -1084,8 +1087,12 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      margin: 10px 15px;
-      position: relative; }
+      position: relative;
+      margin: 10px 5px; }
+      .section-portfolio .portfolios .portfolio-item:last-child {
+        margin-right: 0; }
+      .section-portfolio .portfolios .portfolio-item:first-child {
+        margin-left: 0; }
       .section-portfolio .portfolios .portfolio-item .portfolio-btn {
         color: #333333;
         width: 100%;
