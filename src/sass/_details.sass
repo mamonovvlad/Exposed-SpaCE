@@ -124,15 +124,27 @@
                width: 25px
             & span
                margin-left: 5px
-.section-portfolio .slick-next 
-   right: 50px
-   top: -30px
+.section-portfolio .blocks .mob  .slick-next
+   right: 20px
+   top: calc(50% - 5px)
+
    &:before 
       content: ''
       background: url(../../img/right-arrow_копия.svg) center no-repeat
       width: 30px
       height: 30px
       display: block
+.section-portfolio .blocks .mob  .slick-prev
+   display: block
+   left: 10px
+   top: calc(50% - 5px)
+   z-index: 1
+   &:before 
+      background: url(../../img/right-arrow_копия.svg) center no-repeat
+      width: 30px
+      height: 30px
+      display: block
+      transform: rotate(180deg)
 .conc #details #details-form .button
    background-color: #e40be4
    border: none

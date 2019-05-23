@@ -668,9 +668,9 @@ main .section-main .container .menu-items .lef {
 
 .presentation .spaces__map-title {
   position: absolute;
-  bottom: -50px;
   right: 40px;
-  font-size: 30px; }
+  font-size: 30px;
+  bottom: -50px; }
 
 .two_stage {
   background: #f5f4f5;
@@ -1140,9 +1140,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .portfolio-block {
   position: relative; }
 
-#mob {
-  display: none; }
-
 .slider-for {
   margin: 65px 0;
   position: relative; }
@@ -1516,15 +1513,28 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     #details .block-dn .down a .down a span {
       margin-left: 5px; }
 
-.section-portfolio .slick-next {
-  right: 50px;
-  top: -30px; }
-  .section-portfolio .slick-next:before {
+.section-portfolio .blocks .mob .slick-next {
+  right: 20px;
+  top: calc(50% - 5px); }
+  .section-portfolio .blocks .mob .slick-next:before {
     content: '';
     background: url(../../img/right-arrow_копия.svg) center no-repeat;
     width: 30px;
     height: 30px;
     display: block; }
+
+.section-portfolio .blocks .mob .slick-prev {
+  display: block;
+  left: 10px;
+  top: calc(50% - 5px);
+  z-index: 1; }
+  .section-portfolio .blocks .mob .slick-prev:before {
+    background: url(../../img/right-arrow_копия.svg) center no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
 .conc #details #details-form .button {
   background-color: #e40be4;
