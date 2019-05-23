@@ -2162,8 +2162,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     justify-content: space-evenly;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
-  main .section-portfolio .pc {
-    display: none; }
   main .section-portfolio .mob {
     display: block; }
   main .mob .portfolio-item {
@@ -2416,8 +2414,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     -ms-flex-align: end;
     align-items: end;
     padding: 5px 0 0 10px; }
-  .blocks {
-    display: none; }
   #loft .container .box-loft .block-two-main .block-one-overlay {
     width: 120px; }
   .section-2 .container .description-items .description-item {
@@ -2484,7 +2480,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 40px;
     font-size: 25px; }
   .presentation .spaces__map {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .blocks-text {
+    display: none; } }
 
 @media screen and (max-width: 600px) {
   #loft .container .box-loft .block-one {
