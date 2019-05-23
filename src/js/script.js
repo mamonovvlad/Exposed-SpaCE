@@ -12,9 +12,12 @@ $(document).ready(function()
 	
 }
 
+
 scrollTop('.arrow-down','.section-2');	
 scrollTop('.map__title','.areas');
-
+scrollTop('.det','#details');
+scrollTop('.foot','#footer');
+scrollTop('.cont','#cont');
 $(".burger-menu").on("click" , function () {
 	$(".mobile-menu-items").toggleClass('mobile-menu-item-active');
 })
