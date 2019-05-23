@@ -127,24 +127,42 @@
 .section-portfolio .blocks .mob  .slick-next
    right: 20px
    top: calc(50% - 5px)
-
+   background-color: rgba(255,255,255,0.4)
+   height: 40px
+   width: 40px
+   border-radius: 25px
+   transition: 500ms ease
+   &:hover
+      background-color: rgba(255,255,255,0.8)
+      transition: 500ms ease
    &:before 
       content: ''
       background: url(../../img/right-arrow_копия.svg) center no-repeat
       width: 30px
       height: 30px
       display: block
+      margin: 0 auto
 .section-portfolio .blocks .mob  .slick-prev
    display: block
    left: 10px
    top: calc(50% - 5px)
    z-index: 1
+   background-color: rgba(255,255,255,0.4)
+   height: 40px
+   width: 40px
+   border-radius: 25px
+   transition: 500ms ease
+   &:hover
+      background-color: rgba(255,255,255,0.8)
+      transition: 500ms ease
    &:before 
+      content: ""
       background: url(../../img/right-arrow_копия.svg) center no-repeat
       width: 30px
       height: 30px
       display: block
       transform: rotate(180deg)
+      margin: 0 auto
 .conc #details #details-form .button
    background-color: #e40be4
    border: none
