@@ -605,8 +605,8 @@ main .section-main .container .menu-items .lef {
       padding: 50px 0 0 0; }
       .spaces .container .spaces-wrapper .spaces__description {
         color: #333;
-        -ms-flex-preferred-size: 40%;
-        flex-basis: 40%; }
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
         .spaces .container .spaces-wrapper .spaces__description .spaces__description-title {
           font-size: 50px;
           font-family: "Roboto - Bold", sans-serif;
@@ -668,7 +668,7 @@ main .section-main .container .menu-items .lef {
 
 .presentation .spaces__map-title {
   position: absolute;
-  bottom: -15px;
+  bottom: -50px;
   right: 40px;
   font-size: 30px; }
 
