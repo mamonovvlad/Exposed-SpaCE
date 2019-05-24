@@ -553,39 +553,46 @@ main .section-main .container nav a {
     height: 100%; }
 
 .conc .areas .container .areas__description,
-.presentation .areas .container .areas__description {
+.presentation .areas .container .areas__description,
+#conf .areas .container .areas__description {
   margin-right: 10px; }
 
 .conc .areas__description-wrapper,
-.presentation .areas__description-wrapper {
+.presentation .areas__description-wrapper,
+#conf .areas__description-wrapper {
   border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 20px; }
+  padding: 20px; }
 
 .conc .areas .container .areas__scheme-wrapper .areas__scheme-text,
-.presentation .areas .container .areas__scheme-wrapper .areas__scheme-text {
+.presentation .areas .container .areas__scheme-wrapper .areas__scheme-text,
+#conf .areas .container .areas__scheme-wrapper .areas__scheme-text {
   font-size: 14px; }
 
 .conc .areas .container .areas__scheme-wrapper .areas__scheme-title,
-.presentation .areas .container .areas__scheme-wrapper .areas__scheme-title {
+.presentation .areas .container .areas__scheme-wrapper .areas__scheme-title,
+#conf .areas .container .areas__scheme-wrapper .areas__scheme-title {
   font-size: 18px; }
 
 .conc .areas .container .areas__scheme-wrapper .areas__scheme-text,
-.presentation .areas .container .areas__scheme-wrapper .areas__scheme-text {
+.presentation .areas .container .areas__scheme-wrapper .areas__scheme-text,
+#conf .areas .container .areas__scheme-wrapper .areas__scheme-text {
   left: 60px;
   top: 5px; }
 
 .conc .areas .container .areas__scheme-wrapper,
-.presentation .areas .container .areas__scheme-wrapper {
+.presentation .areas .container .areas__scheme-wrapper,
+#conf .areas .container .areas__scheme-wrapper {
   top: -178px;
   left: 110px; }
 
 .conc .two_stage .container .stage-2-wrap,
-.presentation .two_stage .container .stage-2-wrap {
+.presentation .two_stage .container .stage-2-wrap,
+#conf .two_stage .container .stage-2-wrap {
   text-align: right; }
 
 .conc .two_stage .container .stage-2-wrap p,
-.presentation .two_stage .container .stage-2-wrap p {
+.presentation .two_stage .container .stage-2-wrap p,
+#conf .two_stage .container .stage-2-wrap p {
   margin: 20px 0; }
 
 .spaces {
@@ -705,11 +712,12 @@ main .section-main .container nav a {
 
 .two_stage {
   background: #f5f4f5;
-  border-bottom: 2px solid #f5f5f5; }
+  border-bottom: 2px solid #f5f5f5;
+  width: 100%;
+  margin: 0 auto;
+  background: url("../../img/stag.png") center;
+  background-size: cover; }
   .two_stage .container {
-    width: 100%;
-    margin: 0 auto;
-    background: url("../../img/stag.png") center;
     min-height: 900px;
     background-size: cover; }
     .two_stage .container .two_stage-title {
@@ -1058,8 +1066,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .conc .background-styles {
   background: url("src/img/conc-loft.webp") center center no-repeat; }
 
-.exhib .section-3 .container .background-styles .background-styles-figure {
-  margin-bottom: 60px; }
+.section-3 .container .background-styles .background-styles-figure {
+  margin-right: 30%; }
 
 .section-portfolio {
   position: relative; }
@@ -1385,9 +1393,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 
 .presentation .section-3 .container .background-styles .background-styles-figure p {
   color: #f551ff; }
-
-.presentation .section-3 .container .background-styles .background-styles-figure {
-  margin-right: 65%; }
 
 .presentation .section-3 .container .our_styles_items .our_styles-description {
   -webkit-box-pack: center;
