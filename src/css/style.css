@@ -1526,14 +1526,14 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #details .figure span {
     font-family: "Roboto - Bold" ,sans-serif;
     font-weight: 700; }
-  #details .figure p #details .figure p {
-    padding: 70px 50px 0px 0;
-    color: #333;
-    font-size: 18px;
+  #details .figure p {
     text-align: center;
-    font-family: "Roboto - Regular",sans-serif;
+    color: #333333;
+    font-size: 18px;
+    font-family: "Roboto - Regular" ,sans-serif;
     font-weight: 400;
-    letter-spacing: 1.2px; }
+    letter-spacing: 1.2px;
+    padding: 70px 0px 0px 0; }
 
 #details .block-detalies__one {
   width: 55%;
