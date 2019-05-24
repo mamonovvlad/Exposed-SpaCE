@@ -1877,7 +1877,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #form input:focus {
     height: 57px; }
 
-.conc #footer .btn {
+#conf #footer .btn {
   background-color: #e40be4;
   border: none; }
 
