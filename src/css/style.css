@@ -649,6 +649,7 @@ main .section-main .container .menu-items .it {
         .spaces .container .spaces-wrapper .spaces__description .spaces__stage-description {
           margin-top: 26px;
           font-size: 18px;
+          width: 80%;
           font-weight: 400;
           font-family: "Roboto - Regular", sans-serif;
           font-weight: 400;
@@ -1952,6 +1953,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 38%; } }
 
 @media screen and (max-width: 1024px) {
+  .spaces .container .spaces-wrapper .spaces__description .spaces__stage-description {
+    width: 100%; }
   .section-portfolio .pc .slider-for .slick-track {
     margin-left: 0px; }
   .exhib main .section-main .container .main-title p {
