@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="15" viewBox="0 0 19 15"><g><g><image width="19" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAABD0lEQVQ4T7XUsSvFURjG8c9dKPkHjJRFsdzBJCuSAYNMrs12y4Si1L2zzYZJKQwUNhkNFoNFWf0DUiz01jml27397r141/Oe7/uc5znnlLCOXfTpvt6xXcIHbnDbPcsEZgP2lZTt/AK2gXqGvWAUIbfT6scjBjMsAJdY6hAYPp/EEQOQYReYxhPmEUqLagjnGME15jKsgmecohfLKZRWwCkcp/AWMYzDn7AjDOAM4xF1mJoCytDo30yB3WMBr1hpBotNPdjDWgJH4xvC6BgYgH1U8ZmmtIRlFatpU0wOb8LLUB5DDhrOXwiL/jHUUMYDttI1aPSyLVhRonn9f2DxNq9w166MJn2TmImo/+zX+AaXqkfdLKi9QgAAAABJRU5ErkJggg=="/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt" height="8pt" viewBox="0 0 10 8" version="1.1">
+<defs>
+<image id="image5" width="19" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAABmJLR0QA/wD/AP+gvaeTAAAA5UlEQVQ4ja3UMUoDURSF4W8kWAQL27RZQDYgYptCcQuDW0glVm7AMqtIozZ26azFXrEynV2KBMKzmDshDA4zzHjgceG8c//ivsuDGdZIPc4aswwbvGCpu85xKcj3PUBwGxwJHxh2BJ3g8xCW8NQBOMTzAUPCI7Z4w7glaBz5bfTvYTnOsMIPpg2gaeRW0ZdXYTDCK3a4Q1aBZOHvIjcK/08YHGMe/kIxYFEX4c8jV6oWVupGsYNfeIi6Cb+qRhhMFK/1HXVSk8uRBjWXpd5x1ZDZ66htsI0Gij25xmkPzkVw/u/X+AXjxmEUfNeOeQAAAABJRU5ErkJggg=="/>
+</defs>
+<g id="surface2">
+<use xlink:href="#image5" transform="matrix(0.526316,0,0,0.533333,0,0)"/>
+</g>
+</svg>
