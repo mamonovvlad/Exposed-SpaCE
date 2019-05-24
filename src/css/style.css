@@ -65,8 +65,10 @@ body {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-        align-items-width: 55%;
-          align-items-width-justify-content: space-between; }
+      width: 58%;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
       .header .container .contacts .address,
       .header .container .contacts .lang {
         cursor: pointer;
@@ -209,9 +211,6 @@ body {
 
 .burger-menu {
   display: none; }
-
-.loc .header .container .contacts {
-  width: 100%; }
 
 .mobile-menu {
   overflow: hidden; }
