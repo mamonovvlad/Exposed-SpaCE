@@ -1218,6 +1218,31 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 #pc .slider-for .portfolio-item {
   margin: 10px 0px; }
 
+.port-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 60px 0 40px; }
+
+.port-btn .btn {
+  border-radius: 10px;
+  padding: 15px 50px;
+  background: #e40be4;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: .9px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer; }
+
 #loft {
   margin-top: 50px; }
   #loft .container {
