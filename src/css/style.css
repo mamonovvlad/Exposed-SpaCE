@@ -482,7 +482,7 @@ main .section-main .container .menu-items .it {
     #form-top input:focus {
       height: 57px; }
 
-.conc .section_form .box-form .btn {
+#conf .section_form .box-form button {
   background-color: #e40be4;
   border: none; }
 
