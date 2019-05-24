@@ -402,11 +402,17 @@ main .section-main .container .menu-items .lef {
     #conf main .section-main .container {
       background-image: url("../../img/conf-mob.png"); } }
 
-#exhib main .section-main .container {
-  background-image: url("../../img/exhib.webp"); }
-
 main .section-main .container .menu-items .it {
   margin-left: 0; }
+
+.exhib main .section-main .container .main-title p {
+  font-weight: 300; }
+
+.exhib .section-main .container .main-title h1 {
+  margin: 0px 0 5px 0; }
+
+.exhib main .section-main .container .main-title h2 {
+  font-weight: 300; }
 
 .section_form .box-form {
   display: -webkit-box;
