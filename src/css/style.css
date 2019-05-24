@@ -262,7 +262,7 @@ main .section-main {
   box-sizing: border-box; }
   main .section-main .container {
     min-height: 600px;
-    background-image: url("../../img/main-background.png");
+    background-image: url("../../img/main-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -1044,7 +1044,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   display: none; }
 
 .conc .background-styles {
-  background: url("src/img/conc-loft.png") center center no-repeat; }
+  background: url("src/img/conc-loft.webp") center center no-repeat; }
 
 .exhib .section-3 .container .background-styles .background-styles-figure {
   margin-bottom: 60px; }
@@ -1242,7 +1242,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
         -ms-flex-positive: 1;
         flex-grow: 1;
         min-height: 864px;
-        background-image: url("../../img/loft.png");
+        background-image: url("../../img/loft.webp");
         background-repeat: no-repeat;
         background-position: right center;
         position: relative; }
