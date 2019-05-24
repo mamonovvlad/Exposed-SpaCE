@@ -44,6 +44,11 @@ body {
   margin: 0 auto; }
 
 .header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 15px 0; }
   .header .container {
     display: -webkit-box;
