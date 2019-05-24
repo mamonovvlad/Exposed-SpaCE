@@ -578,7 +578,7 @@ main .section-main .container .menu-items .it {
   margin: 20px 0; }
 
 .spaces {
-  background: url("../../img/page-2-paints.png") no-repeat -10px;
+  background: url("../../img/page-2-paints.png") no-repeat;
   min-height: 870px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1059,17 +1059,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 36px;
     padding: 40px 0;
     font-weight: 400; }
-    .section-portfolio .portfolio-block .portfolio-title:after {
-      content: '';
-      background: url(../../img/fg.png) center no-repeat;
-      z-index: -1;
-      display: block;
-      height: 150px;
-      position: absolute;
-      left: 70px;
-      right: 0;
-      top: 8px;
-      bottom: 0; }
     .section-portfolio .portfolio-block .portfolio-title span {
       font-weight: 600;
       margin-right: 105px; }
@@ -1495,8 +1484,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     background: #364c93; }
 
 #details .figure {
-  background: url(../../img/fig.png) center no-repeat;
-  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1697,12 +1684,12 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #footer .box-map .block-text__title p,
   #footer .box-map .link a {
     color: #333333;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400; }
   #footer .box-map .block-text__title p {
     padding: 10px 0 45px 0; }
   #footer .box-map .block-text__title span {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px; }
   #footer .box-map .link {
