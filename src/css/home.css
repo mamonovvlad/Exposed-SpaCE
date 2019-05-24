@@ -1,6 +1,22 @@
 /*image*/
+#home #image {
+  border-bottom: none; }
+
 #home .bg-gr {
-  background-color: #f1f1f1; }
+  background-color: rgba(241, 241, 241, 0.9);
+  position: absolute;
+  left: 0;
+  height: 25px;
+  width: 33%;
+  z-index: -1; }
+
+#home .image-text p {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  padding: 30px 10px;
+  line-height: 26px; }
 
 #home .home-form {
   display: -webkit-box;
@@ -11,4 +27,38 @@
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 100px; }
+  #home .home-form input {
+    color: #333333;
+    font-size: 15px;
+    height: 40px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #7f7f7f; }
+
+#home .home-btn {
+  background-color: #f35c22;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3.6px;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  outline: none;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease; }
+  #home .home-btn:hover {
+    background-color: #b24318;
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease; }
