@@ -406,13 +406,15 @@ main .section-main .container .menu-items .it {
   margin-left: 0; }
 
 .exhib main .section-main .container .main-title p {
-  font-weight: 300; }
+  font-weight: 300;
+  margin-top: 70px; }
 
 .exhib .section-main .container .main-title h1 {
   margin: 0px 0 5px 0; }
 
-.exhib main .section-main .container .main-title h2 {
-  font-weight: 300; }
+.exhib .section-main .container .main-title h2 {
+  font-weight: 300;
+  margin-bottom: 70px; }
 
 .section_form .box-form {
   display: -webkit-box;
@@ -1926,6 +1928,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 38%; } }
 
 @media screen and (max-width: 1024px) {
+  .exhib main .section-main .container .main-title p {
+    margin-top: 30px; }
   .conc .areas .container .areas__description {
     width: 31%; }
   .conc .areas .container .areas__scheme-wrapper {
