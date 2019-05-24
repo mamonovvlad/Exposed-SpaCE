@@ -264,7 +264,7 @@ main .section-main {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
   main .section-main .container {
-    min-height: 600px;
+    height: 100vh;
     background-image: url("../../img/main-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,6 +280,8 @@ main .section-main {
     -ms-flex-pack: justify;
     justify-content: space-between;
     max-width: 1920px; }
+    main .section-main .container a {
+      display: none; }
     @media screen and (max-width: 1200px) {
       main .section-main .container {
         background-image: url("../../img/main-bg-mobile.png"); } }
@@ -318,7 +320,8 @@ main .section-main {
               color: #333333;
               font-size: 16px;
               font-weight: 400;
-              margin: 0 12px; }
+              margin: 0 12px;
+              display: block; }
           main .section-main .container .navigation-bottom nav .menu-items .menu-item-active {
             border-top: 3px solid #000; }
       main .section-main .container .navigation-bottom .arrow-down {
@@ -339,7 +342,7 @@ main .section-main {
         font-size: 60px;
         text-transform: uppercase;
         letter-spacing: 8px;
-        margin: 30px 0 40px; }
+        margin: 0px 0 40px; }
       main .section-main .container .main-title h2 {
         color: #333333;
         font-family: Roboto;
@@ -381,14 +384,15 @@ main .section-main {
         transition: .3s;
         cursor: pointer;
         font-size: 18px;
-        margin-bottom: 100px; }
+        margin-bottom: 0px; }
         main .section-main .container .main-title button:hover {
           background: #fff; }
     main .section-main .container .menu-items {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-left: 80px; }
+      margin-left: 80px;
+      margin-top: 70px; }
       main .section-main .container .menu-items .menu-item {
         list-style: none;
         margin-left: 35px;
@@ -411,22 +415,22 @@ main .section-main .container .menu-items .lef {
       background-image: url("../../img/conf-mob.png"); } }
 
 #exhib main .section-main .container {
-  background-image: url("../../img/exhib.webp");
-  background-size: auto; }
+  background-image: url("../../img/exhib.webp"); }
 
 main .section-main .container .menu-items .it {
   margin-left: 0; }
 
 .exhib main .section-main .container .main-title p {
-  font-weight: 300;
-  margin-top: 70px; }
+  font-weight: 300; }
 
 .exhib .section-main .container .main-title h1 {
   margin: 0px 0 5px 0; }
 
 .exhib .section-main .container .main-title h2 {
-  font-weight: 300;
-  margin-bottom: 70px; }
+  margin-top: 20px; }
+
+main .section-main .container nav a {
+  display: block; }
 
 .section_form .box-form {
   display: -webkit-box;
@@ -720,7 +724,7 @@ main .section-main .container .menu-items .it {
       display: flex; }
       .two_stage .container .two_stage-wrapper .two_stage-wrapper-description {
         padding: 60px;
-        width: 50%; }
+        width: 520px; }
         .two_stage .container .two_stage-wrapper .two_stage-wrapper-description p {
           font-family: "Roboto - Regular", sans-serif;
           color: #090909;
@@ -1957,6 +1961,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 38%; } }
 
 @media screen and (max-width: 1024px) {
+  .two_stage .container .two_stage-wrapper .two_stage-wrapper-description {
+    padding: 60px 0 60px 45px;
+    width: 400px; }
   .spaces .container .spaces-wrapper .spaces__description .spaces__stage-description {
     width: 100%; }
   .section-portfolio .pc .slider-for .slick-track {
