@@ -347,11 +347,16 @@ main .section-main {
         margin-bottom: 40px; }
       main .section-main .container .main-title p {
         color: #333333;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         margin-bottom: 25px; }
+        main .section-main .container .main-title p span {
+          font-size: 30px;
+          margin-top: 11px;
+          display: block;
+          letter-spacing: 4px; }
       main .section-main .container .main-title small {
         color: #333333;
         font-size: 18px;
