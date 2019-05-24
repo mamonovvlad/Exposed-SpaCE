@@ -1131,7 +1131,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   position: absolute;
   right: 0;
   top: 0;
-  width: 60%;
+  width: 57%;
   padding: 0 20px; }
 
 .pc .slider-for .portfolio-item {
@@ -1155,6 +1155,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .pc .slider-for .portfolio-item {
   -webkit-transition: 0s ease !important;
   transition: 0s ease !important; }
+
+.section-portfolio .pc .slider-for .slick-track {
+  margin-left: 50px; }
 
 .portfolio-block {
   position: relative; }
@@ -1949,6 +1952,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 38%; } }
 
 @media screen and (max-width: 1024px) {
+  .section-portfolio .pc .slider-for .slick-track {
+    margin-left: 0px; }
   .exhib main .section-main .container .main-title p {
     margin-top: 30px; }
   .conc .areas .container .areas__description {
