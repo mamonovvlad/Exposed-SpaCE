@@ -265,7 +265,7 @@ main .section-main {
   box-sizing: border-box; }
   main .section-main .container {
     height: 100vh;
-    background-image: url("../../img/main-background.webp");
+    background-image: url("../../img/arenda-dlya-meropriyatij-moskva.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -1289,7 +1289,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
         -ms-flex-positive: 1;
         flex-grow: 1;
         min-height: 864px;
-        background-image: url("../../img/loft.webp");
+        background-image: url("../../img/arenda-ploshchadki-dlya-meropriyatiya.jpg");
         background-repeat: no-repeat;
         background-position: right center;
         position: relative; }
