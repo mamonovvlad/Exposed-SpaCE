@@ -409,7 +409,7 @@ main .section-main .container .menu-items .lef {
   margin-left: 0; }
 
 #conf main .section-main .container {
-  background-image: url("../../img/conf-pc.png"); }
+  background-image: url("../../img/provesti-vystavku-v-art-centre.jpg"); }
   @media screen and (max-width: 1200px) {
     #conf main .section-main .container {
       background-image: url("../../img/conf-mob.png"); } }
@@ -1076,6 +1076,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .presentation .section-3 .container .present .background-styles-figure {
   margin-bottom: 40%; }
 
+#ind .port-btn .btn {
+  background: #273562; }
+
 .section-portfolio {
   position: relative; }
   .section-portfolio .portfolio-block .portfolio-title {
@@ -1364,8 +1367,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   position: relative; }
 
 .conc #loft .container .box-loft .block-one {
-  background-image: url("../../img/loft-maestro.png");
-  background-position: left center; }
+  background-image: url("../../img/arenda-ploshchadki-dlya-koncerta.jpg");
+  background-position: left center;
+  background-size: cover; }
 
 .conc .section-3 .container .background-styles .background-styles-figure p {
   color: #f551ff; }
@@ -1634,7 +1638,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     transform: rotate(180deg);
     margin: 0 auto; }
 
-.conc #details #details-form .button {
+.conc #details #details-form .button,
+#conf #details-form .button {
   background-color: #e40be4;
   border: none; }
 
@@ -1902,7 +1907,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #form input:focus {
     height: 57px; }
 
-#conf #footer .btn {
+#conf #footer .btn,
+.loc #footer .btn {
   background-color: #e40be4;
   border: none; }
 
