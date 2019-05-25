@@ -415,7 +415,7 @@ main .section-main .container .menu-items .lef {
       background-image: url("../../img/conf-mob.png"); } }
 
 #exhib main .section-main .container {
-  background-image: url("../../img/exhib.webp"); }
+  background-image: url("../../img/lokacii-dlya-semok.jpg"); }
 
 main .section-main .container .menu-items .it {
   margin-left: 0; }
@@ -597,7 +597,7 @@ main .section-main .container nav a {
   margin: 20px 0; }
 
 .spaces {
-  background: url("../../img/page-2-paints.png") no-repeat;
+  background: url("../../img/lokaciya-dlya-semki.jpg") no-repeat;
   min-height: 870px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -699,7 +699,7 @@ main .section-main .container nav a {
   max-width: 458px;
   width: 100%;
   height: 328px;
-  background: url("../../img/dg-1.webp") right center no-repeat;
+  background: url("../../img/dizajn-v-stile-loft.jpg") right center no-repeat;
   background-size: cover; }
 
 .presentation .spaces__map {
@@ -719,7 +719,7 @@ main .mg {
   border-bottom: 2px solid #f5f5f5;
   width: 100%;
   margin: 0 auto;
-  background: url("../../img/stag.png") center;
+  background: url("../../img/lokaciya-dlya-kino.jpg") center;
   background-size: cover; }
   .two_stage .container {
     min-height: 900px;
@@ -1423,8 +1423,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   margin: 0 15px; }
 
 #exhib #loft .container .box-loft .block-one {
-  background-image: url("../../img/loft-exh.webp");
-  background-position: center; }
+  background-image: url("../../img/lokaciya-dlya-semki-klipa.jpg");
+  background-position: center;
+  background-size: cover; }
 
 #details .box-detalies {
   display: -webkit-box;
