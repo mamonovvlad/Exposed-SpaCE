@@ -2171,6 +2171,17 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  download, .wrapper {
+    left: calc(50% - 160px);
+    padding: 40px 20px; }
+  #conf .two_stage .container .stage-2-wrap, .conc .two_stage .container .stage-2-wrap, .presentation .two_stage .container .stage-2-wrap {
+    text-align: center; }
+  .presentation .section-3 .container .our_styles_items {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  #conf .areas__description-wrapper, .conc .areas__description-wrapper, .presentation .areas__description-wrapper {
+    padding: 10px; }
   #footer .box-footer .block-for .block-inputs input {
     width: 90%; }
   #footer .box-form #form {
