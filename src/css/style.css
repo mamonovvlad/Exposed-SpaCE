@@ -1396,7 +1396,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 
 .presentation #loft .container .box-loft .block-one {
   background-image: url("../../img/event-ploshchadki-moskvy.jpg");
-  background-position: left center; }
+  background-position: left center;
+  background-size: cover; }
 
 .presentation .section-3 .container .background-styles .background-styles-figure p {
   color: #f551ff; }
