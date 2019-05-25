@@ -2171,6 +2171,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  #footer .box-footer .block-for .block-inputs input {
+    width: 90%; }
   #footer .box-form #form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2523,6 +2525,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     display: none; }
   .section_form .box-form {
     padding: 0px 0 0px 0;
+    width: 100%;
     margin: 20px 0; }
   .section-3 .container .background-styles {
     min-height: 490px; }
@@ -2654,11 +2657,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     margin-bottom: 10px; }
   .two_stage .container .two_stage-title {
     font-size: 20px; }
-  .spaces {
-    background: url(../../img/page-2-paints.png) -11px 167px no-repeat; }
-  .spaces__map {
-    background: url(../../img/dg-1.webp) center no-repeat;
-    background-size: 100%; }
   .spaces .container .spaces-wrapper .spaces__description .spaces__description-title {
     font-size: 25px; }
   .two_stage .container .two_stage-wrapper .wrap-map-text p {
