@@ -492,7 +492,8 @@ main .section-main .container nav a {
     #form-top input:focus {
       height: 57px; }
 
-#conf .section_form .box-form button {
+#conf .section_form .box-form button,
+.loc .section_form .box-form .btn {
   background-color: #e40be4;
   border: none; }
 
@@ -1072,6 +1073,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .section-3 .container .background-styles .background-styles-figure {
   margin-right: 30%; }
 
+.presentation .section-3 .container .present .background-styles-figure {
+  margin-bottom: 40%; }
+
 .section-portfolio {
   position: relative; }
   .section-portfolio .portfolio-block .portfolio-title {
@@ -1083,8 +1087,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     padding: 40px 0;
     font-weight: 400; }
     .section-portfolio .portfolio-block .portfolio-title span {
-      font-weight: 600;
-      margin-right: 105px; }
+      font-weight: 600; }
   .section-portfolio .stage-title {
     color: #333333;
     font-family: Roboto;
@@ -1250,7 +1253,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 60px 0 40px; }
+  margin: 40px 0 0px; }
 
 .port-btn .btn {
   border-radius: 10px;
@@ -1258,6 +1261,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   background: #e40be4;
   outline: none;
   color: #fff;
+  border: none;
   font-size: 18px;
   font-weight: 300;
   letter-spacing: .9px;
