@@ -38,9 +38,6 @@
    /*details*/
    #details .figure p 
       padding: 60px 120px 80px 0
-   #details .block-detalies__one,
-   #details .block-detalies__two 
-      width: 50%
    #details .block-detalies__two
       padding: 30px 10px 40px 30px
    /*footer*/
@@ -244,6 +241,45 @@
 
 
 @media screen and (max-width: 768px)
+   #footer .box-form #form 
+      flex-direction: column
+      width: 100%
+   #footer .box-form #form input
+      width: 90%
+   #details
+      margin-top: 20px
+   #details .block-detalies__two 
+      height: 100%
+      width: 100%
+   #details .block-detalies__one 
+      display: none
+   .block-two-wrapper
+      & img
+         height: 100px
+   .block-two-wrapper .loft-items ,
+   #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-item
+      padding: 0
+      font-size: 12px
+   #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title-fst,
+   #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title 
+      font-size: 25px
+   #loft .container .box-loft .block-one 
+      max-height: 570px
+      min-height: 570px
+      background-position: -1080px center
+   #loft .container .box-loft .block-two-main 
+      height: 570px
+   #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-text p 
+      font-size: 25px
+   .block-one-overlay-click
+      display: none
+   #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-loft-fig 
+      width: 140px
+      height: 180px
+   #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-click 
+      right: 0px
+      bottom: -115px
+      z-index: 2
    .section-3 .container .our_styles_items 
       flex-direction: column
    .section-3 .container .our_styles_items .our_styles-title 
@@ -431,13 +467,6 @@
       margin-bottom: 20px
    #details .block-detalies__one
       background: url(../../img/detal-ma.png) bottom no-repeat
-   #details .block-detalies__two 
-
-      height: 800px
-      width: 50%
-      padding: 10px 5px 0px 20px
-      display: flex
-      justify-content: end
    #details .figure p 
       padding: 50px 0 0px 0
    #details .block-detalies__one img 
@@ -509,13 +538,6 @@
       font-size: 14px
    .section-main .container .main-title h2 
       padding: 10px 0 5px 0
-
-   .block-two-wrapper .loft-items
-      padding: 0
-
-   #loft .container .box-loft .block-one
-      background-position: -568px center
-
    .section-portfolio .portfolios .portfolio-item .portfolio-btn 
       max-width: 100px
       font-size: 12px
@@ -636,9 +658,6 @@
       margin: 0 auto
       width: 100%!important
 
-@media screen and (max-width: 600px)
-   #loft .container .box-loft .block-one
-      background-position: -806px center
  
 @media screen and (max-width: 425px)
    .burger-menu span 
@@ -686,10 +705,6 @@
       text-align: left
    .section-3 .container .background-styles .background-styles-modal 
       padding: 30px
-   #details .block-detalies__one, #details .block-detalies__two 
-      width: 60%
-   #details .block-detalies__one, #details .block-detalies__one
-      width: 40%
    .section-3 .container .background-styles .background-styles-modal .modal-description:after
       right: -30px
       top: -30px
