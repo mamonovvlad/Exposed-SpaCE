@@ -229,11 +229,14 @@
 			<div class="container">
 				<p class="spaces__email-send">ОТПРАВИТЬ ПЛАН-СХЕМУ?</p>
 				<form action="">
-					<input type="hidden" name="project_name" value="EXPOSED SPACE">
-					<input type="hidden" name="admin_email" value="vlad.dn.96@gmail.com">
-					<input type="hidden" name="form_subject" value="Отправит на эту почту план схему ">
-					<input type="e-mail" name="e-mail" class="spaces-email" placeholder="Ваш E-mail ?">
-				</form>
+						<input type="hidden" name="project_name" value="EXPOSED SPACE">
+						<input type="hidden" name="admin_email" value="vlad.dn.96@gmail.com">
+						<input type="hidden" name="form_subject" value="Отправит на эту почту план схему ">
+						<input type="e-mail" name="e-mail" class="spaces-email" placeholder="Ваш E-mail ?">
+						<div class="port-btn mg">
+								<button class="btn button ">ОТПРАВИТЬ</button>
+							</div>
+					</form>
 
 			</div>
 		</section>
@@ -382,7 +385,23 @@
 				</div>
 				<div class="areas__scheme">
 					<img src="src/img/fg.webp" alt="">
-					
+					<section class="section_form">
+							<div class="container">
+								<div class="box-form">
+									<form id="form-top" action="">
+										<input type="hidden" name="project_name" value="EXPOSED SPACE">
+										<input type="hidden" name="admin_email" value="vlad.dn.96@gmail.com">
+										<input type="hidden" name="form_subject"
+											value="Приглашаем в гости, просто попить чай/кофе и посмотреть пространство! ">
+				
+										<input type="text" name="Имя" placeholder="Имя" required>
+										<input required type="text" name="Дата" placeholder="Дата" onfocus="(this.type='date')" />
+										<input type="phone" name="Тел" class="phone_mask" placeholder="+7(___)___-__-__" required>
+										<button class="btn" type="submit">Отправить</button>
+									</form>
+								</div>
+							</div>
+						</section>
 
 				</div>
 			</div>
@@ -433,7 +452,7 @@
 			<section class="section-portfolio">
 				<div class="container">
 					<div class="portfolio-block">
-						<h4 class="portfolio-title">Галерея <span>EXPONSED</span></h4>
+						<h4 class="portfolio-title">Галерея <span>EXPOSED</span></h4>
 						<div class="portfolio-block__img">
 
 						</div>

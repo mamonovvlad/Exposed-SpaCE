@@ -690,7 +690,7 @@ main .section-main .container nav a {
     padding-left: 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin-bottom: 90px;
+    margin: 0 auto;
     font-weight: 300;
     font-family: "Roboto - Regular", sans-serif; }
 
@@ -709,6 +709,9 @@ main .section-main .container nav a {
   right: 40px;
   font-size: 30px;
   bottom: -50px; }
+
+main .mg {
+  margin: 20px 0 40px; }
 
 .two_stage {
   background: #f5f4f5;
