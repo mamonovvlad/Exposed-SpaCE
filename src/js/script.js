@@ -13,7 +13,7 @@ $(document).ready(function()
 }
 
 
-scrollTop('.arrow-down','.section-2');	
+scrollTop('.down','.section-3');	
 scrollTop('.map__title','.areas');
 scrollTop('.det','#details');
 scrollTop('.foot','#footer');
@@ -91,62 +91,6 @@ function getWindowWidth() {
 			 })
  }
 
-
-//  $('.slider-for').slick({
-// 	slidesToShow: 1,
-// 	slidesToScroll: 1,
-// 	arrows: false,
-// 	fade: true,
-// 	asNavFor: '.slider-nav',
-// 	responsive: [
-// 		{
-// 		  breakpoint: 768,
-// 		  settings: {
-// 			 slidesToShow: 1,
-// 			 slidesToScroll: 1
-// 		  }
-// 		},
-// 		{
-// 		  breakpoint: 480,
-// 		  settings: {
-// 			 slidesToShow: 1,
-// 			 slidesToScroll: 1
-// 		  }
-// 		}
-// 		// You can unslick at a given breakpoint now by adding:
-// 		// settings: "unslick"
-// 		// instead of a settings object
-// 	 ]
-// //   });
-//  $('.slider-nav').slick({
-// 	slidesToShow: 3,
-// 	slidesToScroll: 1,
-// 	dots: true,
-// 	centerMode: true,
-// 	focusOnSelect: true,
-// 	// autoplay: true,
-// 	autoplaySpeed: 3000,
-// 	responsive: [
-// 		{
-// 		  breakpoint: 768,
-// 		  settings: {
-// 			 slidesToShow: 2,
-// 			 slidesToScroll: 1
-// 		  }
-// 		},
-// 		{
-// 		  breakpoint: 480,
-// 		  settings: {
-// 			 slidesToShow: 1,
-// 			 slidesToScroll: 1
-// 		  }
-// 		}
-// 		// You can unslick at a given breakpoint now by adding:
-// 		// settings: "unslick"
-// 		// instead of a settings object
-// 	 ]
-//   });
-				  
 
  $(".cl").click(function (e) {
 	e.preventDefault();
