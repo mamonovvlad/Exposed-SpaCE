@@ -943,13 +943,17 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-weight: 300;
     letter-spacing: 0.8px;
     font-size: 16px;
-    padding: 0 20px; }
+    padding: 0 20px;
+    line-height: 30px; }
 
 .section-2 .slick-next:before {
   display: none; }
 
 .pd {
   padding-right: 100px; }
+
+#mobl {
+  display: none; }
 
 .section-3 .container {
   max-width: 1920px;
@@ -2170,6 +2174,30 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .section-3 .container .our_styles_items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .section-3 .container .our_styles_items .our_styles-title {
+    margin: 0;
+    padding: 0; }
+  .section-3 .container .our_styles_items .our_styles-title h4 {
+    line-height: 40px; }
+  .section-portfolio .portfolio-block .portfolio-title {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .description-box {
+    margin: 10px 0 10px; }
+  #p {
+    display: none; }
+  #mobl {
+    display: block; }
+  #mobl .description-box_two .description-item p {
+    line-height: 25px; }
+  #mobl .description-item p {
+    margin: 5px 0; }
   .section-2 .event-wrapper .events-items-left,
   .section-2 .event-wrapper .events-items-right {
     margin: 10px 25px; }
@@ -2469,9 +2497,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 18px; }
   .section-portfolio .portfolio-block .portfolio-title:after {
     display: none; }
-  .section-portfolio .portfolio-block .portfolio-title {
-    font-size: 24px;
-    padding: 40px 20px; }
   .section_form .box-form {
     padding: 0px 0 0px 0;
     margin: 20px 0; }
@@ -2493,7 +2518,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 30px; }
   .section-3 .container .our_styles_items .our_styles-description {
     font-size: 12px;
-    margin-right: 0px; }
+    margin-right: 0px;
+    margin-bottom: 10px; }
   .section-3 .container .our_styles_items .our_styles-title .figure-img span {
     height: 40px;
     left: 3px;
@@ -2646,8 +2672,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     text-align: left; }
   .section-3 .container .background-styles .background-styles-modal {
     padding: 30px; }
-  .section-portfolio .portfolio-block .portfolio-title {
-    font-size: 20px; }
   #details .block-detalies__one,
   #details .block-detalies__two {
     width: 60%; }
