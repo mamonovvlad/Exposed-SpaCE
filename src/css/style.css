@@ -2175,6 +2175,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .section-portfolio .portfolios .portfolio-item, .section-portfolio .portfolios .portfolio-item-middle {
+    height: 500px; }
   main .section-main .container .main-title p span {
     font-size: 16px; }
   main .section-main .container {
