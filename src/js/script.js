@@ -150,7 +150,7 @@ $(".shadow").click(function (e) {
 
 		$(window).on("scroll", function() { 
 			var scro= $(window).scrollTop();            
-		var scr2=200; 	// начало меню услуги
+		var scr2=300; 	// начало меню услуги
 		if ( $(window).scrollTop() >= scr2 && scro  ) {	$('.header').addClass('active');}
 		else $('#m1').removeClass('active');
 		})

@@ -218,7 +218,11 @@ body {
   display: none; }
 
 .active {
-  display: block !important; }
+  display: block !important;
+  background: #fff; }
+  .active .tel,
+  .active .address {
+    color: #000 !important; }
 
 nav {
   display: -webkit-box;
