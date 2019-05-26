@@ -224,7 +224,7 @@ body {
   .active .address {
     color: #000 !important; }
 
-nav {
+.none {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,7 +283,8 @@ main .section-main {
   background-image: url("../../img/two-fon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left bottom; }
+  background-position: left bottom;
+  position: relative; }
   main .section-main .container {
     height: 100vh;
     display: -webkit-box;
@@ -339,7 +340,6 @@ main .section-main {
           main .section-main .container .navigation-bottom nav .menu-items .menu-item-active {
             border-top: 3px solid #000; }
       main .section-main .container .navigation-bottom .arrow-down {
-        margin-left: 13%;
         margin-bottom: 1px;
         cursor: pointer;
         position: relative;
@@ -449,18 +449,28 @@ main .section-main .container .menu-items .it {
 main .section-main .container nav a {
   display: block; }
 
-#ind h1,
-#ind h2,
-#ind p,
-#ind small,
-#ind .none a,
+#ind .section-main h1,
+#ind .section-main h2,
+#ind .section-main p,
+#ind .section-main small,
+#ind .section-main .none a {
+  color: #f0f0f0; }
+
 #ind .address,
 #ind .tel {
   color: #f0f0f0; }
 
 .art {
   text-align: right;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.bot-menu {
+  width: 63%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
 
 .section_form .box-form {
   display: -webkit-box;
