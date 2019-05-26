@@ -1115,7 +1115,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     justify-content: space-between; }
     .section-portfolio .portfolios .portfolio-item {
       width: 33%;
-      height: 250px;
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
@@ -1129,7 +1128,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       -ms-flex-align: center;
       align-items: center;
       position: relative;
-      margin: 10px 5px; }
+      margin: 10px 5px;
+      height: 220px; }
       .section-portfolio .portfolios .portfolio-item:last-child {
         margin-right: 0; }
       .section-portfolio .portfolios .portfolio-item:first-child {
@@ -1153,8 +1153,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
           -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
           box-shadow: 0 0 7px rgba(0, 0, 0, 0.7); }
     .section-portfolio .portfolios .portfolio-item-middle {
-      width: 35%;
-      height: 250px; }
+      height: 220px;
+      width: 35%; }
 
 #pc {
   position: relative; }
