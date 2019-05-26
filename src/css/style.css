@@ -45,7 +45,6 @@ body {
 
 .header {
   position: fixed;
-  background-color: #fff;
   top: 0;
   left: 0;
   right: 0;
@@ -268,7 +267,7 @@ main .section-main {
   box-sizing: border-box; }
   main .section-main .container {
     height: 100vh;
-    background-image: url("../../img/arenda-dlya-meropriyatij-moskva.jpg");
+    background-image: url("../../img/two-fon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -285,9 +284,6 @@ main .section-main {
     max-width: 1920px; }
     main .section-main .container a {
       display: none; }
-    @media screen and (max-width: 1200px) {
-      main .section-main .container {
-        background-image: url("../../img/main-bg-mobile.png"); } }
     main .section-main .container .navigation-bottom {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -434,6 +430,12 @@ main .section-main .container .menu-items .it {
 
 main .section-main .container nav a {
   display: block; }
+
+#ind .main-title h1,
+#ind .main-title h2,
+#ind .main-title p,
+#ind .main-title small {
+  color: #fff; }
 
 .section_form .box-form {
   display: -webkit-box;
