@@ -218,6 +218,9 @@ body {
 .burger-menu {
   display: none; }
 
+.active {
+  display: block !important; }
+
 .mobile-menu {
   overflow: hidden; }
   .mobile-menu .mobile-menu-item {
@@ -2171,6 +2174,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .header {
+    display: none; }
   .download, .wrapper {
     left: calc(50% - 160px);
     padding: 40px 20px; }
@@ -2284,7 +2289,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     width: 100%; }
   .two_stage .container .two_stage-wrapper .two_stage-wrapper-description {
     width: 100%;
-    padding: 0; }
+    padding: 0 10px; }
   .two_stage .container .stage-2-wrap {
     top: 0;
     left: calc(50% - 73px); }
@@ -2302,8 +2307,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   .section-2 .slick-next:before {
     display: block; }
   .areas .container .areas__description {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .areas .container .areas__scheme-wrapper {
     position: static;
     margin: 0;
@@ -2318,8 +2322,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     flex-direction: column;
     text-align: center; }
   .spaces .container .spaces-wrapper .spaces__description {
-    padding: 0 10px;
-    text-align: center; }
+    padding: 0 10px; }
   .areas .container .areas__scheme-wrapper .areas__scheme-text {
     text-align: center;
     white-space: nowrap;
