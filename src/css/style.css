@@ -431,10 +431,13 @@ main .section-main .container .menu-items .it {
 main .section-main .container nav a {
   display: block; }
 
-#ind .main-title h1,
-#ind .main-title h2,
-#ind .main-title p,
-#ind .main-title small {
+#ind h1,
+#ind h2,
+#ind p,
+#ind small,
+#ind main .section-main .container .menu-items .menu-item a,
+#ind .address,
+#ind .tel {
   color: #fff; }
 
 .section_form .box-form {
