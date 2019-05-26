@@ -220,6 +220,17 @@ body {
 .active {
   display: block !important; }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
 .mobile-menu {
   overflow: hidden; }
   .mobile-menu .mobile-menu-item {
@@ -264,13 +275,13 @@ body {
 
 main .section-main {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-image: url("../../img/two-fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom; }
   main .section-main .container {
     height: 100vh;
-    background-image: url("../../img/two-fon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left bottom;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -281,7 +292,7 @@ main .section-main {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 1920px; }
+    max-width: 1200px; }
     main .section-main .container a {
       display: none; }
     main .section-main .container .navigation-bottom {
@@ -333,7 +344,7 @@ main .section-main {
     main .section-main .container .main-title {
       color: #333333;
       text-transform: uppercase;
-      margin-left: 110px; }
+      margin-left: 15px; }
       main .section-main .container .main-title h1 {
         font-family: "Roboto - Black" , sans-serif;
         font-weight: 700;
@@ -390,7 +401,8 @@ main .section-main {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      margin-left: 80px;
+      padding: 0;
+      margin-left: 15px;
       margin-top: 70px; }
       main .section-main .container .menu-items .menu-item {
         list-style: none;
@@ -407,14 +419,16 @@ main .section-main {
 main .section-main .container .menu-items .lef {
   margin-left: 0; }
 
-#conf main .section-main .container {
-  background-image: url("../../img/provesti-vystavku-v-art-centre.jpg"); }
+#conf main .section-main {
+  background-image: url("../../img/provesti-vystavku-v-art-centre.jpg");
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
-    #conf main .section-main .container {
+    #conf main .section-main {
       background-image: url("../../img/conf-mob.png"); } }
 
-#exhib main .section-main .container {
-  background-image: url("../../img/lokacii-dlya-semok.jpg"); }
+#exhib main .section-main {
+  background-image: url("../../img/lokacii-dlya-semok.jpg");
+  background-size: cover; }
 
 main .section-main .container .menu-items .it {
   margin-left: 0; }
@@ -435,10 +449,14 @@ main .section-main .container nav a {
 #ind h2,
 #ind p,
 #ind small,
-#ind main .section-main .container .menu-items .menu-item a,
+#ind .none a,
 #ind .address,
 #ind .tel {
   color: #f0f0f0; }
+
+.art {
+  text-align: right;
+  text-transform: uppercase; }
 
 .section_form .box-form {
   display: -webkit-box;

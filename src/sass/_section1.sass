@@ -1,17 +1,18 @@
 main
 	.section-main
 		box-sizing: border-box
+		background-image: url('../../img/two-fon.jpg')
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: left bottom
 		
 		.container
 			height: 100vh 
-			background-image: url('../../img/two-fon.jpg')
-			background-repeat: no-repeat
-			background-size: cover
-			background-position: left bottom
+		
 			display: flex
 			flex-direction: column
 			justify-content: space-between
-			max-width: 1920px
+			max-width: 1200px
 			& a 
 				display: none
 			// @media screen and (max-width: 1200px)
@@ -56,7 +57,7 @@ main
 			.main-title
 				color: #333333
 				text-transform: uppercase
-				margin-left: 110px
+				margin-left: 15px
 
 				h1
 					font-family: "Roboto - Black" , sans-serif
@@ -113,7 +114,8 @@ main
 
 			.menu-items
 				display: flex
-				margin-left: 80px
+				padding: 0
+				margin-left: 15px
 				margin-top: 70px
 				.menu-item
 					list-style: none
@@ -129,12 +131,14 @@ main
 						font-weight: 400
 main .section-main .container .menu-items .lef
 	margin-left: 0
-#conf main .section-main .container 
+#conf main .section-main 
 	background-image: url('../../img/provesti-vystavku-v-art-centre.jpg')
+	background-size: cover
 	@media screen and (max-width: 1200px)
 		background-image: url('../../img/conf-mob.png')
-#exhib main .section-main .container 
+#exhib main .section-main 
 	background-image: url('../../img/lokacii-dlya-semok.jpg')
+	background-size: cover
 
 main .section-main .container .menu-items .it
 	margin-left: 0
@@ -152,8 +156,10 @@ main .section-main .container nav a
 	& h2,
 	& p,
 	& small,
-	& main .section-main .container .menu-items .menu-item a,
+	& .none a,
 	& .address,
 	& .tel
 		color: #f0f0f0
-	
+.art
+	text-align: right
+	text-transform: uppercase
