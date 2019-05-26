@@ -1115,6 +1115,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .section-portfolio .portfolios .portfolio-item {
+      background-size: cover;
       width: 33%;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -2175,8 +2176,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
-  .section-portfolio .portfolios .portfolio-item, .section-portfolio .portfolios .portfolio-item-middle {
-    height: 500px; }
   main .section-main .container .main-title p span {
     font-size: 16px; }
   main .section-main .container {
@@ -2351,10 +2350,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   main .section-portfolio .mob {
     display: block; }
   main .mob .portfolio-item {
-    background-size: auto;
+    background-size: cover;
     margin: 0 5px 20px 5px; }
   .section-portfolio .mob .portfolio-item {
-    background-size: auto; }
+    background-size: cover; }
   .section-portfolio .portfolios .portfolio-item {
     max-width: 330px;
     width: 100%;
