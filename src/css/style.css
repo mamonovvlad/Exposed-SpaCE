@@ -359,7 +359,7 @@ main .section-main {
         font-size: 60px;
         text-transform: uppercase;
         letter-spacing: 8px;
-        margin: 0px 0 15px; }
+        margin: 0px 0 10px; }
       main .section-main .container .main-title h2 {
         color: #333333;
         font-family: Roboto;
@@ -367,7 +367,7 @@ main .section-main {
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 6px;
-        margin-bottom: 20px; }
+        margin-bottom: 10px; }
       main .section-main .container .main-title p {
         color: #333333;
         font-size: 25px;
