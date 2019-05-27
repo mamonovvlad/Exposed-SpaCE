@@ -342,7 +342,8 @@ main .section-main {
           main .section-main .container .navigation-bottom nav .menu-items .menu-item-active {
             border-top: 3px solid #000; }
       main .section-main .container .navigation-bottom .arrow-down {
-        margin-bottom: 1px;
+        margin-left: 35px;
+        margin-bottom: 15px;
         cursor: pointer;
         position: relative;
         -webkit-animation: scrollDown 1s ease infinite;
@@ -453,7 +454,7 @@ main .section-main .container nav a {
 
 #ind .section-main .main-title {
   height: 100%;
-  margin-top: 100px; }
+  margin-top: 80px; }
 
 #ind .section-main h1,
 #ind .section-main h2,
@@ -477,6 +478,10 @@ main .section-main .container nav a {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#ind-two .section-main {
+  background: url(../../img/arenda-dlya-meropriyatij-moskva.jpg);
+  background-size: cover; }
 
 .section_form .box-form {
   display: -webkit-box;
