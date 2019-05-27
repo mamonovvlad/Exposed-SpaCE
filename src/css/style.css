@@ -219,10 +219,10 @@ body {
 
 .active {
   display: block !important;
-  background: #fff; }
+  background: #020202bf; }
   .active .tel,
   .active .address {
-    color: #000 !important; }
+    color: #fff !important; }
 
 .none {
   display: -webkit-box;
@@ -882,7 +882,8 @@ main .mg {
     font-weight: 700;
     line-height: 48px;
     padding-top: 40px;
-    margin-left: 30px; }
+    margin-left: 30px;
+    letter-spacing: 3px; }
 
 .section-2 .event-formats {
   color: #333;
