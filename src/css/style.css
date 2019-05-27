@@ -2718,7 +2718,11 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     justify-content: center; }
   #pc .slider-for .portfolio-item {
     margin: 0 auto;
-    width: 100% !important; } }
+    width: 100% !important; }
+  .burger-menu span {
+    border: 1px solid #fff; }
+  .burger-menu:hover span {
+    background: #fff; } }
 
 @media screen and (max-width: 425px) {
   main .section-main .container .main-title h2 {
@@ -2732,10 +2736,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #ind .section-main .main-title {
     height: 100%;
     margin-bottom: 300px; }
-  #ind .burger-menu span {
-    border: 1px solid #fff; }
-  #ind .burger-menu:hover span {
-    background: #fff; }
   #ind main .section-main .container .main-title h2 {
     letter-spacing: 4px; }
   #loft .container .box-loft .block-one {
