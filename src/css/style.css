@@ -2225,6 +2225,12 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .section-3 .container .background-styles {
+    background-position: center left; }
+  .port-btn {
+    margin: 40px 0; }
+  .section-3 .container .our_styles_items .our_styles-title h4 {
+    margin-left: 18px; }
   main .section-main .container .main-title p span {
     font-size: 16px; }
   main .section-main .container {
@@ -2237,11 +2243,14 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     left: calc(50% - 160px);
     padding: 40px 20px; }
   #conf .two_stage .container .stage-2-wrap, .conc .two_stage .container .stage-2-wrap, .presentation .two_stage .container .stage-2-wrap {
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
+  #conf .two_stage .container .stage-2-wrap p, .conc .two_stage .container .stage-2-wrap p, .presentation .two_stage .container .stage-2-wrap ps {
+    text-align: left; }
   .presentation .section-3 .container .our_styles_items {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end; }
   #conf .areas__description-wrapper, .conc .areas__description-wrapper, .presentation .areas__description-wrapper {
     padding: 10px; }
   #footer .box-footer .block-for .block-inputs input {
@@ -2703,7 +2712,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     margin: 0px; }
   .presentation .spaces__map-title {
     position: absolute;
-    bottom: -40px;
+    bottom: 0px;
     right: 40px;
     font-size: 25px; }
   .presentation .spaces__map {
