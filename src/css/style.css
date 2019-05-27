@@ -452,6 +452,9 @@ main .section-main .container .menu-items .it {
 main .section-main .container nav a {
   display: block; }
 
+#ind .main-title {
+  margin-bottom: 110px; }
+
 #ind .section-main h1,
 #ind .section-main h2,
 #ind .section-main p,
