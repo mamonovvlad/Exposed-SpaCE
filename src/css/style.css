@@ -2225,6 +2225,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .two_stage .container .stage-2-wrap h4 {
+    padding-right: 25px;
+    text-align: right; }
   .section-3 .container .background-styles {
     background-position: center left; }
   .port-btn {
@@ -2244,9 +2247,11 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     padding: 40px 20px; }
   #conf .two_stage .container .stage-2-wrap, .conc .two_stage .container .stage-2-wrap, .presentation .two_stage .container .stage-2-wrap {
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    text-align: center;
+    left: 0; }
   #conf .two_stage .container .stage-2-wrap p, .conc .two_stage .container .stage-2-wrap p, .presentation .two_stage .container .stage-2-wrap ps {
-    text-align: left; }
+    text-align: center; }
   .presentation .section-3 .container .our_styles_items {
     -webkit-box-align: end;
     -ms-flex-align: end;
@@ -2608,7 +2613,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     width: 100%;
     margin: 20px 0; }
   .section-3 .container .background-styles {
-    min-height: 490px; }
+    min-height: 490px;
+    background-position: center right; }
   .background-styles-figure img {
     width: 115px; }
   .section-portfolio .portfolios .portfolio-item .portfolio-figure-icon {
@@ -2712,7 +2718,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     margin: 0px; }
   .presentation .spaces__map-title {
     position: absolute;
-    bottom: 0px;
+    bottom: -35px;
     right: 40px;
     font-size: 25px; }
   .presentation .spaces__map {
@@ -2734,6 +2740,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     background: #fff; } }
 
 @media screen and (max-width: 425px) {
+  .spaces .container .spaces__email-send {
+    font-size: 14px;
+    letter-spacing: -0.2px; }
   .ymaps-2-1-73-areas-pane, .ymaps-2-1-73-balloon-pane, .ymaps-2-1-73-controls-pane, .ymaps-2-1-73-controls__bottom, .ymaps-2-1-73-controls__toolbar, .ymaps-2-1-73-events-pane, .ymaps-2-1-73-ground-pane, .ymaps-2-1-73-panel-pane, .ymaps-2-1-73-places-pane, .ymaps-2-1-73-ruler-balloon-pane, .ymaps-2-1-73-ruler-line-pane, .ymaps-2-1-73-searchpanel-pane {
     text-align: center !important;
     left: 25% !important; }
@@ -2773,8 +2782,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 30px;
     font-size: 15px; }
   .two_stage .container .stage-2-wrap {
-    top: 30px;
-    left: calc(50% - 46.5px); }
+    top: 8px; }
   #footer .box-map .arrow:before {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
