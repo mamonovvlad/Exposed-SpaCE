@@ -427,7 +427,7 @@ main .section-main .container .menu-items .lef {
   margin-left: 0; }
 
 #conf main .section-main {
-  background-image: url("../../img/provesti-vystavku-v-art-centre.jpg");
+  background-image: url(../../img/conf-mob.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     #conf main .section-main {
@@ -648,7 +648,7 @@ main .section-main .container nav a {
   margin: 20px 0; }
 
 .spaces {
-  background: url("../../img/lokaciya-dlya-semki.jpg") no-repeat;
+  background: #f0f0f0;
   min-height: 870px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -770,7 +770,7 @@ main .mg {
   border-bottom: 2px solid #f5f5f5;
   width: 100%;
   margin: 0 auto;
-  background: url("../../img/lokaciya-dlya-kino.jpg") center;
+  background: f0f0f0;
   background-size: cover; }
   .two_stage .container {
     min-height: 900px;
@@ -2051,6 +2051,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     right: 38%; } }
 
 @media screen and (max-width: 1024px) {
+  .section-portfolio .blocks .mob .slick-next {
+    left: 90%; }
+  .section-portfolio .blocks .mob .slick-prev {
+    right: 90%; }
   .two_stage .container .two_stage-wrapper .two_stage-wrapper-description {
     padding: 60px 0 60px 45px;
     width: 400px; }
@@ -2240,6 +2244,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  .section-portfolio .blocks .mob .slick-next {
+    left: 85%; }
+  .section-portfolio .blocks .mob .slick-prev {
+    right: 85%; }
   .two_stage .container .stage-2-wrap h4 {
     padding-right: 25px;
     text-align: right; }
@@ -2302,7 +2310,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #loft .container .box-loft .block-one {
     max-height: 570px;
     min-height: 570px;
-    background-position: -980px center; }
+    background-position: left; }
   #loft .container .box-loft .block-two-main {
     height: 570px; }
   #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-text p {
@@ -2499,15 +2507,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     padding: 15px 15px; }
   #footer .box-form #form input {
     padding: 15px 15px; }
-  #footer .box-map .arrow:before {
-    content: '';
-    position: absolute;
-    display: block;
-    background: url(../../img/diagram-mob.png) center no-repeat;
-    width: 20px;
-    height: 58px;
-    right: 90px;
-    top: 30px; }
   .section_form .box-form .form-text p,
   #footer .box-form .form-text p {
     font-size: 16px;
@@ -2752,7 +2751,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   .burger-menu span {
     border: 1px solid #fff; }
   .burger-menu:hover span {
-    background: #fff; } }
+    background: #fff; }
+  .section-portfolio .section-2 .event-formats {
+    width: 100%; } }
 
 @media screen and (max-width: 425px) {
   .spaces .container .spaces__email-send {
@@ -2777,7 +2778,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   #ind main .section-main .container .main-title h2 {
     letter-spacing: 4px; }
   #loft .container .box-loft .block-one {
-    background-position: -1080px center; }
+    background-position: -120px; }
   .burger-menu span {
     width: 8px;
     height: 8px; }
