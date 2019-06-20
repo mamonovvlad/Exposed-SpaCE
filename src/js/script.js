@@ -160,3 +160,8 @@ $(".shadow").click(function (e) {
 });
 
 
+
+    lightbox.option({
+      'resizeDuration': 200,
+	  'wrapAround': true
+    })

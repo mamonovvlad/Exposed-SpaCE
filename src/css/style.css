@@ -896,7 +896,7 @@ main .mg {
   -ms-flex-direction: column;
   flex-direction: column;
   height: 265px;
-  width: 50%;
+  width: 30%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
@@ -1180,10 +1180,11 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       align-items: center;
       position: relative;
       margin: 10px 5px;
-      max-height: 500px;
+      max-height: 400px;
       height: -webkit-fill-available;
       height: -moz-available;
-      height: fill; }
+      height: fill;
+      background-size: cover; }
       .section-portfolio .portfolios .portfolio-item:last-child {
         margin-right: 0; }
       .section-portfolio .portfolios .portfolio-item:first-child {
@@ -1307,6 +1308,13 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 #pc .slider-for .portfolio-item {
   margin: 10px 0px; }
 
+.qwer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
 .port-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1344,6 +1352,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 
 .section-portfolio .section-2 .container {
   min-height: 100%; }
+
+.section-portfolio .section-2 .event-formats {
+  width: 50%; }
 
 #loft {
   margin-top: 50px; }
