@@ -39,7 +39,7 @@ body {
   margin: 0 auto; }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   width: 100%;
   margin: 0 auto; }
 
@@ -848,7 +848,7 @@ main .mg {
   margin-bottom: 40px; }
 
 .section-2 .container {
-  max-width: 1920px;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1009,7 +1009,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   display: none; }
 
 .section-3 .container {
-  max-width: 1920px;
+  max-width: 100%;
   position: relative; }
   .section-3 .container .background-styles {
     min-height: 936px;
@@ -1334,7 +1334,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   margin-top: 50px; }
   #loft .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 100%;
     width: 100%;
     overflow: hidden; }
     #loft .container .box-loft {
@@ -1350,7 +1350,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
         background-image: url("../../img/arenda-ploshchadki-dlya-meropriyatiya.jpg");
         background-repeat: no-repeat;
         background-position: right center;
-        position: relative; }
+        position: relative;
+        background-size: cover; }
       #loft .container .box-loft .block-two-main {
         display: block;
         height: 868px;
