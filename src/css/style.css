@@ -1373,9 +1373,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
         -ms-flex-positive: 1;
         flex-grow: 1;
         min-height: 864px;
-        background-image: url("../../img/arenda-ploshchadki-dlya-meropriyatiya.jpg");
+        background-image: url("../../img/ALMA 2018-10-23_216.jpg");
         background-repeat: no-repeat;
-        background-position: right center;
+        background-position: left center;
         position: relative;
         background-size: cover; }
       #loft .container .box-loft .block-two-main {
@@ -1678,7 +1678,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       margin-left: 5px; }
 
 .section-portfolio .blocks .mob .slick-next {
-  right: 20px;
+  left: 96%;
   top: calc(50% - 5px);
   background-color: rgba(255, 255, 255, 0.4);
   height: 40px;
@@ -1700,7 +1700,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 
 .section-portfolio .blocks .mob .slick-prev {
   display: block;
-  left: 10px;
+  right: 96%;
   top: calc(50% - 5px);
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.4);
@@ -1824,15 +1824,14 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     -ms-flex-positive: 1;
     flex-grow: 1; }
   #footer .box-map .block-text {
-    margin-left: 25px;
-    margin-right: 20px; }
+    margin-left: 10px; }
   #footer .box-map .block-text__title p,
   #footer .box-map .link a {
     color: #333333;
     font-size: 16px;
     font-weight: 400; }
   #footer .box-map .block-text__title p {
-    padding: 10px 0 45px 0; }
+    padding: 10px 0 15px 0; }
   #footer .box-map .block-text__title span {
     font-size: 18px;
     font-weight: 500;
@@ -1848,17 +1847,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     margin-bottom: 18px; }
     #footer .box-map .link span {
       margin-left: 15px; }
-  #footer .box-map .arrow:before {
-    content: '';
-    position: absolute;
-    display: block;
-    background: url(../../img/diagram.png);
-    width: 70px;
-    height: 180px;
-    top: 45px;
-    right: 50%;
-    -webkit-transform: rotate(14deg);
-    transform: rotate(14deg); }
   #footer .box-map .m10 {
     margin-right: 10px;
     margin-left: 3px; }
