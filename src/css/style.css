@@ -1862,9 +1862,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   margin: 40px 0 42px 0; }
   #footer .box-footer .block-one {
     width: 40%; }
@@ -1890,49 +1889,51 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
         font-family: "Roboto - Bold", sans-serif;
         font-weight: 700;
         letter-spacing: 0.9px; }
-  #footer .box-footer .block-for .ymaps-2-1-73-map {
-    width: 60% !important; }
-  #footer .box-footer .block-for .block-for__title p {
-    font-family: "Roboto - Bold", sans-serif;
-    color: #333333;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 1.2px;
-    text-align: center;
-    margin-bottom: 11px; }
-  #footer .box-footer .block-for .block-for__descr p {
-    text-align: center;
-    color: #333333;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    margin-bottom: 30px; }
-  #footer .box-footer .block-for .block-inputs {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-bottom: 11px; }
-    #footer .box-footer .block-for .block-inputs input {
-      outline: none;
+  #footer .box-footer .block-for {
+    width: 45%; }
+    #footer .box-footer .block-for .ymaps-2-1-73-map {
+      width: 60% !important; }
+    #footer .box-footer .block-for .block-for__title p {
+      font-family: "Roboto - Bold", sans-serif;
+      color: #333333;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-align: center;
+      margin-bottom: 11px; }
+    #footer .box-footer .block-for .block-for__descr p {
+      text-align: center;
       color: #333333;
       font-size: 16px;
       font-weight: 400;
       letter-spacing: 0.8px;
-      width: 170px;
-      height: 49px;
-      border-radius: 10px;
-      border: 1px solid #6f6f6f;
-      text-align: center;
-      margin: 0 3px 6px 3px;
-      background-color: #ffffff; }
+      margin-bottom: 30px; }
+    #footer .box-footer .block-for .block-inputs {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-bottom: 11px; }
+      #footer .box-footer .block-for .block-inputs input {
+        outline: none;
+        color: #333333;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        width: 170px;
+        height: 49px;
+        border-radius: 10px;
+        border: 1px solid #6f6f6f;
+        text-align: center;
+        margin: 0 3px 6px 3px;
+        background-color: #ffffff; }
 
 #footer .form-two {
   display: -webkit-box;
@@ -2244,6 +2245,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     height: 250px !important; } }
 
 @media screen and (max-width: 768px) {
+  #footer .box-footer .block-for {
+    width: 100%; }
   .section-portfolio .blocks .mob .slick-next {
     left: 85%; }
   .section-portfolio .blocks .mob .slick-prev {
@@ -2486,19 +2489,26 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     margin-bottom: 25px; }
   .box-map {
     position: relative; }
-  .block-text {
-    position: absolute; }
   iframe {
     height: 525px; }
   .block-text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: #fff;
-    padding: 10px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   #footer .box-map .block-text {
     margin-left: 0px;
-    margin-right: 0px; }
+    margin-right: 0px;
+    width: 100%; }
   #footer .box-map .block-text__title span {
     font-size: 16px; }
   #footer .box-map .m45 {
