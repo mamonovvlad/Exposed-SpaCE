@@ -1655,9 +1655,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   display: flex;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
-  flex-grow: 1; }
-  #details .block-detalies__one img {
-    width: 100%; }
+  flex-grow: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 #details .block-dn {
   display: none; }
