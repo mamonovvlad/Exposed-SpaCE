@@ -313,7 +313,7 @@ main .section-main {
       -ms-flex-align: center;
       align-items: center; }
       main .section-main .container .navigation-bottom nav {
-        width: 63%;
+        width: 50%;
         background: #fff; }
         main .section-main .container .navigation-bottom nav .menu-items {
           display: -webkit-box;
@@ -480,7 +480,7 @@ main .section-main .container nav a {
   bottom: 0; }
 
 #ind-two .section-main {
-  background: url(../../img/fon-one.jpg) center no-repeat;
+  background: url(../../img/fon-one.jpg) center bottom no-repeat;
   background-size: cover; }
 
 #ind-two main .section-main .container .main-title {
@@ -493,16 +493,26 @@ main .section-main .container nav a {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
 #ind-two main .main-title__block {
-  margin-left: 270px;
   margin-bottom: 35px; }
+
+#ind-two .header .container .logo {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 10px; }
+
+#ind-two .header .container .contacts {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
 
 .section_form .box-form {
   display: -webkit-box;
