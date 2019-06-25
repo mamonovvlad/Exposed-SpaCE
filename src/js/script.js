@@ -165,5 +165,4 @@ $(".shadow").click(function (e) {
       'resizeDuration': 200,
 	  'wrapAround': true,
 	  'disableScrolling': true,
-
     })

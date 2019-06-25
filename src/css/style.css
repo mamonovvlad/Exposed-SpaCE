@@ -57,9 +57,8 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
     .header .container .logo {
       width: 30%;
       margin-left: 10px; }
@@ -296,8 +295,9 @@ main .section-main {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     max-width: 1200px; }
     main .section-main .container a {
       display: none; }
@@ -313,7 +313,7 @@ main .section-main {
       align-items: center; }
       main .section-main .container .navigation-bottom nav {
         width: 50%;
-        background: #fff; }
+        background: rgba(255, 255, 255, 0.4); }
         main .section-main .container .navigation-bottom nav .menu-items {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -334,7 +334,7 @@ main .section-main {
             main .section-main .container .navigation-bottom nav .menu-items .menu-item a {
               text-decoration: none;
               color: #333333;
-              font-size: 16px;
+              font-size: 20px;
               font-weight: 400;
               margin: 0 12px;
               display: block; }
@@ -1026,11 +1026,13 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-size: 16px; }
   .description-box_two .description-item p {
     font-family: "Roboto - Bold", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.8px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 20px;
-    line-height: 30px; }
+    line-height: 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px; }
 
 .section-2 .slick-next:before {
   display: none; }
@@ -1152,6 +1154,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       font-weight: 300;
       width: 100%;
       text-align: center;
+      margin-right: 10%;
       padding: 0 10px; }
 
 .section-3 .figure-img {
