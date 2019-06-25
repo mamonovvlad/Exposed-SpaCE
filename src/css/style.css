@@ -1434,7 +1434,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center;
-          background-color: #fff; }
+          background-color: #fff;
+          display: none; }
           #loft .container .box-loft .block-two-main .block-one-overlay p,
           #loft .container .box-loft .block-two-main .block-one-overlay img {
             cursor: pointer; }

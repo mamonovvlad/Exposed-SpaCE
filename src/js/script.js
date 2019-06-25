@@ -37,20 +37,20 @@ $(".modal-description:after").on("click" , function () {
 
 })
 
-$(".block-one-overlay-click").click(function () {
-	$(".block-one-overlay").fadeOut();
-	$(".block-two").fadeIn();
+// $(".block-one-overlay-click").click(function () {
+// 	$(".block-one-overlay").fadeOut();
+// 	$(".block-two").fadeIn();
 	
 
-})
+// })
 
 
-$(".block-two").click(function () {
-	$(".block-one-overlay").fadeIn();
-	$(".block-two").fadeOut();
+// $(".block-two").click(function () {
+// 	$(".block-one-overlay").fadeIn();
+// 	$(".block-two").fadeOut();
 
 
-})
+// })
 
 $('.single-item').slick();
 
