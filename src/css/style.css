@@ -1465,7 +1465,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
           #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-add {
             margin: 15px; }
         #loft .container .box-loft .block-two-main .block-two {
-          display: none;
+          display: block;
           background: #fff;
           padding: 0 30px;
           height: 868px; }
