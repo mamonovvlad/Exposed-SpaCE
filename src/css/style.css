@@ -495,7 +495,9 @@ main .section-main .container nav a {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-    align-items-justify-content: end; }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 #ind-two main .main-title__block {
   margin-bottom: 35px; }
