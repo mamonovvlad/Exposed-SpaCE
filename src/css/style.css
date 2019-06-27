@@ -1285,9 +1285,12 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 700;
-    border-bottom: 2px solid #333;
-    display: inline-block;
-    margin: 10px 0 12px 110px; }
+    display: block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    margin: 0; }
   .section-portfolio .portfolios {
     display: -webkit-box;
     display: -ms-flexbox;
