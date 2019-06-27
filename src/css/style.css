@@ -227,7 +227,7 @@ body {
 
 .active {
   display: block !important;
-  background: #020202bf; }
+  background: #020202; }
   .active .tel,
   .active .address {
     color: #fff !important; }
@@ -529,6 +529,9 @@ main .section-main .container nav a {
 #ind-two main .section-main .container .main-title {
   margin-left: 0px; }
 
+#ind-two .port-btn .btn {
+  background: #273562; }
+
 .add {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -560,9 +563,10 @@ main .section-main .container nav a {
   color: #fff !important; }
 
 .menu-it .bt {
-  background-color: rgba(0, 0, 0, 0.3);
+  background: #273562;
+  cursor: pointer;
   padding: 10px 10px;
-  border-radius: 25px;
+  border-radius: 10px;
   -webkit-transition: 500ms ease;
   transition: 500ms ease; }
   .menu-it .bt:hover {
@@ -942,7 +946,6 @@ main .mg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1503,94 +1506,92 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .section-portfolio .section-2 .event-formats {
   width: 50%; }
 
-#loft {
-  margin-top: 50px; }
-  #loft .container {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 100%;
-    overflow: hidden; }
-    #loft .container .box-loft {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      #loft .container .box-loft .block-one {
-        width: 75%;
-        -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        height: 100vh;
-        background-image: url("../../img/ALMA 2018-10-23_216.jpg");
-        background-repeat: no-repeat;
-        background-position: left center;
-        position: relative;
-        background-size: cover; }
-      #loft .container .box-loft .block-two-main {
+#loft .container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden; }
+  #loft .container .box-loft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #loft .container .box-loft .block-one {
+      width: 75%;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      height: 100vh;
+      background-image: url("../../img/ALMA 2018-10-23_216.jpg");
+      background-repeat: no-repeat;
+      background-position: left center;
+      position: relative;
+      background-size: cover; }
+    #loft .container .box-loft .block-two-main {
+      display: block;
+      height: 868px;
+      position: relative;
+      -ms-flex-negative: 26;
+      flex-shrink: 26; }
+      #loft .container .box-loft .block-two-main .block-one-overlay {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #fff;
+        display: none; }
+        #loft .container .box-loft .block-two-main .block-one-overlay p,
+        #loft .container .box-loft .block-two-main .block-one-overlay img {
+          cursor: pointer; }
+        #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-text {
+          position: absolute;
+          top: 200px;
+          bottom: 0; }
+          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-text p {
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            width: -webkit-max-content;
+            width: -moz-max-content;
+            width: max-content;
+            font-size: 30px; }
+        #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-click {
+          margin-top: 110px;
+          margin-bottom: 11px;
+          cursor: pointer;
+          text-decoration: underline;
+          position: relative;
+          right: 30px; }
+        #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-add,
+        #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-loft-fig {
+          display: block; }
+        #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-loft-fig {
+          position: relative;
+          right: 50%; }
+        #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-add {
+          margin: 15px; }
+      #loft .container .box-loft .block-two-main .block-two {
         display: block;
-        height: 868px;
-        position: relative;
-        -ms-flex-negative: 26;
-        flex-shrink: 26; }
-        #loft .container .box-loft .block-two-main .block-one-overlay {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-          flex-direction: column;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          background-color: #fff;
-          display: none; }
-          #loft .container .box-loft .block-two-main .block-one-overlay p,
-          #loft .container .box-loft .block-two-main .block-one-overlay img {
-            cursor: pointer; }
-          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-text {
-            position: absolute;
-            top: 200px;
-            bottom: 0; }
-            #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-text p {
-              -webkit-transform: rotate(-90deg);
-              transform: rotate(-90deg);
-              width: -webkit-max-content;
-              width: -moz-max-content;
-              width: max-content;
-              font-size: 30px; }
-          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-click {
-            margin-top: 110px;
-            margin-bottom: 11px;
-            cursor: pointer;
-            text-decoration: underline;
-            position: relative;
-            right: 30px; }
-          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-add,
-          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-loft-fig {
-            display: block; }
-          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-loft-fig {
-            position: relative;
-            right: 50%; }
-          #loft .container .box-loft .block-two-main .block-one-overlay .block-one-overlay-add {
-            margin: 15px; }
-        #loft .container .box-loft .block-two-main .block-two {
+        background: #fff;
+        padding: 0 30px;
+        height: 868px; }
+        #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title {
+          display: inline-block;
+          font-size: 30px;
+          margin: 14px 0 0 0; }
+        #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-item {
           display: block;
-          background: #fff;
-          padding: 0 30px;
-          height: 868px; }
-          #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title {
-            display: inline-block;
-            font-size: 30px;
-            margin: 14px 0 0 0; }
-          #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-item {
-            display: block;
-            margin: 5px 0; }
-          #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title-fst {
-            font-size: 30px;
-            margin-top: 10px; }
+          margin: 5px 0; }
+        #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title-fst {
+          font-size: 30px;
+          margin-top: 10px; }
 
 #loft .container .box-loft .block-two-main .block-one-overlay {
   -webkit-box-pack: end;
@@ -1665,22 +1666,21 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   background-position: center;
   background-size: cover; }
 
-.loft-two {
-  margin-top: 0 !important; }
-  .loft-two .block-one {
-    background-image: url(../../img/loft-v-arendu-dlya-meropriyatiya.jpg) !important; }
-  .loft-two .block-two-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    height: 100vh;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+.loft-two .block-one {
+  background-image: url(../../img/loft-v-arendu-dlya-meropriyatiya.jpg) !important; }
+
+.loft-two .block-two-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 #details .box-detalies {
   display: -webkit-box;
