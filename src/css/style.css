@@ -43,6 +43,11 @@ body {
   width: 100%;
   margin: 0 auto; }
 
+.contan {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto; }
+
 .header {
   position: fixed;
   top: 0;
@@ -57,8 +62,12 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: distribute;
-    justify-content: space-around; }
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto; }
     .header .container .logo {
       width: 30%;
       margin-left: 10px; }
@@ -232,7 +241,8 @@ body {
   align-items: baseline;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 40px; }
   .none ul li {
     padding: 0 10px; }
 
@@ -298,7 +308,7 @@ main .section-main {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 1200px; }
+    max-width: 1900px; }
     main .section-main .container a {
       display: none; }
     main .section-main .container .navigation-bottom {
@@ -498,9 +508,9 @@ main .section-main .container nav a {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end; }
 
 #ind-two main .main-title__block {
   margin-bottom: 35px; }
@@ -553,19 +563,22 @@ main .section-main .container nav a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 39px 0 48px 0; }
   .section_form .box-form .form-text p {
     color: #333333;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 37px; }
+    margin-right: 10px; }
   .section_form .box-form #form-top input,
   .section_form .box-form .btn {
     border-radius: 10px;
@@ -918,7 +931,7 @@ main .mg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 879px;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -938,9 +951,9 @@ main .mg {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
   .section-2 .section-2-wrapper h3 {
     color: #333333;
     font-family: Roboto;
@@ -987,7 +1000,11 @@ main .mg {
   .section-2 .event-wrapper .events-items-right {
     list-style-type: circle;
     padding: 0;
-    margin: 25px; }
+    margin: 25px;
+    font-family: "Roboto - Bold",sans-serif;
+    font-weight: 400;
+    letter-spacing: .8px;
+    font-size: 16px; }
 
 .section-2 .description-items {
   display: -webkit-box;
@@ -1107,6 +1124,20 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     opacity: 1;
     -webkit-transition: 1s ease;
     transition: 1s ease; }
+
+.sc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    display-align-items: center;
+    display-justify-content: center;
+    display-margin: 20px 0; }
+  .sc h3 {
+    color: #333;
+    font-family: Roboto;
+    font-size: 36px;
+    padding: 25px 0 0;
+    font-weight: 400; }
 
 .section-3 .container {
   max-width: 100%;
@@ -1245,7 +1276,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     color: #333333;
     font-family: Roboto;
     font-size: 36px;
-    padding: 25px 0 0px;
+    padding: 40px 0 0px;
     font-weight: 400; }
     .section-portfolio .portfolio-block .portfolio-title span {
       font-weight: 600; }

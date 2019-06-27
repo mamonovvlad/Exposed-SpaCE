@@ -4,7 +4,7 @@
 		background-repeat: no-repeat
 		background-position: center
 		background-size: cover
-		min-height: 879px
+		height: 100vh
 		display: flex
 		justify-content: space-between
 		flex-direction: column
@@ -12,7 +12,7 @@
 	& .section-2-wrapper
 		display: flex
 		flex-direction: row
-		justify-content: space-between
+		justify-content: flex-end
 		& h3
 			color: #333333
 			font-family: Roboto
@@ -52,6 +52,10 @@
 			list-style-type: circle	
 			padding: 0
 			margin: 25px
+			font-family: "Roboto - Bold",sans-serif
+			font-weight: 400
+			letter-spacing: .8px
+			font-size: 16px
 
 	& .description-items
 		display: flex
@@ -140,3 +144,14 @@ main .section-2 .container .section-2-wrapper .event-formats .slid
 		opacity: 1
 		transition: 1s ease
 		
+.sc
+	display: flex
+    align-items: center
+    justify-content: center
+    margin: 20px 0
+	& h3
+		color: #333
+		font-family: Roboto
+		font-size: 36px
+		padding: 25px 0 0
+		font-weight: 400
