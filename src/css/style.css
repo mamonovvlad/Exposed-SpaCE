@@ -1709,10 +1709,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     margin-bottom: 20px; }
   #details .block-detalies__two .block-detalies__descr {
     font-family: "Roboto - Regular",sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
   #details .block-detalies__two ul {
     margin: 0 0 75px 0;
     padding: 0;
@@ -1811,7 +1811,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     font-family: "Roboto - Regular" ,sans-serif;
     font-weight: 400;
     letter-spacing: 1.2px;
-    padding: 70px 0px 0px 0; }
+    margin-top: 30px; }
 
 #details .block-detalies__one {
   width: 55%;
@@ -1893,6 +1893,17 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 #conf #details-form .button {
   background-color: #e40be4;
   border: none; }
+
+.block-text h3 {
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400; }
+
+.block-text span {
+  font-weight: 600; }
 
 #image {
   padding: 50px 0 0 0;
