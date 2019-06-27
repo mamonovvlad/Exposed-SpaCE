@@ -1657,6 +1657,9 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   background-position: center;
   background-size: cover; }
 
+.loft-two .block-one {
+  background-image: url(../../img/loft-v-arendu-dlya-meropriyatiya.jpg) !important; }
+
 #details .box-detalies {
   display: -webkit-box;
   display: -ms-flexbox;
