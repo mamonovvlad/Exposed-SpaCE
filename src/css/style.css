@@ -559,6 +559,17 @@ main .section-main .container nav a {
 .ff {
   color: #fff !important; }
 
+.menu-it .bt {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 10px;
+  border-radius: 25px;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease; }
+  .menu-it .bt:hover {
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease;
+    background-color: rgba(255, 255, 255, 0.3); }
+
 .section_form .box-form {
   display: -webkit-box;
   display: -ms-flexbox;
