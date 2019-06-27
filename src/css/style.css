@@ -1528,7 +1528,6 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       background-size: cover; }
     #loft .container .box-loft .block-two-main {
       display: block;
-      height: 868px;
       position: relative;
       -ms-flex-negative: 26;
       flex-shrink: 26; }
@@ -1580,8 +1579,7 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
       #loft .container .box-loft .block-two-main .block-two {
         display: block;
         background: #fff;
-        padding: 0 30px;
-        height: 868px; }
+        padding: 0 30px; }
         #loft .container .box-loft .block-two-main .block-two .block-two-wrapper .block-two-title {
           display: inline-block;
           font-size: 30px;
@@ -1999,7 +1997,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     display: flex;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1; }
+    flex-grow: 1;
+    width: 100%; }
   #footer .box-map .block-text {
     margin-left: 10px; }
   #footer .box-map .block-text__title p,
@@ -2021,7 +2020,10 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content; }
     #footer .box-map .link span {
       margin-left: 15px; }
   #footer .box-map .m10 {
@@ -2042,75 +2044,71 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 40px 0 42px 0; }
-  #footer .box-footer .block-one {
-    width: 40%; }
-    #footer .box-footer .block-one .block-one__title p {
-      padding-left: 10px;
+  #footer .box-footer .block-one .block-one__title p {
+    padding-left: 10px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin-bottom: 13px; }
+  #footer .box-footer .block-one .block-one__img {
+    margin-bottom: 22px; }
+  #footer .box-footer .block-one .block-one__descr {
+    padding-left: 10px; }
+    #footer .box-footer .block-one .block-one__descr p {
       color: #333333;
-      font-size: 24px;
-      font-weight: 600;
-      letter-spacing: 1.2px;
-      margin-bottom: 13px; }
-    #footer .box-footer .block-one .block-one__img {
-      margin-bottom: 22px; }
-    #footer .box-footer .block-one .block-one__descr {
-      padding-left: 10px; }
-      #footer .box-footer .block-one .block-one__descr p {
-        color: #333333;
-        font-size: 18px;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 0.9px;
-        margin-bottom: 10px; }
-      #footer .box-footer .block-one .block-one__descr span {
-        font-family: "Roboto - Bold", sans-serif;
-        font-weight: 700;
-        letter-spacing: 0.9px; }
-  #footer .box-footer .block-for {
-    width: 45%; }
-    #footer .box-footer .block-for .ymaps-2-1-73-map {
-      width: 60% !important; }
-    #footer .box-footer .block-for .block-for__title p {
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      margin-bottom: 10px; }
+    #footer .box-footer .block-one .block-one__descr span {
       font-family: "Roboto - Bold", sans-serif;
-      color: #333333;
-      font-size: 24px;
       font-weight: 700;
-      letter-spacing: 1.2px;
-      text-align: center;
-      margin-bottom: 11px; }
-    #footer .box-footer .block-for .block-for__descr p {
-      text-align: center;
+      letter-spacing: 0.9px; }
+  #footer .box-footer .block-for .ymaps-2-1-73-map {
+    width: 60% !important; }
+  #footer .box-footer .block-for .block-for__title p {
+    font-family: "Roboto - Bold", sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-bottom: 11px; }
+  #footer .box-footer .block-for .block-for__descr p {
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-bottom: 30px; }
+  #footer .box-footer .block-for .block-inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 11px; }
+    #footer .box-footer .block-for .block-inputs input {
+      outline: none;
       color: #333333;
       font-size: 16px;
       font-weight: 400;
       letter-spacing: 0.8px;
-      margin-bottom: 30px; }
-    #footer .box-footer .block-for .block-inputs {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      margin-bottom: 11px; }
-      #footer .box-footer .block-for .block-inputs input {
-        outline: none;
-        color: #333333;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 0.8px;
-        width: 170px;
-        height: 49px;
-        border-radius: 10px;
-        border: 1px solid #6f6f6f;
-        text-align: center;
-        margin: 0 3px 6px 3px;
-        background-color: #ffffff; }
+      width: 170px;
+      height: 49px;
+      border-radius: 10px;
+      border: 1px solid #6f6f6f;
+      text-align: center;
+      margin: 0 3px 6px 3px;
+      background-color: #ffffff; }
 
 #footer .form-two {
   display: -webkit-box;
@@ -2162,6 +2160,12 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
 .loc #footer .btn {
   background-color: #e40be4;
   border: none; }
+
+.block-one {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px; }
 
 @-webkit-keyframes scrollDown {
   0% {

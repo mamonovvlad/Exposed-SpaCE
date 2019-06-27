@@ -45,9 +45,11 @@
       display: flex
       align-items: center
       justify-content: space-between
+
       & .block-map
          display: flex
          flex-grow: 1
+         width: 100%
       & .block-text
          margin-left: 10px
          // margin-right: 20px
@@ -67,6 +69,7 @@
          display: flex
          align-items: center
          margin-bottom: 18px
+         width: max-content
          & span
             margin-left: 15px
       
@@ -83,7 +86,6 @@
       justify-content: space-around
       margin: 40px 0 42px 0
       & .block-one
-         width: 40%
          & .block-one__title p
             padding-left: 10px
             color: #333333
@@ -107,7 +109,6 @@
                font-weight: 700
                letter-spacing: 0.9px
       & .block-for
-         width: 45%
          & .ymaps-2-1-73-map
             width: 60%!important
          & .block-for__title p
@@ -176,3 +177,6 @@
 .loc #footer .btn
    background-color: #e40be4
    border: none
+.block-one
+   width: max-content
+   padding: 10px
