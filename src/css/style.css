@@ -466,6 +466,9 @@ main .section-main .container nav a {
 #ind .tel {
   color: #f0f0f0; }
 
+.address {
+  margin-right: 40px; }
+
 .art {
   text-align: right;
   text-transform: uppercase;
@@ -515,6 +518,36 @@ main .section-main .container nav a {
 
 #ind-two main .section-main .container .main-title {
   margin-left: 0px; }
+
+.add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.menu-it {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0; }
+  .menu-it .menu-item {
+    list-style: none;
+    margin-left: 15px;
+    padding: 10px 0; }
+    .menu-it .menu-item:first-child {
+      margin-left: 0; }
+    .menu-it .menu-item a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      font-weight: 400; }
+
+.ff {
+  color: #fff !important; }
 
 .section_form .box-form {
   display: -webkit-box;

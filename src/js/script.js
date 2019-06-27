@@ -153,6 +153,8 @@ $(".shadow").click(function (e) {
 		var scr2=300; 	// начало меню услуги
 		if ( $(window).scrollTop() >= scr2 && scro  ) {	$('.header').addClass('active');}
 		else $('#m1').removeClass('active');
+		if ( $(window).scrollTop() >= scr2 && scro  ) {	$('.f').addClass('ff ');}
+		else $('#m1').removeClass('active');
 		})
 
 
