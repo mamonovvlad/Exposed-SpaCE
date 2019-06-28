@@ -1463,7 +1463,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 2; }
 
 .port-btn {
   display: -webkit-box;
