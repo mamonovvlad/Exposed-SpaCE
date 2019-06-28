@@ -2126,7 +2126,8 @@ main .section-2 .container .section-2-wrapper .event-formats .slid {
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  width: 65%; }
 
 #footer .footer {
   background-color: #e8e8e8; }
